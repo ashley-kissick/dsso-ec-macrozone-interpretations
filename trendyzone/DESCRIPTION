@@ -1,0 +1,25 @@
+Package: trendyzone
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Jane", "Doe",
+      email = "jane@example.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: More about what it does (maybe more than one line).
+    Continuation lines should be indented.
+Imports: data.table, scales, RColorBrewer, sp, terra, viridis
+Depends: 
+    data.table,
+    R (>= 3.5),
+    RColorBrewer,
+    scales, 
+    sp,
+    terra,
+    viridis
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
