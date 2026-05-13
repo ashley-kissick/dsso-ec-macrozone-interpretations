@@ -1,0 +1,12 @@
+\contentsline {subsection}{\numberline {0.1}Daylength}{5}{subsection.0.1}%
+\contentsline {subsubsection}{\numberline {0.1.1}Daylength summaries across clusters}{6}{subsubsection.0.1.1}%
+\contentsline {subsubsection}{\numberline {0.1.2}Daylength summaries by cluster}{9}{subsubsection.0.1.2}%
+\contentsline {subsection}{\numberline {0.2}Max Temperature}{18}{subsection.0.2}%
+\contentsline {subsubsection}{\numberline {0.2.1}Max Temperature summaries across clusters}{19}{subsubsection.0.2.1}%
+\contentsline {subsubsection}{\numberline {0.2.2}Max Temperature summaries by cluster}{22}{subsubsection.0.2.2}%
+\contentsline {subsection}{\numberline {0.3}Temperature Range}{35}{subsection.0.3}%
+\contentsline {subsubsection}{\numberline {0.3.1}Max Temperature summaries across clusters}{36}{subsubsection.0.3.1}%
+\contentsline {subsubsection}{\numberline {0.3.2}Max Temperature summaries by cluster}{39}{subsubsection.0.3.2}%
+\contentsline {subsection}{\numberline {0.4}Total Precipitation}{51}{subsection.0.4}%
+\contentsline {subsubsection}{\numberline {0.4.1}Total Precipitation summaries across clusters}{52}{subsubsection.0.4.1}%
+\contentsline {subsubsection}{\numberline {0.4.2}Total Precipitation summaries by cluster}{55}{subsubsection.0.4.2}%
