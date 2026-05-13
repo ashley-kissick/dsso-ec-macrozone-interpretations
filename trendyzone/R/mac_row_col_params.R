@@ -1,3 +1,6 @@
+
+#This is likely deprecated, considering we are plotting multipage PDF's.
+
 #mac_row_col_params
 
 mac_row_col_params <- list()

@@ -65,7 +65,7 @@ get_macrozone_trends <- function(features, years, macrozones, centroids,
     #3) Plot and save the maps of the resulting clusters
     feature_region_zone <- get_feature_region_zones(feature_clusters = feature_clusters,
                                                     trend_directory = trend_directory,
-                                                    save = save,
+                                                    save = FALSE,
                                                     feature_name = feature_name,
                                                     macrozones = macrozones)
 
@@ -183,15 +183,19 @@ get_macrozone_clusters <- function(feature_summary, feature_name, trend_director
   clusters <- rect.hclust(dendrogram, num_clusters)
 
 
+  if (!dir.exists(paste0(trend_directory, "screeplot_dendrogram/"))) {
+    dir.create(paste0(trend_directory, "screeplot_dendrogram/"))
+  }
+
   #Save scree plot
-  png(file = paste0(trend_directory, feature_name, "_scree_plot.png"),
+  png(file = paste0(trend_directory, "screeplot_dendrogram/", feature_name, "_scree_plot.png"),
       height = 2400, width = 2400, res = 300)
   screeplot <- get_screeplot(dendrogram = dendrogram, groups = 20)
   dev.off()
 
 
   #Save dendrogram
-  png(file = paste0(trend_directory, feature_name, "_dendrogram.png"),
+  png(file = paste0(trend_directory, "screeplot_dendrogram/", feature_name, "_dendrogram.png"),
       height = 1800, width = 2400, res = 300)
 
   plot(dendrogram, main = feature_name)
@@ -248,8 +252,13 @@ get_feature_region_zones <- function(feature_clusters, trend_directory, save,
 
 
   if(save == TRUE) {
-    terra::writeVector(feature_spdf, paste0(trend_directory, feature_name, ".shp"),
-                       overwrite = TRUE)
+
+    if (!dir.exists(paste0(trend_directory, "feature_cluster_shps/"))) {
+      dir.create(paste0(trend_directory, "feature_cluster_shps"))
+    }
+
+    terra::writeVector(feature_spdf, paste0(trend_directory, "feature_cluster_shps/",
+                                            feature_name, ".shp"), overwrite = TRUE)
   }
 
   return(feature_spdf)

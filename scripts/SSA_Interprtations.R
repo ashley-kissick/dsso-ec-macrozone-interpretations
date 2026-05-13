@@ -77,10 +77,12 @@ for (i in 1:length(macrozone_number)) {
 
 #Create a monthly time series of weather features for each macrozone
 
+#Where to save plots
+trend_directory <- "../data/SSA/plots/"
+
 features <- features
 years <- c(2014:2023)
 save = TRUE
-trend_directory <- paste0(data_dir, "/messing_around/")
 
 #There are so many trend lines it is difficult to distinguish trends.
 #Let's work on that by getting an average trend across years.
@@ -105,133 +107,22 @@ macrozone_trends <- get_macrozone_trends(features = features,
 
 #4) Get the plots of the clusters, with the macrozones
 macrozone_plots <- lapply(features, get_macrozone_plots,
-                          macrozones = macrozones,
+                          macrozones = macrozones_ssa,
                           macrozone_trends = macrozone_trends,
                           trend_directory = trend_directory)
 
 
 #5) Plot the macrozones, and which macrozones belong to which feature cluster
 
-feature_name <- i
-
-#The feature cluster shapefile
-regions <- macrozone_trends$feature_regions
-feature_shp <- regions[[which(names(regions) == feature_name)]]
-
-#The summaries
-summaries <- macrozone_trends$feature_summaries
-feature_summary <- summaries[[which(names(summaries) == feature_name)]]
-
-#The cluster assignments
-clusters <- macrozone_trends$feature_clusters
-feature_cluster <- clusters[[which(names(clusters) == feature_name)]]
-
-
-#Actions
-
-
-#SpatVectors
-#Prepare macrozones and feature shapefile for plotting so colors are consistent
-macrozone_info <- prepare_shps(shps = macrozones, identifier = "label")
-feature_info <- prepare_shps(shps = feature_shp, identifier = "cluster")
-
-mac_df <- macrozone_info$zone_df
-fea_df <- feature_info$zone_df
-
-macrozones_prepared <- macrozone_info$zones
-features_prepared <- feature_info$zones
-
-col_zone <- macrozone_info$colors
-col_features <- feature_info$colors
-
-
-
-
-#Trends
-
-get_cluster_trend_plot <- function(feature_cluster, feature_summary, feature_name, i) {
-
-  #Get the feature trends and average trend per cluster assignment
-  feature_trends <- get_feature_trends(feature_cluster = feature_cluster,
-                                       feature_summary = feature_summary)
-
-  #Get parameters for plots
-  plot_params <- get_mac_plot_params(feature_summary = feature_summary,
-                                     feature_cluster = feature_cluster,
-                                     feature_name = feature_name)
-
-  group_plot_param <- plot_params[[i]]
-  original_trend <- feature_trends$original_trends[[i]]
-  feature_average <- feature_trends$feature_average[[i]]
-
-  get_plot_trends(original_trend = original_trend,
-                  feature_average = feature_average,
-                  feature_name = feature_name,
-                  group_plot_param = group_plot_param,
-                  feature_group = i)
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-for (i in 1:length(cluster_assignments)) {
-
-  #Get the macrozones
-  macrozones_cropped <- macrozones_prepared[cluster_assignments[[i]],]
-  col_zone_app <- col_zone[cluster_assignments[[i]]]
-
-
-
-  par(mfrow = c(2,2))
-
-  #The feature cluster of interest
-  plot(features_prepared, border = "royalblue4", lwd = 0.5,
-       main = paste0(feature_name, " clusters"), cex.main = 0.5)
-  plot(feature_shp[which(feature_shp$cluster == i),], add = TRUE,
-       col = col_features[i], border = "royalblue4", lwd = 1.5)
-
-  #The zone assignments in this cluster, coded
-
-
-  #The macrozones in that cluster
-  terra::plot(macrozones_cropped, border = "royalblue4", lwd = 0.5,
-              main = paste0("Macrozones in ", feature_name, " cluster ", i),
-              col = adjustcolor(col_zone_app, alpha = 0.5), cex.main = 0.5)
-
-  #The trends for this cluster
-  get_cluster_trend_plot(feature_cluster = feature_cluster,
-                         feature_summary = feature_summary,
-                         feature_name = feature_name,
-                         i = i)
-
-
-
-
-
-}
-
-
-
-
-
-
+cluster_plots <- lapply(features, get_cluster_map_trend_plots,
+                        macrozone_trends = macrozone_trends,
+                        macrozones = macrozones_ssa,
+                        trend_directory = trend_directory)
 
 
 
 
 #5) Plot the trends of each feature
-# 'mac_row_col_params' defined by user based on the number of clusters selected in 'get_macrozone_trends'
-# File to make modifications is 'mac_row_col_params.R'.
 
 #a.  Plot trends all in one panel for the macrozone report
 feature_plots <- get_feature_trend_plots(macrozone_trends = macrozone_trends,
@@ -244,9 +135,37 @@ feature_plots <- get_feature_trend_plots(macrozone_trends = macrozone_trends,
 
 
 
+#Plot the macrozones
+pdf(file = paste0(trend_directory, "Macrozones.pdf"), onefile = TRUE)
+par(mfrow = c(1,1))
+#Macrozones
+terra::plot(macrozones_formatted, "label", col = adjustcolor(col_zones, alpha = 0.5),
+            border = NA, main = "Macrozones",
+            cex.main = 0.5, sort = FALSE)
+dev.off()
 
 
 
+
+
+# EXTRA/DEPRECATED
+# Add a legend for the zones
+#macrozone_names <- paste0("Macrozone ", as.character(feature_cluster[[i]]))
+
+#plot.new()
+#legend("center",
+#       legend = macrozone_names,
+#       col = col_zone[feature_cluster[[i]]],
+#       pch = 16,
+#       title = "Legend Only")
+
+#The feature cluster of interest
+#plot(features_prepared, border = "royalblue4", lwd = 0.5,
+#     main = paste0(feature_name, " clusters"), cex.main = 0.5)
+#plot(feature_shp[which(feature_shp$cluster == i),], add = TRUE,
+#     col = col_features[i], border = "royalblue4", lwd = 1.5)
+
+#The zone assignments in this cluster, coded
 
 
 
