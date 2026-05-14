@@ -118,3 +118,28 @@ get_plot_trends <- function(original_trend, feature_average, feature_name,
 
 }
 
+
+
+
+#' get_trend_plots_macrozone
+#' @name get_trend_plots_macrozone
+#' @author Ashley L. Kissick
+#' @description Function to plot the trends of similar macrozones
+#' @param feature_name character string, the feature name
+#' @param clusters List, cluster assignments
+#' @param summaries, List, cluster summaries
+#' @param index Integer, the cluster number
+#' @return The plot of trends, colored by macrozones in the cluster
+#' @export
+
+get_trend_plots_macrozone <- function(feature_name, summaries, clusters, index) {
+
+  feature_summary <- summaries[[which(names(summaries) == feature_name)]]
+  feature_cluster <- clusters[[which(names(clusters) == feature_name)]]
+  get_cluster_trend_plot(feature_cluster = feature_cluster,
+                         feature_summary = feature_summary,
+                         feature_name = feature_name,
+                         j = index)
+
+}
+

@@ -102,3 +102,36 @@ prepare_shps <- function(shps, identifier) {
 
 }
 
+
+
+#' list_to_dflong
+#' @name list_to_dflong
+#' @author Ashley L. Kissick
+#' @description Function to convert list of macrozone-feature cluster assignments
+#' from macrozone_trends into a data frame in long format.
+#' @param i iteration, character string, the feature name
+#' @param macrozone_trends List, return of 'get_macrozone_trends'
+#' @return data frame,
+
+list_to_dflong <- function(i, macrozone_trends) {
+
+  feature_name <- i
+
+  #Subset by the feature
+  feature_index <- which(names(macrozone_trends$feature_clusters) == feature_name)
+  list_subset <- macrozone_trends$feature_clusters[[feature_index]]
+
+  #Format so it can be converted to df long format
+  list_subset <- lapply(list_subset, unname)
+  names(list_subset) <- paste0(feature_name, "_", 1:length(list_subset))
+
+  #df long format, with formatting
+  df_long <- stack(list_subset)
+  df_long$ind <- sub(".*_", "", df_long$ind)
+  names(df_long) <- c("macrozone", feature_name)
+  df_long <- df_long[order(df_long$macrozone), ]
+
+  return(df_long)
+
+}
+

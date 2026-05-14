@@ -39,30 +39,6 @@ names(centroids_25) <- gsub("_NA_", "_", names(centroids_25))
 
 
 
-#---------------------------------------------------------
-#PLOTTING AND VISUALIZATIONS OF MACROZONES
-
-#Plot the macrozones and save for visualizations
-png(file = paste0(trend_directory, "Macrozones_25.png"),
-    height = 2400, width = 2400, res = 300)
-terra::plot(macrozones_ssa, "label", col = col_regions, lwd = 0.5)
-dev.off()
-
-
-#Plot each macrozone seperately
-for (i in 1:length(macrozone_number)) {
-
-  png(file = paste0(trend_directory, "Macrozone_plot_", i, ".png"),
-      height = 2400, width = 2400, res = 300)
-  plot(macrozones_ssa, lwd = 0.5)
-  plot(macrozones_ssa[which(macrozones_ssa$label == i),], add = TRUE, col = col_regions[i])
-  dev.off()
-
-}
-
-#---------------------------------------------------------
-
-
 
 
 #---------------------------------------------------------
@@ -130,25 +106,247 @@ feature_plots <- get_feature_trend_plots(macrozone_trends = macrozone_trends,
                                          trend_directory = trend_directory,
                                          panel = TRUE)
 
-#b.  Plot trends all in one panel for the macrozone report
 
 
 
+#Maybe rethink the visualizations...
+#What about having a small map with the macrozones, then beside it, the given macrozone
+# w/text showing the average elevation per zone.
+
+#Then, below, panels with the 4 features, and average trend line, showing the zones with the
+# similar trends...
+
+
+
+#The feature cluster shapefile
+regions <- macrozone_trends$feature_regions
+#feature_shp <- regions[[which(names(regions) == feature_name)]]
+
+#The summaries
+summaries <- macrozone_trends$feature_summaries
+#feature_summary <- summaries[[which(names(summaries) == feature_name)]]
+
+#The clusters
+clusters <- macrozone_trends$feature_clusters
+
+
+
+#Get cluster assignments for each macrozone, across features
+feature_list <- lapply(features, list_to_dflong,
+                       macrozone_trends = macrozone_trends)
+cluster_assignments <- Reduce(function(x, y) merge(x, y, by = "macrozone", all = TRUE),
+                              feature_list)
+
+
+for (i in 1:dim(macrozones)[1]) {
+  
+  macrozone <- macrozones[i,]
+  macrozone_color <- colors_macrozones[i]
+  
+  #Get the cluster assignments for the macrozone
+  max_temperature <- cluster_assignments$max_temperature[i]
+  temp_range <- cluster_assignments$temp_range[i]
+  total_precipitation <- cluster_assignments$total_precipitation[i]
+  daylength <- cluster_assignments$daylength[i]
+  
+  #Get the macrozones in each cluster
+  m_temp_macs <- macrozones[which(cluster_assignments$max_temperature == max_temperature),] 
+  temp_r_macs <- macrozones[which(cluster_assignments$temp_range == temp_range),]
+  t_prec_macs <- macrozones[which(cluster_assignments$total_precipitation == total_precipitation),]
+  daylen_macs <- macrozones[which(cluster_assignments$daylength == daylength),]  
+  
+  #Get the colors
+  m_temp_cols <- colors_macrozones[which(cluster_assignments$max_temperature == max_temperature)]
+  temp_r_cols <- colors_macrozones[which(cluster_assignments$temp_range == temp_range)]
+  t_prec_cols <- colors_macrozones[which(cluster_assignments$total_precipitation == total_precipitation)]
+  daylen_cols <- colors_macrozones[which(cluster_assignments$daylength == daylength)]
+  
+  
+  
+  #Plot
+  
+  pdf(file = paste0(trend_directory, "messing_around/",
+                    "Macrozone_", i, ".pdf"), onefile = TRUE)
+  
+  #par(mfrow = c(1,1))
+  #mat <- matrix(c(1, 1,  # Row 1
+  #                3, 2), # Row 2
+  #              nrow = 2, byrow = TRUE)
+  #layout(mat)
+  
+  par(mfrow = c(2,2))
+  
+  #Macrozones, with macrozone boundary added
+  terra::plot(macrozones, "label", col = adjustcolor(colors_macrozones, alpha = 0.5),
+              border = NA, main = "Macrozones with feature cluster",
+              cex.main = 0.5, sort = FALSE, plg=list(ncol = 2))
+  terra::plot(macrozones[which(macrozones$label == i)], lwd = 1,
+              add = TRUE, border = "royalblue4")
+  
+  
+  plot.new()
+  plot.new()
+  
+  
+  par(mfrow = c(2,2))
+  
+  #Get trends with map of macrozones
+  
+  #Max temperature
+  index <- as.integer(max_temperature)
+  trend_plot_mac <- get_trend_plots_macrozone(feature_name = "max_temperature", 
+                                              summaries = summaries,
+                                              clusters = clusters, 
+                                              index = index)
+  
+  terra::plot(macrozones, "label", col = adjustcolor(colors_macrozones, alpha = 0.5),
+              border = NA, main = "Macrozones with similar maximum temperature trends",
+              cex.main = 0.5, legend = NULL)
+  
+  
+  terra::plot(m_temp_macs, "label", col = adjustcolor(m_temp_cols, alpha = 0.5),
+              border = "royalblue4", sort = FALSE, add = TRUE)
+  
+  
+  
+  
+  
+  #Temperature range
+  index <- as.integer(temp_range)
+  trend_plot_mac <- get_trend_plots_macrozone(feature_name = "temp_range", 
+                                              summaries = summaries,
+                                              clusters = clusters, 
+                                              index = index)
+  
+  terra::plot(macrozones, "label", col = adjustcolor(colors_macrozones, alpha = 0.5),
+              border = NA, main = "Macrozones with similar temperature range trends",
+              cex.main = 0.5, legend = NULL)
+  
+  terra::plot(temp_r_macs, "label", col = adjustcolor(m_temp_cols, alpha = 0.5),
+              border = "royalblue4", sort = FALSE, add = TRUE)
+  
+  
+  
+  
+  #Total precipitation
+  index <- as.integer(total_precipitation)
+  trend_plot_mac <- get_trend_plots_macrozone(feature_name = "total_precipitation", 
+                                              summaries = summaries,
+                                              clusters = clusters, 
+                                              index = index)
+  
+  terra::plot(macrozones, "label", col = adjustcolor(colors_macrozones, alpha = 0.5),
+              border = NA, main = "Macrozones with similar total precipitation trends",
+              cex.main = 0.5, legend = NULL)
+  
+  terra::plot(t_prec_macs, "label", col = adjustcolor(t_prec_cols, alpha = 0.5),
+              border = "royalblue4", sort = FALSE, add = TRUE)
+  
+  
+  
+  
+  #Daylength
+  index <- as.integer(daylength)
+  trend_plot_mac <- get_trend_plots_macrozone(feature_name = "daylength", 
+                                              summaries = summaries,
+                                              clusters = clusters, 
+                                              index = index)
+  
+  terra::plot(macrozones, "label", col = adjustcolor(colors_macrozones, alpha = 0.5),
+              border = NA, main = "Macrozones with similar daylength trends",
+              cex.main = 0.5, legend = NULL)
+  
+  terra::plot(daylen_macs, "label", col = adjustcolor(daylen_cols, alpha = 0.5),
+              border = "royalblue4", sort = FALSE, add = TRUE)
+  
+  
+  
+  
+  
+  dev.off()
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+pdf(file = paste0(trend_directory, "cluster_trend_panels/",
+                  macrozone_name, "_cluster_trend_panels.pdf"), onefile = TRUE)
+
+
+#Layout
+par(mfrow = c(1,1))
+mat <- matrix(c(1, 2,  # Row 1
+                3, 3), # Row 2
+              nrow = 2, byrow = TRUE)
+layout(mat)
+
+
+
+
+
+
+
+
+
+
+
+#---------------------------------------------------------
+#PLOTTING AND VISUALIZATIONS OF MACROZONES
 
 #Plot the macrozones
-pdf(file = paste0(trend_directory, "Macrozones.pdf"), onefile = TRUE)
+pdf(file = paste0(trend_directory, "Macrozones_25.pdf"), onefile = TRUE)
 par(mfrow = c(1,1))
 #Macrozones
-terra::plot(macrozones_formatted, "label", col = adjustcolor(col_zones, alpha = 0.5),
-            border = NA, main = "Macrozones",
+terra::plot(macrozones, "label", col = adjustcolor(colors_macrozones, alpha = 0.5),
+            border = NA, main = "Macrozones for SSA, 25 class model",
             cex.main = 0.5, sort = FALSE)
 dev.off()
+
+
+
+#---------------------------------------------------------
+
+
+
+
 
 
 
 
 
 # EXTRA/DEPRECATED
+
+
+#Plot the macrozones and save for visualizations
+#png(file = paste0(trend_directory, "Macrozones_25.png"),
+#    height = 2400, width = 2400, res = 300)
+#terra::plot(macrozones_ssa, "label", col = col_regions, lwd = 0.5)
+#dev.off()
+
+
+#Plot each macrozone seperately
+#for (i in 1:length(macrozone_number))
+#
+#  png(file = paste0(trend_directory, "Macrozone_plot_", i, ".png"),
+#      height = 2400, width = 2400, res = 300)
+#  plot(macrozones_ssa, lwd = 0.5)
+#  plot(macrozones_ssa[which(macrozones_ssa$label == i),], add = TRUE, col = col_regions[i])
+#  dev.off()
+#
+#}
+
+
+
 # Add a legend for the zones
 #macrozone_names <- paste0("Macrozone ", as.character(feature_cluster[[i]]))
 
