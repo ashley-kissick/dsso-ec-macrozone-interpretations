@@ -11,14 +11,19 @@
 #' @param trend_directory A character string indicating the directory to store the plots
 #' @param panel Logical; if TRUE, plots will be plotted together on the same page using
 #' mac_row_col_params to set the column and rows of the plots on the page.
+#' @param macrozones SpatVector, the macrozones
 #' @return Plots saved by weather feature
 #' @export
 
 get_feature_trend_plots <- function(macrozone_trends, mac_row_col_params,
-                                    trend_directory, panel) {
+                                    trend_directory, panel, macrozones) {
 
   # Get the original trends for each macrozone
   # Get the average trend within a cluster
+
+  macrozone_info <- prepare_shps(shps = macrozones, identifier = "label")
+  mac_df <- macrozone_info$zone_df
+  macrozones_prepared <- macrozone_info$zones
 
   feature_clusters = macrozone_trends$feature_clusters
   feature_summaries = macrozone_trends$feature_summaries
@@ -36,7 +41,8 @@ get_feature_trend_plots <- function(macrozone_trends, mac_row_col_params,
     #Get parameters for plots
     plot_params <- get_mac_plot_params(feature_summary = feature_summary,
                                        feature_cluster = feature_cluster,
-                                       feature_name = feature_name)
+                                       feature_name = feature_name,
+                                       macrozones_prepared = macrozones_prepared)
 
     mac_row_col_param <- mac_row_col_params[[i]]
 

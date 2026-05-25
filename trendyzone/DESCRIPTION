@@ -11,13 +11,15 @@ Authors@R: c(
   )
 Description: More about what it does (maybe more than one line).
     Continuation lines should be indented.
-Imports: data.table, scales, RColorBrewer, sp, terra, viridis
+Imports: data.table, dplyr, RColorBrewer, scales, sf, sp, terra, viridis
 Depends: 
     data.table,
+    dplyr,
     R (>= 3.5),
     RColorBrewer,
     scales, 
     sp,
+    sf,
     terra,
     viridis
 License: What license is it under?

@@ -55,14 +55,15 @@ prepare_shps <- function(shps, identifier) {
     shps$cluster <- ordered(shps$cluster, levels = shps$cluster)
   }
 
-  num_zones <- labels[length(labels)]
+  num_zones <- length(labels)
 
 
   #Match colors
   if(identifier == "label") {
 
     #Matching macrozone colors
-    zone_df <- data.frame(label = 1:num_zones, col_zone = colors_macrozones[1:num_zones])
+    zone_df <- data.frame(label = labels, col_zone = colors_macrozones[1:num_zones])
+    shps$color <- colors_macrozones[1:num_zones]
 
   }
 
@@ -75,8 +76,9 @@ prepare_shps <- function(shps, identifier) {
     color_sample <- sample(seq_along(custom_colors), size = num_zones)
     color_sample <- sort(color_sample)
     cluster_colors <- custom_colors[color_sample]
+    shps$color <- cluster_colors
 
-    zone_df <- data.frame(label = 1:num_zones, col_zone = cluster_colors)
+    zone_df <- data.frame(label = labels, col_zone = cluster_colors)
 
   }
 

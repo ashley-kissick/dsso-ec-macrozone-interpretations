@@ -44,14 +44,16 @@ get_macrozone_trends <- function(features, years, macrozones, centroids,
       col_order <- paste0("daylength", "_", months)
       daylength_dt <- data.table::data.table(feature_df)
       data.table::setcolorder(daylength_dt, col_order)
-      feature_summary_list[[i]] <- data.frame(daylength_dt)
+      daylength_dt <- data.frame(daylength_dt)
+      rownames(daylength_dt) <- paste0("macrozone_", macrozone_labels)
+      feature_summary_list[[i]] <- daylength_dt
 
     } else{
       feature_summary_list[[i]] <- get_feature_summary(feature_df = feature_df,
                                                        feature_name = feature_name,
                                                        years = years,
                                                        months = months,
-                                                       num_macrozones = num_macrozones)
+                                                       macrozone_labels = macrozone_labels)
     }
 
 
@@ -107,11 +109,11 @@ get_macrozone_trends <- function(features, years, macrozones, centroids,
 #' @param feature_name A character string naming the weather feature
 #' @param years An integer vector for the year of interest
 #' @param months An integer vector of months of interest
-#' @param num_macrozones An integer, the number of macrozones (i.e., 40, 70)
+#' @param macrozone_labels Numeric, the names of the macrozones (i.e., 0- 24)
 #' @return A data frame of weather formatted to contain only the year of interest
 #' @export
 
-get_feature_summary <- function(feature_df, feature_name, years, months, num_macrozones) {
+get_feature_summary <- function(feature_df, feature_name, years, months, macrozone_labels) {
 
   feature_list <- list()
   for (i in 1:length(years)) {
@@ -126,7 +128,7 @@ get_feature_summary <- function(feature_df, feature_name, years, months, num_mac
     year <- data.frame(year)
 
     colnames(year) <- paste0(feature_name, "_", months)
-    year$macrozone <- 1:num_macrozones
+    year$macrozone <- macrozone_labels
 
     feature_list[[i]] <- year
 
@@ -136,13 +138,13 @@ get_feature_summary <- function(feature_df, feature_name, years, months, num_mac
 
   #Get a summary for each macrozone
   feature_summary_list <- list()
-  for (i in 1:num_macrozones) {
-    macrozone <- feature[which(feature$macrozone == i),]
+  for (i in 1:length(macrozone_labels)) {
+    macrozone <- feature[which(feature$macrozone == macrozone_labels[i]),]
     feature_summary_list[[i]] <- colMeans(macrozone)
   }
 
   feature_summary <- data.frame(do.call(rbind, feature_summary_list))
-  rownames(feature_summary) <- paste0("macrozone_", 1:num_macrozones)
+  rownames(feature_summary) <- paste0("macrozone_", macrozone_labels)
   feature_summary$macrozone <- NULL
 
   return(feature_summary)
@@ -176,12 +178,27 @@ get_macrozone_clusters <- function(feature_summary, feature_name, trend_director
   number_clusters_prompt <- readline(prompt = "How many clusters? ")
   num_clusters <- as.integer(number_clusters_prompt)
 
-  #Get the groups with clusters and information they contain:
+  #Get the groups with clusters and information they contain and save the dendrogram:
+  png(file = paste0(trend_directory, "screeplot_dendrogram/", feature_name, "_dendrogram.png"),
+      height = 1800, width = 2400, res = 300)
+
   par(mfrow = c(1,1))
   dendrogram <- hclust(dist_mat, method = "ward.D2")
   plot(dendrogram, main = feature_name)
   clusters <- rect.hclust(dendrogram, num_clusters)
+  dev.off()
 
+  #Get the cluster list object to return in the function
+  dendrogram <- hclust(dist_mat, method = "ward.D2")
+  plot(dendrogram, main = feature_name)
+  clusters <- rect.hclust(dendrogram, num_clusters)
+
+  #Reformat to make sure the right zone label is assigned
+  for (i in 1:length(clusters)) {
+    c_c <- as.integer(sub(".*?_", "", names(clusters[[i]])))
+    names(c_c) <- names(clusters[[i]])
+    clusters[[i]] <- c_c
+  }
 
   if (!dir.exists(paste0(trend_directory, "screeplot_dendrogram/"))) {
     dir.create(paste0(trend_directory, "screeplot_dendrogram/"))
@@ -191,16 +208,6 @@ get_macrozone_clusters <- function(feature_summary, feature_name, trend_director
   png(file = paste0(trend_directory, "screeplot_dendrogram/", feature_name, "_scree_plot.png"),
       height = 2400, width = 2400, res = 300)
   screeplot <- get_screeplot(dendrogram = dendrogram, groups = 20)
-  dev.off()
-
-
-  #Save dendrogram
-  png(file = paste0(trend_directory, "screeplot_dendrogram/", feature_name, "_dendrogram.png"),
-      height = 1800, width = 2400, res = 300)
-
-  plot(dendrogram, main = feature_name)
-  clusters <- rect.hclust(dendrogram, num_clusters)
-
   dev.off()
 
   return(clusters)

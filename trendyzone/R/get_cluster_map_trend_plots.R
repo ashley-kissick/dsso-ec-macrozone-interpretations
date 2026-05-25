@@ -45,6 +45,7 @@ get_cluster_map_trend_plots <- function(i, macrozone_trends, macrozones, trend_d
   col_zone <- macrozone_info$colors
   col_features <- feature_info$colors
 
+
   #Trend plots
 
   if (!dir.exists(paste0(trend_directory, "feature_cluster_trends/"))) {
@@ -66,22 +67,24 @@ get_cluster_map_trend_plots <- function(i, macrozone_trends, macrozones, trend_d
 
     # First panel:  Macozones with the clustering
     #Macrozones, with feature clusters added
-    terra::plot(macrozones_prepared, "label", col = adjustcolor(col_zone, alpha = 0.5),
+    terra::plot(macrozones_prepared, "label", col = adjustcolor(macrozones_prepared$color, alpha = 0.5),
                 border = NA, main = "Macrozones with feature cluster",
                 cex.main = 0.5, sort = FALSE, plg=list(ncol = 2))
     terra::plot(feature_shp[which(feature_shp$cluster == j), ], lwd = 1,
                 add = TRUE, border = "royalblue4")
+    terra::plot(all_ssa, border = "black", add = TRUE)
 
 
     # Second panel:  The macrozones within a specific cluster
     #Get the macrozones
-    macrozones_cropped <- macrozones_prepared[feature_cluster[[j]],]
+    macs <- which(macrozones_prepared$label %in% feature_cluster[[j]] == TRUE)
+    macrozones_cropped <- macrozones_prepared[macs,]
     col_zone_app <- col_zone[feature_cluster[[j]]]
 
     #The macrozones in that cluster
     terra::plot(macrozones_cropped, "label", border = "royalblue4", lwd = 0.5,
                 main = paste0("Macrozones in cluster ", j),
-                col = adjustcolor(col_zone_app, alpha = 0.5), cex.main = 0.5,
+                col = adjustcolor(macrozones_cropped$color, alpha = 0.5), cex.main = 0.5,
                 sort = FALSE)
 
 
@@ -90,6 +93,7 @@ get_cluster_map_trend_plots <- function(i, macrozone_trends, macrozones, trend_d
     get_cluster_trend_plot(feature_cluster = feature_cluster,
                            feature_summary = feature_summary,
                            feature_name = feature_name,
+                           macrozones_prepared = macrozones_prepared,
                            j = j)
 
   }

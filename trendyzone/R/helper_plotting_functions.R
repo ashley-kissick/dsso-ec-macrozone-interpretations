@@ -17,7 +17,8 @@ get_feature_trends <- function(feature_cluster, feature_summary) {
   original_trends <- list()
   feature_average <- list()
   for (j in 1:length(feature_cluster)) {
-    original_trends[[j]] <- feature_summary[feature_cluster[[j]],]
+    tr <- which(rownames(feature_summary) %in% names(feature_cluster[[j]]) == TRUE)
+    original_trends[[j]] <- feature_summary[tr,]
     feature_average[[j]] <- colMeans(original_trends[[j]])
   }
 
@@ -38,8 +39,9 @@ get_feature_trends <- function(feature_cluster, feature_summary) {
 #' @param feature_summary A data frame of all values for a feature across macrozones
 #' @param feature_cluster A list; the assignments of
 #' @param feature_name A character string; the name of the feature
-#'
-get_mac_plot_params <- function(feature_summary, feature_cluster, feature_name) {
+#' @param macrozones_prepared SpatVector, the prepared macrozones with color assignments
+
+get_mac_plot_params <- function(feature_summary, feature_cluster, feature_name, macrozones_prepared) {
 
   cluster_list <- list()
   for (i in 1:length(feature_cluster)) {
@@ -58,7 +60,9 @@ get_mac_plot_params <- function(feature_summary, feature_cluster, feature_name) 
 
     #Colors
     zones <- as.numeric(feature_cluster[[i]])
-    param_list$cluster_colors <- colors_macrozones[zones]
+    macs <- which(macrozones_prepared$label %in% zones == TRUE)
+    param_list$cluster_colors <- macrozones_prepared$color[macs]
+    #param_list$cluster_colors <- colors_macrozones[zones]
 
     cluster_list[[i]] <- param_list
 
@@ -99,7 +103,8 @@ get_plot_trends <- function(original_trend, feature_average, feature_name,
   #Plot first trend to establish the plot
   plot(trend_df[,2] ~ trend_df[,1],  xlab = "Month", ylab = feature_name,
        ylim = c(group_plot_param$y_min, group_plot_param$y_max), type = "l",
-       col = group_plot_param$cluster_colors[1], lwd = 2, main = paste0(feature_name, " Group ", feature_group))
+       col = group_plot_param$cluster_colors[1], lwd = 2,
+       main = paste0(feature_name, " Group ", feature_group), cex.main = 0.75)
 
   #Plot the other macrozone weather trends, if they exist
   if(dim(trend_df)[2] >= 3) {
@@ -129,16 +134,18 @@ get_plot_trends <- function(original_trend, feature_average, feature_name,
 #' @param clusters List, cluster assignments
 #' @param summaries, List, cluster summaries
 #' @param index Integer, the cluster number
+#' @param macrozones_prepared SpatVector, the prepared macrozones with color assignments
 #' @return The plot of trends, colored by macrozones in the cluster
 #' @export
 
-get_trend_plots_macrozone <- function(feature_name, summaries, clusters, index) {
+get_trend_plots_macrozone <- function(feature_name, summaries, clusters, index, macrozones_prepared) {
 
   feature_summary <- summaries[[which(names(summaries) == feature_name)]]
   feature_cluster <- clusters[[which(names(clusters) == feature_name)]]
   get_cluster_trend_plot(feature_cluster = feature_cluster,
                          feature_summary = feature_summary,
                          feature_name = feature_name,
+                         macrozones_prepared = macrozones_prepared,
                          j = index)
 
 }

@@ -7,12 +7,14 @@
 #' @param feature_summary Dataframe, the monthly temporal averages for the feature,
 #' each line is macrozone
 #' @param feature_name Character string, the name of the feature
+#' @param macrozones_prepared SpatVector, the prepared macrozones with color assignments
 #' @param j iteration
 #' @return The plot of the trends for each feature cluster, along with the
 #' average monthly trend
 #' @export
 
-get_cluster_trend_plot <- function(feature_cluster, feature_summary, feature_name, j) {
+get_cluster_trend_plot <- function(feature_cluster, feature_summary,
+                                   macrozones_prepared, feature_name, j) {
 
   #Get the feature trends and average trend per cluster assignment
   feature_trends <- get_feature_trends(feature_cluster = feature_cluster,
@@ -21,7 +23,8 @@ get_cluster_trend_plot <- function(feature_cluster, feature_summary, feature_nam
   #Get parameters for plots
   plot_params <- get_mac_plot_params(feature_summary = feature_summary,
                                      feature_cluster = feature_cluster,
-                                     feature_name = feature_name)
+                                     feature_name = feature_name,
+                                     macrozones_prepared = macrozones_prepared)
 
   group_plot_param <- plot_params[[j]]
   original_trend <- feature_trends$original_trends[[j]]
