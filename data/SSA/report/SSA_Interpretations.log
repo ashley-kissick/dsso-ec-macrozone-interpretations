@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  13 MAY 2026 12:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  25 MAY 2026 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -887,11 +887,7 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count369
 \l__pdf_internal_box=\box138
 )
-(./SSA_Interpretations.aux
-
-LaTeX Warning: Label `figure:Macrozones_Temperature_range' multiply defined.
-
-)
+(./SSA_Interpretations.aux)
 \openout1 = `SSA_Interpretations.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
@@ -913,7 +909,8 @@ LaTeX Font Info:    ... okay on input line 67.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
 \c@lstlisting=\count370
- (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count371
 \scratchdimen=\dimen302
@@ -979,1665 +976,2108 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.80 \newpage
+l.84 \newpage
               [1]
 
 [2]
-<../plots/Macrozones_25.pdf, id=88, 505.89pt x 505.89pt>
+<../plots/Macrozones_25.pdf, id=205, 505.89pt x 505.89pt>
 File: ../plots/Macrozones_25.pdf Graphic file (type pdf)
 <use ../plots/Macrozones_25.pdf>
-Package pdftex.def Info: ../plots/Macrozones_25.pdf  used on input line 145.
-(pdftex.def)             Requested size: 354.12057pt x 354.12057pt.
+Package pdftex.def Info: ../plots/Macrozones_25.pdf  used on input line 154.
+(pdftex.def)             Requested size: 455.29678pt x 455.29678pt.
 
 
 [3 <../plots/Macrozones_25.pdf>]
-<../plots/feature_cluster_shps/daylength_zones_clusters.pdf, id=103, 505.89pt x
- 505.89pt>
-File: ../plots/feature_cluster_shps/daylength_zones_clusters.pdf Graphic file (
-type pdf)
-<use ../plots/feature_cluster_shps/daylength_zones_clusters.pdf>
-Package pdftex.def Info: ../plots/feature_cluster_shps/daylength_zones_clusters
-.pdf  used on input line 165.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-
-Overfull \hbox (36.13373pt too wide) in paragraph at lines 165--166
- [][] 
- []
-
+File: ../plots/Macrozones_25.pdf Graphic file (type pdf)
+<use ../plots/Macrozones_25.pdf>
+Package pdftex.def Info: ../plots/Macrozones_25.pdf  used on input line 185.
+(pdftex.def)             Requested size: 375.80544pt x 375.81166pt.
+<../plots/summaries/barplots/elevation.pdf, id=219, 650.43pt x 361.35pt>
+File: ../plots/summaries/barplots/elevation.pdf Graphic file (type pdf)
+<use ../plots/summaries/barplots/elevation.pdf>
+Package pdftex.def Info: ../plots/summaries/barplots/elevation.pdf  used on inp
+ut line 192.
+(pdftex.def)             Requested size: 375.80544pt x 208.78365pt.
 
 
 [4]
 
-[5 <../plots/feature_cluster_shps/daylength_zones_clusters.pdf>]
-<../plots/feature_cluster_trends/daylength_panel.pdf, id=123, 505.89pt x 505.89
-pt>
-File: ../plots/feature_cluster_trends/daylength_panel.pdf Graphic file (type pd
-f)
-<use ../plots/feature_cluster_trends/daylength_panel.pdf>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_panel.pdf  u
-sed on input line 174.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/feature_cluster_trends/daylength_panel.pdf, id=125, page=1, 505.89pt 
-x 505.89pt>
-File: ../plots/feature_cluster_trends/daylength_panel.pdf Graphic file (type pd
-f)
-<use ../plots/feature_cluster_trends/daylength_panel.pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_panel.pdf , 
-page1 used on input line 174.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/feature_cluster_trends/daylength_panel.pdf Graphic file (type pd
-f)
-<use ../plots/feature_cluster_trends/daylength_panel.pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_panel.pdf , 
-page1 used on input line 174.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[5]
+Overfull \vbox (102.96175pt too high) has occurred while \output is active []
 
 
-[6]
-File: ../plots/feature_cluster_trends/daylength_panel.pdf Graphic file (type pd
-f)
-<use ../plots/feature_cluster_trends/daylength_panel.pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_panel.pdf , 
-page1 used on input line 174.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/daylength_panel.pdf Graphic file (type pd
-f)
-<use ../plots/feature_cluster_trends/daylength_panel.pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_panel.pdf , 
-page1 used on input line 174.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+[6 <../plots/summaries/barplots/elevation.pdf>]
+File: ../plots/Macrozones_25.pdf Graphic file (type pdf)
+<use ../plots/Macrozones_25.pdf>
+Package pdftex.def Info: ../plots/Macrozones_25.pdf  used on input line 205.
+(pdftex.def)             Requested size: 375.80544pt x 375.81166pt.
+<../plots/summaries/barplots/max_temperature.pdf, id=243, 650.43pt x 361.35pt>
+File: ../plots/summaries/barplots/max_temperature.pdf Graphic file (type pdf)
+<use ../plots/summaries/barplots/max_temperature.pdf>
+Package pdftex.def Info: ../plots/summaries/barplots/max_temperature.pdf  used 
+on input line 212.
+(pdftex.def)             Requested size: 375.80544pt x 208.78365pt.
 
 
-File: ../plots/feature_cluster_trends/daylength_panel.pdf Graphic file (type pd
-f)
-<use ../plots/feature_cluster_trends/daylength_panel.pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_panel.pdf , 
-page1 used on input line 174.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[7
-
- <../plots/feature_cluster_trends/daylength_panel.pdf>]
-<../plots/feature_cluster_trends/daylength_panel.pdf, id=141, page=2, 505.89pt 
-x 505.89pt>
-File: ../plots/feature_cluster_trends/daylength_panel.pdf Graphic file (type pd
-f)
-<use ../plots/feature_cluster_trends/daylength_panel.pdf, page 2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_panel.pdf , 
-page2 used on input line 174.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/daylength_panel.pdf Graphic file (type pd
-f)
-<use ../plots/feature_cluster_trends/daylength_panel.pdf, page 2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_panel.pdf , 
-page2 used on input line 174.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[7]
+Overfull \vbox (84.41905pt too high) has occurred while \output is active []
 
 
-File: ../plots/feature_cluster_trends/daylength_panel.pdf Graphic file (type pd
-f)
-<use ../plots/feature_cluster_trends/daylength_panel.pdf, page 2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_panel.pdf , 
-page2 used on input line 174.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[8
 
- <../plots/feature_cluster_trends/daylength_panel.pdf>]
-<../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, id=146, 5
-05.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf  used on input line 180.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, id=148, p
-age=1, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page1 used on input line 180.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page1 used on input line 180.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[8 <../plots/summaries/barplots/max_temperature.pdf>]
+File: ../plots/Macrozones_25.pdf Graphic file (type pdf)
+<use ../plots/Macrozones_25.pdf>
+Package pdftex.def Info: ../plots/Macrozones_25.pdf  used on input line 227.
+(pdftex.def)             Requested size: 375.80544pt x 375.81166pt.
+<../plots/summaries/barplots/temperature_range.pdf, id=262, 650.43pt x 361.35pt
+>
+File: ../plots/summaries/barplots/temperature_range.pdf Graphic file (type pdf)
+
+<use ../plots/summaries/barplots/temperature_range.pdf>
+Package pdftex.def Info: ../plots/summaries/barplots/temperature_range.pdf  use
+d on input line 234.
+(pdftex.def)             Requested size: 375.80544pt x 208.78365pt.
 
 
 [9]
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page1 used on input line 180.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page1 used on input line 180.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+Overfull \vbox (84.41905pt too high) has occurred while \output is active []
 
 
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page1 used on input line 180.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[10
 
- <../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, id=167, p
-age=2, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page2 used on input line 180.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page2 used on input line 180.
+[10 <../plots/summaries/barplots/temperature_range.pdf>]
+File: ../plots/Macrozones_25.pdf Graphic file (type pdf)
+<use ../plots/Macrozones_25.pdf>
+Package pdftex.def Info: ../plots/Macrozones_25.pdf  used on input line 249.
+(pdftex.def)             Requested size: 375.80544pt x 375.81166pt.
+File: ../plots/summaries/barplots/temperature_range.pdf Graphic file (type pdf)
+
+<use ../plots/summaries/barplots/temperature_range.pdf>
+Package pdftex.def Info: ../plots/summaries/barplots/temperature_range.pdf  use
+d on input line 256.
+(pdftex.def)             Requested size: 375.80544pt x 208.78365pt.
+
+
+[11]
+Overfull \vbox (84.41905pt too high) has occurred while \output is active []
+
+
+
+[12]
+<../plots/summaries/Macrozone_0.pdf, id=291, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_0.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf  used on input line
+ 272.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_0.pdf, id=293, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_0.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page1 used on inp
+ut line 272.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_0.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page1 used on inp
+ut line 272.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page2 used on input line 180.
+[13]
+File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_0.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page1 used on inp
+ut line 272.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[11
-
- <../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, id=172, p
-age=3, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-3>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page3 used on input line 180.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-3>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page3 used on input line 180.
+File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_0.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page1 used on inp
+ut line 272.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-3>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page3 used on input line 180.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[12
-
- <../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, id=178, p
-age=4, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-4>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page4 used on input line 180.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-4>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page4 used on input line 180.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-4>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page4 used on input line 180.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[13
-
- <../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, id=183, p
-age=5, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-5>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page5 used on input line 180.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-5>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page5 used on input line 180.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-5>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page5 used on input line 180.
+File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_0.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page1 used on inp
+ut line 272.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [14
 
- <../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, id=188, p
-age=6, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-6>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page6 used on input line 180.
+ <../plots/summaries/Macrozone_0.pdf>]
+<../plots/summaries/Macrozone_0.pdf, id=312, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_0.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page2 used on inp
+ut line 272.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-6>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page6 used on input line 180.
+File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_0.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page2 used on inp
+ut line 272.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-6>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page6 used on input line 180.
+File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_0.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page2 used on inp
+ut line 272.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [15
 
- <../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, id=193, p
-age=7, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-7>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page7 used on input line 180.
+ <../plots/summaries/Macrozone_0.pdf>]
+<../plots/summaries/Macrozone_0.pdf, id=317, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_0.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page3 used on inp
+ut line 272.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-7>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page7 used on input line 180.
+File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_0.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page3 used on inp
+ut line 272.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-7>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page7 used on input line 180.
+File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_0.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page3 used on inp
+ut line 272.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [16
 
- <../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, id=198, p
-age=8, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-8>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page8 used on input line 180.
+ <../plots/summaries/Macrozone_0.pdf>]
+<../plots/summaries/Macrozone_1.pdf, id=322, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_1.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf  used on input line
+ 276.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_1.pdf, id=324, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_1.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page1 used on inp
+ut line 276.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_1.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page1 used on inp
+ut line 276.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-8>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page8 used on input line 180.
+File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_1.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page1 used on inp
+ut line 276.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_1.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page1 used on inp
+ut line 276.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf Graph
-ic file (type pdf)
-<use ../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf, page 
-8>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_feature_clus
-ter_trend.pdf , page8 used on input line 180.
+File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_1.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page1 used on inp
+ut line 276.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [17
 
- <../plots/feature_cluster_trends/daylength_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_shps/max_temperature_zones_clusters.pdf, id=203, 505.
-89pt x 505.89pt>
-File: ../plots/feature_cluster_shps/max_temperature_zones_clusters.pdf Graphic 
-file (type pdf)
-<use ../plots/feature_cluster_shps/max_temperature_zones_clusters.pdf>
-Package pdftex.def Info: ../plots/feature_cluster_shps/max_temperature_zones_cl
-usters.pdf  used on input line 193.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-
-Overfull \hbox (36.13373pt too wide) in paragraph at lines 193--194
- [][] 
- []
-
-
-
-[18 <../plots/feature_cluster_shps/max_temperature_zones_clusters.pdf>]
-File: ../plots/feature_cluster_trends/daylength_panel.pdf Graphic file (type pd
-f)
-<use ../plots/feature_cluster_trends/daylength_panel.pdf>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_panel.pdf  u
-sed on input line 202.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/feature_cluster_trends/daylength_panel.pdf Graphic file (type pd
-f)
-<use ../plots/feature_cluster_trends/daylength_panel.pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_panel.pdf , 
-page1 used on input line 202.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/feature_cluster_trends/daylength_panel.pdf Graphic file (type pd
-f)
-<use ../plots/feature_cluster_trends/daylength_panel.pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_panel.pdf , 
-page1 used on input line 202.
+ <../plots/summaries/Macrozone_1.pdf>]
+<../plots/summaries/Macrozone_1.pdf, id=338, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_1.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page2 used on inp
+ut line 276.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_1.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page2 used on inp
+ut line 276.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-[19]
-File: ../plots/feature_cluster_trends/daylength_panel.pdf Graphic file (type pd
-f)
-<use ../plots/feature_cluster_trends/daylength_panel.pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_panel.pdf , 
-page1 used on input line 202.
+File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_1.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page2 used on inp
+ut line 276.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/daylength_panel.pdf Graphic file (type pd
-f)
-<use ../plots/feature_cluster_trends/daylength_panel.pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_panel.pdf , 
-page1 used on input line 202.
+[18
+
+ <../plots/summaries/Macrozone_1.pdf>]
+<../plots/summaries/Macrozone_1.pdf, id=344, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_1.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page3 used on inp
+ut line 276.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_1.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page3 used on inp
+ut line 276.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/daylength_panel.pdf Graphic file (type pd
-f)
-<use ../plots/feature_cluster_trends/daylength_panel.pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_panel.pdf , 
-page1 used on input line 202.
+File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_1.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page3 used on inp
+ut line 276.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[19
+
+ <../plots/summaries/Macrozone_1.pdf>]
+<../plots/summaries/Macrozone_2.pdf, id=349, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_2.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf  used on input line
+ 280.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_2.pdf, id=351, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_2.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page1 used on inp
+ut line 280.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_2.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page1 used on inp
+ut line 280.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_2.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page1 used on inp
+ut line 280.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_2.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page1 used on inp
+ut line 280.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_2.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page1 used on inp
+ut line 280.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [20
 
-]
-File: ../plots/feature_cluster_trends/daylength_panel.pdf Graphic file (type pd
-f)
-<use ../plots/feature_cluster_trends/daylength_panel.pdf, page 2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_panel.pdf , 
-page2 used on input line 202.
+ <../plots/summaries/Macrozone_2.pdf>]
+<../plots/summaries/Macrozone_2.pdf, id=365, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_2.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page2 used on inp
+ut line 280.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/daylength_panel.pdf Graphic file (type pd
-f)
-<use ../plots/feature_cluster_trends/daylength_panel.pdf, page 2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_panel.pdf , 
-page2 used on input line 202.
+File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_2.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page2 used on inp
+ut line 280.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/daylength_panel.pdf Graphic file (type pd
-f)
-<use ../plots/feature_cluster_trends/daylength_panel.pdf, page 2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/daylength_panel.pdf , 
-page2 used on input line 202.
+File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_2.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page2 used on inp
+ut line 280.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [21
 
-]
-<../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf, id=
-232, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf>
+ <../plots/summaries/Macrozone_2.pdf>]
+<../plots/summaries/Macrozone_2.pdf, id=370, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_2.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page3 used on inp
+ut line 280.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_2.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page3 used on inp
+ut line 280.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf  used on input line 208.
+
+File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_2.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page3 used on inp
+ut line 280.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[22
+
+ <../plots/summaries/Macrozone_2.pdf>]
+<../plots/summaries/Macrozone_3.pdf, id=375, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_3.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf  used on input line
+ 284.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf, id=
-234, page=1, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page1 used on input line 208.
+<../plots/summaries/Macrozone_3.pdf, id=377, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_3.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page1 used on inp
+ut line 284.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page1 used on input line 208.
+File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_3.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page1 used on inp
+ut line 284.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_3.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page1 used on inp
+ut line 284.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_3.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page1 used on inp
+ut line 284.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-[22]
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page1 used on input line 208.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page1 used on input line 208.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page1 used on input line 208.
+File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_3.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page1 used on inp
+ut line 284.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [23
 
- <../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf, id=
-252, page=2, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page2 used on input line 208.
+ <../plots/summaries/Macrozone_3.pdf>]
+<../plots/summaries/Macrozone_3.pdf, id=391, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_3.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page2 used on inp
+ut line 284.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page2 used on input line 208.
+File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_3.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page2 used on inp
+ut line 284.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page2 used on input line 208.
+File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_3.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page2 used on inp
+ut line 284.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [24
 
- <../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf, id=
-258, page=3, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 3>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page3 used on input line 208.
+ <../plots/summaries/Macrozone_3.pdf>]
+<../plots/summaries/Macrozone_3.pdf, id=397, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_3.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page3 used on inp
+ut line 284.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 3>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page3 used on input line 208.
+File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_3.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page3 used on inp
+ut line 284.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 3>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page3 used on input line 208.
+File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_3.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page3 used on inp
+ut line 284.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [25
 
- <../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf, id=
-263, page=4, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 4>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page4 used on input line 208.
+ <../plots/summaries/Macrozone_3.pdf>]
+<../plots/summaries/Macrozone_4.pdf, id=402, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_4.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf  used on input line
+ 288.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_4.pdf, id=404, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_4.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page1 used on inp
+ut line 288.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_4.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page1 used on inp
+ut line 288.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 4>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page4 used on input line 208.
+File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_4.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page1 used on inp
+ut line 288.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_4.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page1 used on inp
+ut line 288.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 4>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page4 used on input line 208.
+File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_4.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page1 used on inp
+ut line 288.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [26
 
- <../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf, id=
-268, page=5, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 5>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page5 used on input line 208.
+ <../plots/summaries/Macrozone_4.pdf>]
+<../plots/summaries/Macrozone_4.pdf, id=418, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_4.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page2 used on inp
+ut line 288.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 5>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page5 used on input line 208.
+File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_4.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page2 used on inp
+ut line 288.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 5>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page5 used on input line 208.
+File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_4.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page2 used on inp
+ut line 288.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [27
 
- <../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf, id=
-273, page=6, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 6>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page6 used on input line 208.
+ <../plots/summaries/Macrozone_4.pdf>]
+<../plots/summaries/Macrozone_4.pdf, id=423, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_4.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page3 used on inp
+ut line 288.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 6>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page6 used on input line 208.
+File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_4.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page3 used on inp
+ut line 288.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 6>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page6 used on input line 208.
+File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_4.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page3 used on inp
+ut line 288.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [28
 
- <../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf, id=
-278, page=7, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 7>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page7 used on input line 208.
+ <../plots/summaries/Macrozone_4.pdf>]
+<../plots/summaries/Macrozone_5.pdf, id=428, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_5.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf  used on input line
+ 292.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_5.pdf, id=430, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_5.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page1 used on inp
+ut line 292.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_5.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page1 used on inp
+ut line 292.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 7>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page7 used on input line 208.
+File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_5.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page1 used on inp
+ut line 292.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_5.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page1 used on inp
+ut line 292.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 7>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page7 used on input line 208.
+File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_5.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page1 used on inp
+ut line 292.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [29
 
- <../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf, id=
-283, page=8, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 8>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page8 used on input line 208.
+ <../plots/summaries/Macrozone_5.pdf>]
+<../plots/summaries/Macrozone_5.pdf, id=444, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_5.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page2 used on inp
+ut line 292.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 8>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page8 used on input line 208.
+File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_5.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page2 used on inp
+ut line 292.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 8>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page8 used on input line 208.
+File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_5.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page2 used on inp
+ut line 292.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [30
 
- <../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf, id=
-289, page=9, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 9>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page9 used on input line 208.
+ <../plots/summaries/Macrozone_5.pdf>]
+<../plots/summaries/Macrozone_5.pdf, id=451, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_5.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page3 used on inp
+ut line 292.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 9>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page9 used on input line 208.
+File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_5.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page3 used on inp
+ut line 292.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 9>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page9 used on input line 208.
+File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_5.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page3 used on inp
+ut line 292.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [31
 
- <../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf, id=
-294, page=10, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 10>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page10 used on input line 208.
+ <../plots/summaries/Macrozone_5.pdf>]
+<../plots/summaries/Macrozone_6.pdf, id=456, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_6.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf  used on input line
+ 296.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_6.pdf, id=458, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_6.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page1 used on inp
+ut line 296.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_6.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page1 used on inp
+ut line 296.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 10>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page10 used on input line 208.
+File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_6.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page1 used on inp
+ut line 296.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_6.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page1 used on inp
+ut line 296.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 10>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page10 used on input line 208.
+File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_6.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page1 used on inp
+ut line 296.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [32
 
- <../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf, id=
-299, page=11, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 11>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page11 used on input line 208.
+ <../plots/summaries/Macrozone_6.pdf>]
+<../plots/summaries/Macrozone_6.pdf, id=472, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_6.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page2 used on inp
+ut line 296.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 11>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page11 used on input line 208.
+File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_6.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page2 used on inp
+ut line 296.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 11>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page11 used on input line 208.
+File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_6.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page2 used on inp
+ut line 296.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [33
 
- <../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf, id=
-304, page=12, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 12>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page12 used on input line 208.
+ <../plots/summaries/Macrozone_6.pdf>]
+<../plots/summaries/Macrozone_6.pdf, id=477, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_6.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page3 used on inp
+ut line 296.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 12>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page12 used on input line 208.
+File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_6.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page3 used on inp
+ut line 296.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf
- Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf,
- page 12>
-Package pdftex.def Info: ../plots/feature_cluster_trends/max_temperature_featur
-e_cluster_trend.pdf , page12 used on input line 208.
+File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_6.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page3 used on inp
+ut line 296.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [34
 
- <../plots/feature_cluster_trends/max_temperature_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_shps/temp_range_zones_clusters.pdf, id=310, 505.89pt 
-x 505.89pt>
-File: ../plots/feature_cluster_shps/temp_range_zones_clusters.pdf Graphic file 
-(type pdf)
-<use ../plots/feature_cluster_shps/temp_range_zones_clusters.pdf>
-Package pdftex.def Info: ../plots/feature_cluster_shps/temp_range_zones_cluster
-s.pdf  used on input line 223.
+ <../plots/summaries/Macrozone_6.pdf>]
+<../plots/summaries/Macrozone_7.pdf, id=482, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_7.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf  used on input line
+ 300.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-
-Overfull \hbox (36.13373pt too wide) in paragraph at lines 223--224
- [][] 
- []
-
-
-
-[35 <../plots/feature_cluster_shps/temp_range_zones_clusters.pdf>]
-<../plots/feature_cluster_trends/temp_range_panel.pdf, id=325, 505.89pt x 505.8
-9pt>
-File: ../plots/feature_cluster_trends/temp_range_panel.pdf Graphic file (type p
-df)
-<use ../plots/feature_cluster_trends/temp_range_panel.pdf>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_panel.pdf  
-used on input line 232.
+<../plots/summaries/Macrozone_7.pdf, id=484, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_7.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page1 used on inp
+ut line 300.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/feature_cluster_trends/temp_range_panel.pdf, id=327, page=1, 505.89pt
- x 505.89pt>
-File: ../plots/feature_cluster_trends/temp_range_panel.pdf Graphic file (type p
-df)
-<use ../plots/feature_cluster_trends/temp_range_panel.pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_panel.pdf ,
- page1 used on input line 232.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/feature_cluster_trends/temp_range_panel.pdf Graphic file (type p
-df)
-<use ../plots/feature_cluster_trends/temp_range_panel.pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_panel.pdf ,
- page1 used on input line 232.
+File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_7.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page1 used on inp
+ut line 300.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_7.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page1 used on inp
+ut line 300.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_7.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page1 used on inp
+ut line 300.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-[36]
-File: ../plots/feature_cluster_trends/temp_range_panel.pdf Graphic file (type p
-df)
-<use ../plots/feature_cluster_trends/temp_range_panel.pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_panel.pdf ,
- page1 used on input line 232.
+File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_7.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page1 used on inp
+ut line 300.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/temp_range_panel.pdf Graphic file (type p
-df)
-<use ../plots/feature_cluster_trends/temp_range_panel.pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_panel.pdf ,
- page1 used on input line 232.
+[35
+
+ <../plots/summaries/Macrozone_7.pdf>]
+<../plots/summaries/Macrozone_7.pdf, id=498, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_7.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page2 used on inp
+ut line 300.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_7.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page2 used on inp
+ut line 300.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/temp_range_panel.pdf Graphic file (type p
-df)
-<use ../plots/feature_cluster_trends/temp_range_panel.pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_panel.pdf ,
- page1 used on input line 232.
+File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_7.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page2 used on inp
+ut line 300.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[36
+
+ <../plots/summaries/Macrozone_7.pdf>]
+<../plots/summaries/Macrozone_7.pdf, id=504, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_7.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page3 used on inp
+ut line 300.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_7.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page3 used on inp
+ut line 300.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_7.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page3 used on inp
+ut line 300.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [37
 
- <../plots/feature_cluster_trends/temp_range_panel.pdf>]
-<../plots/feature_cluster_trends/temp_range_panel.pdf, id=343, page=2, 505.89pt
- x 505.89pt>
-File: ../plots/feature_cluster_trends/temp_range_panel.pdf Graphic file (type p
-df)
-<use ../plots/feature_cluster_trends/temp_range_panel.pdf, page 2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_panel.pdf ,
- page2 used on input line 232.
+ <../plots/summaries/Macrozone_7.pdf>]
+<../plots/summaries/Macrozone_8.pdf, id=509, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_8.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf  used on input line
+ 304.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_8.pdf, id=511, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_8.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page1 used on inp
+ut line 304.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_8.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page1 used on inp
+ut line 304.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/temp_range_panel.pdf Graphic file (type p
-df)
-<use ../plots/feature_cluster_trends/temp_range_panel.pdf, page 2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_panel.pdf ,
- page2 used on input line 232.
+File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_8.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page1 used on inp
+ut line 304.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_8.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page1 used on inp
+ut line 304.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/temp_range_panel.pdf Graphic file (type p
-df)
-<use ../plots/feature_cluster_trends/temp_range_panel.pdf, page 2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_panel.pdf ,
- page2 used on input line 232.
+File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_8.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page1 used on inp
+ut line 304.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [38
 
- <../plots/feature_cluster_trends/temp_range_panel.pdf>]
-<../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, id=348, 
-505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf  used on input line 238.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, id=350, 
-page=1, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page1 used on input line 238.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page1 used on input line 238.
+ <../plots/summaries/Macrozone_8.pdf>]
+<../plots/summaries/Macrozone_8.pdf, id=525, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_8.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page2 used on inp
+ut line 304.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_8.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page2 used on inp
+ut line 304.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-[39]
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page1 used on input line 238.
+File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_8.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page2 used on inp
+ut line 304.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page1 used on input line 238.
+[39
+
+ <../plots/summaries/Macrozone_8.pdf>]
+<../plots/summaries/Macrozone_8.pdf, id=530, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_8.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page3 used on inp
+ut line 304.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_8.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page3 used on inp
+ut line 304.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page1 used on input line 238.
+File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_8.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page3 used on inp
+ut line 304.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [40
 
- <../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, id=368, 
-page=2, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page2 used on input line 238.
+ <../plots/summaries/Macrozone_8.pdf>]
+<../plots/summaries/Macrozone_9.pdf, id=535, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_9.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf  used on input line
+ 308.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_9.pdf, id=537, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_9.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page1 used on inp
+ut line 308.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_9.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page1 used on inp
+ut line 308.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page2 used on input line 238.
+File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_9.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page1 used on inp
+ut line 308.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_9.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page1 used on inp
+ut line 308.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page2 used on input line 238.
+File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_9.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page1 used on inp
+ut line 308.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [41
 
- <../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, id=373, 
-page=3, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 3>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page3 used on input line 238.
+ <../plots/summaries/Macrozone_9.pdf>]
+<../plots/summaries/Macrozone_9.pdf, id=551, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_9.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page2 used on inp
+ut line 308.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 3>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page3 used on input line 238.
+File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_9.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page2 used on inp
+ut line 308.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 3>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page3 used on input line 238.
+File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_9.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page2 used on inp
+ut line 308.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [42
 
- <../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, id=379, 
-page=4, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 4>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page4 used on input line 238.
+ <../plots/summaries/Macrozone_9.pdf>]
+<../plots/summaries/Macrozone_9.pdf, id=557, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_9.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page3 used on inp
+ut line 308.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 4>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page4 used on input line 238.
+File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_9.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page3 used on inp
+ut line 308.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 4>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page4 used on input line 238.
+File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_9.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page3 used on inp
+ut line 308.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [43
 
- <../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, id=384, 
-page=5, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 5>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page5 used on input line 238.
+ <../plots/summaries/Macrozone_9.pdf>]
+<../plots/summaries/Macrozone_10.pdf, id=562, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_10.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf  used on input lin
+e 312.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_10.pdf, id=564, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_10.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page1 used on in
+put line 312.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_10.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page1 used on in
+put line 312.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 5>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page5 used on input line 238.
+File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_10.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page1 used on in
+put line 312.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_10.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page1 used on in
+put line 312.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 5>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page5 used on input line 238.
+File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_10.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page1 used on in
+put line 312.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [44
 
- <../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, id=389, 
-page=6, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 6>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page6 used on input line 238.
+ <../plots/summaries/Macrozone_10.pdf>]
+<../plots/summaries/Macrozone_10.pdf, id=578, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_10.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page2 used on in
+put line 312.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 6>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page6 used on input line 238.
+File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_10.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page2 used on in
+put line 312.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 6>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page6 used on input line 238.
+File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_10.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page2 used on in
+put line 312.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [45
 
- <../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, id=394, 
-page=7, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 7>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page7 used on input line 238.
+ <../plots/summaries/Macrozone_10.pdf>]
+<../plots/summaries/Macrozone_10.pdf, id=583, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_10.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page3 used on in
+put line 312.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 7>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page7 used on input line 238.
+File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_10.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page3 used on in
+put line 312.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 7>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page7 used on input line 238.
+File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_10.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page3 used on in
+put line 312.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [46
 
- <../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, id=399, 
-page=8, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 8>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page8 used on input line 238.
+ <../plots/summaries/Macrozone_10.pdf>]
+<../plots/summaries/Macrozone_11.pdf, id=588, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_11.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf  used on input lin
+e 316.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_11.pdf, id=590, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_11.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page1 used on in
+put line 316.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_11.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page1 used on in
+put line 316.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 8>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page8 used on input line 238.
+File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_11.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page1 used on in
+put line 316.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_11.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page1 used on in
+put line 316.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 8>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page8 used on input line 238.
+File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_11.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page1 used on in
+put line 316.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [47
 
- <../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, id=404, 
-page=9, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 9>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page9 used on input line 238.
+ <../plots/summaries/Macrozone_11.pdf>]
+<../plots/summaries/Macrozone_11.pdf, id=605, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_11.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page2 used on in
+put line 316.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 9>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page9 used on input line 238.
+File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_11.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page2 used on in
+put line 316.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 9>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page9 used on input line 238.
+File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_11.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page2 used on in
+put line 316.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [48
 
- <../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, id=410, 
-page=10, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 10>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page10 used on input line 238.
+ <../plots/summaries/Macrozone_11.pdf>]
+<../plots/summaries/Macrozone_11.pdf, id=611, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_11.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page3 used on in
+put line 316.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 10>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page10 used on input line 238.
+File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_11.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page3 used on in
+put line 316.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 10>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page10 used on input line 238.
+File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_11.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page3 used on in
+put line 316.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [49
 
- <../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, id=415, 
-page=11, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 11>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page11 used on input line 238.
+ <../plots/summaries/Macrozone_11.pdf>]
+<../plots/summaries/Macrozone_12.pdf, id=616, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_12.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf  used on input lin
+e 320.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_12.pdf, id=618, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_12.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page1 used on in
+put line 320.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_12.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page1 used on in
+put line 320.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 11>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page11 used on input line 238.
+File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_12.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page1 used on in
+put line 320.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_12.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page1 used on in
+put line 320.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf, page
- 11>
-Package pdftex.def Info: ../plots/feature_cluster_trends/temp_range_feature_clu
-ster_trend.pdf , page11 used on input line 238.
+File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_12.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page1 used on in
+put line 320.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [50
 
- <../plots/feature_cluster_trends/temp_range_feature_cluster_trend.pdf>]
-<../plots/feature_cluster_shps/total_precipitation_zones_clusters.pdf, id=420, 
-505.89pt x 505.89pt>
-File: ../plots/feature_cluster_shps/total_precipitation_zones_clusters.pdf Grap
-hic file (type pdf)
-<use ../plots/feature_cluster_shps/total_precipitation_zones_clusters.pdf>
-Package pdftex.def Info: ../plots/feature_cluster_shps/total_precipitation_zone
-s_clusters.pdf  used on input line 251.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+ <../plots/summaries/Macrozone_12.pdf>]
+<../plots/summaries/Macrozone_12.pdf, id=632, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_12.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page2 used on in
+put line 320.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_12.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page2 used on in
+put line 320.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
-Overfull \hbox (36.13373pt too wide) in paragraph at lines 251--252
- [][] 
+
+File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_12.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page2 used on in
+put line 320.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[51
+
+ <../plots/summaries/Macrozone_12.pdf>]
+<../plots/summaries/Macrozone_12.pdf, id=637, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_12.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page3 used on in
+put line 320.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_12.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page3 used on in
+put line 320.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_12.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page3 used on in
+put line 320.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[52
+
+ <../plots/summaries/Macrozone_12.pdf>]
+<../plots/summaries/Macrozone_13.pdf, id=642, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_13.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf  used on input lin
+e 324.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_13.pdf, id=644, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_13.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page1 used on in
+put line 324.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_13.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page1 used on in
+put line 324.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_13.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page1 used on in
+put line 324.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_13.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page1 used on in
+put line 324.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_13.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page1 used on in
+put line 324.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[53
+
+ <../plots/summaries/Macrozone_13.pdf>]
+<../plots/summaries/Macrozone_13.pdf, id=658, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_13.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page2 used on in
+put line 324.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_13.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page2 used on in
+put line 324.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_13.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page2 used on in
+put line 324.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[54
+
+ <../plots/summaries/Macrozone_13.pdf>]
+<../plots/summaries/Macrozone_13.pdf, id=664, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_13.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page3 used on in
+put line 324.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_13.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page3 used on in
+put line 324.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_13.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page3 used on in
+put line 324.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[55
+
+ <../plots/summaries/Macrozone_13.pdf>]
+<../plots/summaries/Macrozone_14.pdf, id=669, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_14.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf  used on input lin
+e 328.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_14.pdf, id=671, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_14.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page1 used on in
+put line 328.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_14.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page1 used on in
+put line 328.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_14.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page1 used on in
+put line 328.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_14.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page1 used on in
+put line 328.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_14.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page1 used on in
+put line 328.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[56
+
+ <../plots/summaries/Macrozone_14.pdf>]
+<../plots/summaries/Macrozone_14.pdf, id=685, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_14.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page2 used on in
+put line 328.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_14.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page2 used on in
+put line 328.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_14.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page2 used on in
+put line 328.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[57
+
+ <../plots/summaries/Macrozone_14.pdf>]
+<../plots/summaries/Macrozone_14.pdf, id=690, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_14.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page3 used on in
+put line 328.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_14.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page3 used on in
+put line 328.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_14.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page3 used on in
+put line 328.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[58
+
+ <../plots/summaries/Macrozone_14.pdf>]
+<../plots/summaries/Macrozone_15.pdf, id=695, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_15.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf  used on input lin
+e 332.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_15.pdf, id=697, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_15.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page1 used on in
+put line 332.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_15.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page1 used on in
+put line 332.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_15.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page1 used on in
+put line 332.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_15.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page1 used on in
+put line 332.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_15.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page1 used on in
+put line 332.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[59
+
+ <../plots/summaries/Macrozone_15.pdf>]
+<../plots/summaries/Macrozone_15.pdf, id=711, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_15.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page2 used on in
+put line 332.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_15.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page2 used on in
+put line 332.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_15.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page2 used on in
+put line 332.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[60
+
+ <../plots/summaries/Macrozone_15.pdf>]
+<../plots/summaries/Macrozone_15.pdf, id=717, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_15.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page3 used on in
+put line 332.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_15.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page3 used on in
+put line 332.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_15.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page3 used on in
+put line 332.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[61
+
+ <../plots/summaries/Macrozone_15.pdf>]
+<../plots/summaries/Macrozone_16.pdf, id=722, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_16.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf  used on input lin
+e 336.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_16.pdf, id=724, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_16.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page1 used on in
+put line 336.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_16.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page1 used on in
+put line 336.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_16.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page1 used on in
+put line 336.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_16.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page1 used on in
+put line 336.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_16.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page1 used on in
+put line 336.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[62
+
+ <../plots/summaries/Macrozone_16.pdf>]
+<../plots/summaries/Macrozone_16.pdf, id=738, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_16.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page2 used on in
+put line 336.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_16.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page2 used on in
+put line 336.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_16.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page2 used on in
+put line 336.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[63
+
+ <../plots/summaries/Macrozone_16.pdf>]
+<../plots/summaries/Macrozone_16.pdf, id=744, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_16.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page3 used on in
+put line 336.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_16.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page3 used on in
+put line 336.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_16.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page3 used on in
+put line 336.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[64
+
+ <../plots/summaries/Macrozone_16.pdf>]
+<../plots/summaries/Macrozone_17.pdf, id=749, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_17.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf  used on input lin
+e 340.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_17.pdf, id=751, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_17.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page1 used on in
+put line 340.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_17.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page1 used on in
+put line 340.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_17.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page1 used on in
+put line 340.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_17.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page1 used on in
+put line 340.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_17.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page1 used on in
+put line 340.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[65
+
+ <../plots/summaries/Macrozone_17.pdf>]
+<../plots/summaries/Macrozone_17.pdf, id=765, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_17.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page2 used on in
+put line 340.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_17.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page2 used on in
+put line 340.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_17.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page2 used on in
+put line 340.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[66
+
+ <../plots/summaries/Macrozone_17.pdf>]
+<../plots/summaries/Macrozone_17.pdf, id=771, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_17.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page3 used on in
+put line 340.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_17.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page3 used on in
+put line 340.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_17.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page3 used on in
+put line 340.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[67
+
+ <../plots/summaries/Macrozone_17.pdf>]
+<../plots/summaries/Macrozone_18.pdf, id=776, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_18.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf  used on input lin
+e 344.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_18.pdf, id=778, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_18.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page1 used on in
+put line 344.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_18.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page1 used on in
+put line 344.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_18.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page1 used on in
+put line 344.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_18.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page1 used on in
+put line 344.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_18.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page1 used on in
+put line 344.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[68
+
+ <../plots/summaries/Macrozone_18.pdf>]
+<../plots/summaries/Macrozone_18.pdf, id=792, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_18.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page2 used on in
+put line 344.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_18.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page2 used on in
+put line 344.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_18.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page2 used on in
+put line 344.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[69
+
+ <../plots/summaries/Macrozone_18.pdf>]
+<../plots/summaries/Macrozone_18.pdf, id=797, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_18.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page3 used on in
+put line 344.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_18.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page3 used on in
+put line 344.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_18.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page3 used on in
+put line 344.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[70
+
+ <../plots/summaries/Macrozone_18.pdf>]
+<../plots/summaries/Macrozone_19.pdf, id=802, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_19.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf  used on input lin
+e 348.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_19.pdf, id=804, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_19.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page1 used on in
+put line 348.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_19.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page1 used on in
+put line 348.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_19.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page1 used on in
+put line 348.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_19.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page1 used on in
+put line 348.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_19.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page1 used on in
+put line 348.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[71
+
+ <../plots/summaries/Macrozone_19.pdf>]
+<../plots/summaries/Macrozone_19.pdf, id=818, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_19.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page2 used on in
+put line 348.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_19.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page2 used on in
+put line 348.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_19.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page2 used on in
+put line 348.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[72
+
+ <../plots/summaries/Macrozone_19.pdf>]
+<../plots/summaries/Macrozone_19.pdf, id=824, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_19.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page3 used on in
+put line 348.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_19.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page3 used on in
+put line 348.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_19.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page3 used on in
+put line 348.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[73
+
+ <../plots/summaries/Macrozone_19.pdf>]
+<../plots/summaries/Macrozone_20.pdf, id=829, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf  used on input lin
+e 352.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_20.pdf, id=831, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page1 used on in
+put line 352.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page1 used on in
+put line 352.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page1 used on in
+put line 352.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page1 used on in
+put line 352.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page1 used on in
+put line 352.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[74
+
+ <../plots/summaries/Macrozone_20.pdf>]
+<../plots/summaries/Macrozone_20.pdf, id=845, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page2 used on in
+put line 352.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page2 used on in
+put line 352.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page2 used on in
+put line 352.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[75
+
+ <../plots/summaries/Macrozone_20.pdf>]
+<../plots/summaries/Macrozone_20.pdf, id=850, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page3 used on in
+put line 352.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page3 used on in
+put line 352.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page3 used on in
+put line 352.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[76
+
+ <../plots/summaries/Macrozone_20.pdf>]
+<../plots/summaries/Macrozone_21.pdf, id=855, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf  used on input lin
+e 356.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_21.pdf, id=857, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page1 used on in
+put line 356.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page1 used on in
+put line 356.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page1 used on in
+put line 356.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page1 used on in
+put line 356.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page1 used on in
+put line 356.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[77
+
+ <../plots/summaries/Macrozone_21.pdf>]
+<../plots/summaries/Macrozone_21.pdf, id=871, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page2 used on in
+put line 356.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page2 used on in
+put line 356.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page2 used on in
+put line 356.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[78
+
+ <../plots/summaries/Macrozone_21.pdf>]
+<../plots/summaries/Macrozone_21.pdf, id=877, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page3 used on in
+put line 356.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page3 used on in
+put line 356.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page3 used on in
+put line 356.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[79
+
+ <../plots/summaries/Macrozone_21.pdf>]
+<../plots/summaries/Macrozone_22.pdf, id=882, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf  used on input lin
+e 360.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_22.pdf, id=884, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page1 used on in
+put line 360.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page1 used on in
+put line 360.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page1 used on in
+put line 360.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page1 used on in
+put line 360.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page1 used on in
+put line 360.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[80
+
+ <../plots/summaries/Macrozone_22.pdf>]
+<../plots/summaries/Macrozone_22.pdf, id=899, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page2 used on in
+put line 360.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page2 used on in
+put line 360.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page2 used on in
+put line 360.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[81
+
+ <../plots/summaries/Macrozone_22.pdf>]
+<../plots/summaries/Macrozone_22.pdf, id=904, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page3 used on in
+put line 360.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page3 used on in
+put line 360.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page3 used on in
+put line 360.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[82
+
+ <../plots/summaries/Macrozone_22.pdf>]
+<../plots/summaries/Macrozone_23.pdf, id=909, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf  used on input lin
+e 364.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_23.pdf, id=911, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page1 used on in
+put line 364.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page1 used on in
+put line 364.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page1 used on in
+put line 364.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page1 used on in
+put line 364.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page1 used on in
+put line 364.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[83
+
+ <../plots/summaries/Macrozone_23.pdf>]
+<../plots/summaries/Macrozone_23.pdf, id=925, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page2 used on in
+put line 364.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page2 used on in
+put line 364.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page2 used on in
+put line 364.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[84
+
+ <../plots/summaries/Macrozone_23.pdf>]
+<../plots/summaries/Macrozone_23.pdf, id=931, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page3 used on in
+put line 364.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page3 used on in
+put line 364.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page3 used on in
+put line 364.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[85
+
+ <../plots/summaries/Macrozone_23.pdf>]
+<../plots/summaries/Macrozone_24.pdf, id=936, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf  used on input lin
+e 368.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_24.pdf, id=938, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page1 used on in
+put line 368.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page1 used on in
+put line 368.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page1 used on in
+put line 368.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page1 used on in
+put line 368.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page1 used on in
+put line 368.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[86
+
+ <../plots/summaries/Macrozone_24.pdf>]
+<../plots/summaries/Macrozone_24.pdf, id=952, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page2 used on in
+put line 368.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page2 used on in
+put line 368.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page2 used on in
+put line 368.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[87
+
+ <../plots/summaries/Macrozone_24.pdf>]
+<../plots/summaries/Macrozone_24.pdf, id=957, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page3 used on in
+put line 368.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page3 used on in
+put line 368.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page3 used on in
+put line 368.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[88
+
+ <../plots/summaries/Macrozone_24.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
+
  []
 
 
 
-[51 <../plots/feature_cluster_shps/total_precipitation_zones_clusters.pdf>]
-<../plots/feature_cluster_trends/total_precipitation_panel.pdf, id=435, 505.89p
-t x 505.89pt>
-File: ../plots/feature_cluster_trends/total_precipitation_panel.pdf Graphic fil
-e (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_panel.pdf>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_pa
-nel.pdf  used on input line 260.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/feature_cluster_trends/total_precipitation_panel.pdf, id=437, page=1,
- 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/total_precipitation_panel.pdf Graphic fil
-e (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_panel.pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_pa
-nel.pdf , page1 used on input line 260.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/feature_cluster_trends/total_precipitation_panel.pdf Graphic fil
-e (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_panel.pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_pa
-nel.pdf , page1 used on input line 260.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-[52]
-File: ../plots/feature_cluster_trends/total_precipitation_panel.pdf Graphic fil
-e (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_panel.pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_pa
-nel.pdf , page1 used on input line 260.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/total_precipitation_panel.pdf Graphic fil
-e (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_panel.pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_pa
-nel.pdf , page1 used on input line 260.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/feature_cluster_trends/total_precipitation_panel.pdf Graphic fil
-e (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_panel.pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_pa
-nel.pdf , page1 used on input line 260.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[53
-
- <../plots/feature_cluster_trends/total_precipitation_panel.pdf>]
-<../plots/feature_cluster_trends/total_precipitation_panel.pdf, id=452, page=2,
- 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/total_precipitation_panel.pdf Graphic fil
-e (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_panel.pdf, page 2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_pa
-nel.pdf , page2 used on input line 260.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/total_precipitation_panel.pdf Graphic fil
-e (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_panel.pdf, page 2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_pa
-nel.pdf , page2 used on input line 260.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/feature_cluster_trends/total_precipitation_panel.pdf Graphic fil
-e (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_panel.pdf, page 2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_pa
-nel.pdf , page2 used on input line 260.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[54
-
- <../plots/feature_cluster_trends/total_precipitation_panel.pdf>]
-<../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.pdf,
- id=459, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf  used on input line 266.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.pdf,
- id=461, page=1, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page1 used on input line 266.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page1 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-[55]
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page1 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page1 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 1>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page1 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[56
-
- <../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.pdf
->]
-<../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.pdf,
- id=479, page=2, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page2 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page2 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 2>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page2 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[57
-
- <../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.pdf
->]
-<../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.pdf,
- id=484, page=3, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 3>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page3 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 3>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page3 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 3>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page3 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[58
-
- <../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.pdf
->]
-<../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.pdf,
- id=489, page=4, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 4>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page4 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 4>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page4 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 4>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page4 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[59
-
- <../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.pdf
->]
-<../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.pdf,
- id=494, page=5, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 5>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page5 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 5>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page5 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 5>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page5 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[60
-
- <../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.pdf
->]
-<../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.pdf,
- id=500, page=6, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 6>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page6 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 6>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page6 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 6>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page6 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[61
-
- <../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.pdf
->]
-<../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.pdf,
- id=505, page=7, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 7>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page7 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 7>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page7 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 7>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page7 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[62
-
- <../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.pdf
->]
-<../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.pdf,
- id=510, page=8, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 8>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page8 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 8>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page8 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 8>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page8 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[63
-
- <../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.pdf
->]
-<../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.pdf,
- id=515, page=9, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 9>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page9 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 9>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page9 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 9>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page9 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[64
-
- <../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.pdf
->]
-<../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.pdf,
- id=520, page=10, 505.89pt x 505.89pt>
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 10>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page10 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 10>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page10 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend
-.pdf Graphic file (type pdf)
-<use ../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.
-pdf, page 10>
-Package pdftex.def Info: ../plots/feature_cluster_trends/total_precipitation_fe
-ature_cluster_trend.pdf , page10 used on input line 266.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[65
-
- <../plots/feature_cluster_trends/total_precipitation_feature_cluster_trend.pdf
->]
-
-Package caption Warning: Unused \captionsetup[sub] on input line 50.
-See the caption package documentation for explanation.
-
-
-
-[66] (./SSA_Interpretations.aux)
+[89] (./SSA_Interpretations.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `SSA_Interpretations.out' has not changed.
-(rerunfilecheck)             Checksum: F6AF8E228B095A1C6DEDE0CC7517604C;2650.
+(rerunfilecheck)             Checksum: D34A3B639D6CEA926CEFBD2F6B775C71;4443.
  ) 
 Here is how much of TeX's memory you used:
- 31304 strings out of 473190
- 651690 string characters out of 5715801
- 972937 words of memory out of 5000000
- 54027 multiletter control sequences out of 15000+600000
+ 31615 strings out of 473190
+ 656415 string characters out of 5715801
+ 973445 words of memory out of 5000000
+ 54296 multiletter control sequences out of 15000+600000
  566549 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,17n,101p,1015b,1166s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,17n,101p,951b,1164s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on SSA_Interpretations.pdf (67 pages, 8811702 bytes).
+Output written on SSA_Interpretations.pdf (90 pages, 39178311 bytes).
 PDF statistics:
- 578 PDF objects out of 1000 (max. 8388607)
- 415 compressed objects within 5 object streams
- 90 named destinations out of 1000 (max. 500000)
- 444 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1022 PDF objects out of 1200 (max. 8388607)
+ 754 compressed objects within 8 object streams
+ 132 named destinations out of 1000 (max. 500000)
+ 938 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -77,6 +77,10 @@
 
 \tableofcontents
 \setcounter{tocdepth}{4}
+
+
+
+
 \newpage
 
 \counterwithin{figure}{section}
@@ -85,15 +89,18 @@
 
 	
 	
-	\section*{Executive Summary}
+	\section{Executive Summary}
 	
 	Environmental conditions within fields affect the growth of crops in predictable ways. Environmental classification is a process of using environmental features to classify agricultural landscapes into discrete zones that summarize environmental variability that is relevant to crop growth. There is the need to describe macrozones with respect to the features that they contain in order to maximize their utility as management tools.  In particular, SubSahara Africa (hereafter, SSA) utilizes the macrozone model with 25 classes (created by Mike Martinez and Shinichi Kobara), so understanding the variability within and across macrozones also promotes understanding of product segments.  Here, we present initial interpretations of the 25 class macrozone model of SSA along with methodology to facilitate their descriptions.  
 	
 	
+
 	
-	\section*{Macrozones}
-	Environmental classification was used to to create 25 discrete zones (called `macrozones') across the entire spatial extent of SSA (Figure 1).  This model was created from a total of 373 features that included three weather features (average maximum temperature, average temperature range, and total precipitation) from 2013 - 2024 with a monthly temporal resolution, day length, also at a monthly temporal resolution, and elevation (Table 1). As result of this analysis, a full description of each macrozone, along with visualization of elevation, climate and day length trends are given in Appendix 1. 
+	\section{Macrozones}
+	Environmental classification was used to to create 25 discrete zones (called `macrozones') across the entire spatial extent of SSA (Figure \ref{figure:Macrozones_25}).  This model was created from a total of 373 features that included three weather features (average maximum temperature, average temperature range, and total precipitation) from 2013 - 2024 with a monthly temporal resolution, day length, also at a monthly temporal resolution, and elevation (Table \ref{tab:feature_table}. As result of this analysis, a full description of each macrozone, along with visualization of elevation, climate and day length trends are given in Appendix 1. 
 	
+	
+
 	
 	
 	%Table to describe features
@@ -101,7 +108,7 @@
 		\centering
 		\caption{Features used to create the 25 class (macrozone) environmental classification model}  
 		\bigskip
-		\label{my-label}
+		\label{tab:feature_table}
 		\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
 		\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
 		
@@ -137,24 +144,254 @@
 	\bigskip	
 	
 	
+
+	
 	\pagebreak
 	
 	\begin{center}
 		\begin{figure}[H]
 			\centering
-			\includegraphics[scale=0.7]{../plots/Macrozones_25.pdf}  
+			\includegraphics[scale=0.9]{../plots/Macrozones_25.pdf}  
 			\caption{Environmental classification of SSA, 25 Macrozones of the 25 class model.    \label{figure:Macrozones_25} }
 		\end{figure}
 	\end{center}
-	
 	
 
 	
 	
 	\newpage
 	
-	\section*{Results}
+	\section{Results}
 	The methodology used to generalize weather trends across macrozones proved to be successful for capturing distinct patterns in weather and day length.  Visualizations of the geographical locations of similar weather patterns across macrozones conform that these distinct trends describe climate shared by distinct macrozones.  Macrozones that share similar climate were further differentiated by differences in day length and elevation.  A full description of each macrozone, along with visualization of elevation, climate and day length trends are given in Appendix 1.
+	
+	\bigskip
+	
+	\noindent We first show barplots of each feature (elevation, maximum temperature, temperature range, and total precipitation.)  Daylength averages by macrozone were not informative.
+	
+	\bigskip
+	
+	\noindent Then, we show summaries of each macrozone (Macrozones 0 - 24), where each section is devoted to an individual macrozone.  Average elevation and monthly average trends are shown for each temporal feature.  Then, we show, by feature, the macrozones that have similar temporal monthly trends for each feature. 
+	
+
+	\begin{singlespace}
+		
+	\subsection{Average Values by Macrozone}
+
+	\subsubsection{Elevation}
+	
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}{0.8\textwidth}
+			\includegraphics[width=\linewidth]{../plots/Macrozones_25.pdf}
+			\caption{Macrozones}
+		\end{subfigure}
+		
+		\vspace{1cm} % Add vertical space between them
+		
+		\begin{subfigure}{0.8\textwidth}
+			\includegraphics[width=\linewidth]{../plots/summaries/barplots/elevation.pdf}
+			\caption{Average Elevation by Macrozone}
+		\end{subfigure}
+		\caption{Macrozones with average elevation}
+	\end{figure}
+	
+	
+	
+	\subsubsection{Maximum Temperature}
+	
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}{0.8\textwidth}
+			\includegraphics[width=\linewidth]{../plots/Macrozones_25.pdf}
+			\caption{Macrozones}
+		\end{subfigure}
+		
+		\vspace{1cm} % Add vertical space between them
+		
+		\begin{subfigure}{0.8\textwidth}
+			\includegraphics[width=\linewidth]{../plots/summaries/barplots/max_temperature.pdf}
+			\caption{Average Annual Maximum Temperature by Macrozone}
+		\end{subfigure}
+		\caption{Macrozones with annual average maximum temperature}
+	\end{figure}
+	
+	
+	
+	
+	
+	\subsubsection{Temperature Range}
+	
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}{0.8\textwidth}
+			\includegraphics[width=\linewidth]{../plots/Macrozones_25.pdf}
+			\caption{Macrozones}
+		\end{subfigure}
+		
+		\vspace{1cm} % Add vertical space between them
+		
+		\begin{subfigure}{0.8\textwidth}
+			\includegraphics[width=\linewidth]{../plots/summaries/barplots/temperature_range.pdf}
+			\caption{Average Annual Temperature Range by Macrozone}
+		\end{subfigure}
+		\caption{Macrozones with annual average temperature range}
+	\end{figure}
+	
+
+	
+	
+	
+	\subsubsection{Total Precipitation}
+	
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}{0.8\textwidth}
+			\includegraphics[width=\linewidth]{../plots/Macrozones_25.pdf}
+			\caption{Macrozones}
+		\end{subfigure}
+		
+		\vspace{1cm} % Add vertical space between them
+		
+		\begin{subfigure}{0.8\textwidth}
+			\includegraphics[width=\linewidth]{../plots/summaries/barplots/temperature_range.pdf}
+			\caption{Average Annual Total Precipitation by Macrozone}
+		\end{subfigure}
+		\caption{Macrozones with annual average total precipitation}
+	\end{figure}
+	
+	
+		\end{singlespace}
+		
+		
+		
+	\subsection{Results by Macrozone}	
+	
+	
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 0}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_0.pdf}
+		
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 1}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_1.pdf}
+	
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 2}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_2.pdf}
+	
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 3}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_3.pdf}
+	
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 4}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_4.pdf}
+	
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 5}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_5.pdf}
+	
+\phantomsection
+\addcontentsline{toc}{subsection}{Macrozone 6}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_6.pdf}
+	
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 7}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_7.pdf}
+		
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 8}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_8.pdf}
+	
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 9}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_9.pdf}
+	
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 10}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_10.pdf}
+	
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 11}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_11.pdf}
+	
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 12}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_12.pdf}
+	
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 13}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_13.pdf}
+	
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 14}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_14.pdf}
+	
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 15}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_15.pdf}
+	
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 16}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_16.pdf}
+	
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 17}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_17.pdf}
+	
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 18}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_18.pdf}
+	
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 19}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_19.pdf}
+	
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 20}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_20.pdf}
+	
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 21}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_21.pdf}
+	
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 22}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_22.pdf}
+	
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 23}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_23.pdf}	
+		
+	\phantomsection
+	\addcontentsline{toc}{subsection}{Macrozone 24}
+		\includepdf[pages=-]{../plots/summaries/Macrozone_24.pdf}		
+	
+	
+	
+	
+	\section{Materials and Methods for common trend lines}
+	One caveat of interpreting macrozones is the high dimensionality of features (here, a 40 X 373 matrix).  The mean and standard deviation of original feature values and feature weights were used to back-transform z-scores of centroids to original values.  These values were used in interpretations.    
+	
+	\bigskip
+	
+	\noindent \textbf{Cluster Analysis} \\
+	
+	\smallskip
+	
+	\noindent Weather proved to be the most challenging set of features to interpret because each weather feature (average maximum temperature, average temperature range, and total precipitation) was composed of 120 columns (10 years of monthly temporal resolution).  This high dimensionality made it difficult to discern general weather patterns that collective groups of macrozones may have.  We simplified weather trends and observed patterns by performing the following methodology.  For each weather feature, we averaged weather observations for each month within each macrozone to obtain a 10-year average trend at a monthly resolution.  This reduced the total dimensionality to a 40 X 12 matrix containing distinct monthly weather for each macrozone.  \\
+	
+	\noindent Once average weather was obtained for each macrozone, we wished to compare patterns of weather trends across macrozones.  Ward's clustering was computed on the Euclidean distance of collective average trends for each weather feature.  Scree plots aided the determination of the number of unique weather patterns exhibited across macrozones.  Once the number of clusters were determined, the mean average of annual trends within clusters was calculated and plotted with each separate macrozone weather trend to verify that the approach successfully captured weather patterns.  We performed the same methodology for this day length trend, however daylength was already reduced to a single annual trend (a 40 X 12 matrix).  We visualized the new cluster assignments that summarize weather patterns and daylength within macrozones by reclassifying macrozone designations to their cluster assignment.  
+	
+	
+	
+	
+	
+	
+	
+	
+	\end{document}
+	
 	
 	
 	\subsection{Daylength}
@@ -269,17 +506,6 @@
 	
 	
 	
-	
-	
-	\section*{Materials and Methods}
-	One caveat of interpreting macrozones is the high dimensionality of features (here, a 40 X 373 matrix).  The mean and standard deviation of original feature values and feature weights were used to back-transform z-scores of centroids to original values.  These values were used in interpretations.    
-	
-	\bigskip
-	
-	\noindent \textbf{Cluster Analysis} \\
-	Weather proved to be the most challenging set of features to interpret because each weather feature (average maximum temperature, average temperature range, and total precipitation) was composed of 120 columns (10 years of monthly temporal resolution).  This high dimensionality made it difficult to discern general weather patterns that collective groups of macrozones may have.  We simplified weather trends and observed patterns by performing the following methodology.  For each weather feature, we averaged weather observations for each month within each macrozone to obtain a 10-year average trend at a monthly resolution.  This reduced the total dimensionality to a 40 X 12 matrix containing distinct monthly weather for each macrozone.  
-	
-	Once average weather was obtained for each macrozone, we wished to compare patterns of weather trends across macrozones.  Ward's clustering was computed on the Euclidean distance of collective average trends for each weather feature.  Scree plots aided the determination of the number of unique weather patterns exhibited across macrozones.  Once the number of clusters were determined, the mean average of annual trends within clusters was calculated and plotted with each separate macrozone weather trend to verify that the approach successfully captured weather patterns.  We performed the same methodology for this day length trend, however day length was already reduced to a single annual trend (a 40 X 12 matrix).  We visualized the new cluster assignments that summarize weather patterns and day length within macrozones by reclassifying macrozone designations to their cluster assignment.  We summarized average elevation within each macrozone with a bar plot.   
 	
 	
 	

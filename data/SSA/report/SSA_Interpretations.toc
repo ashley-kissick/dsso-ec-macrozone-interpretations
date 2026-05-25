@@ -1,12 +1,35 @@
-\contentsline {subsection}{\numberline {0.1}Daylength}{5}{subsection.0.1}%
-\contentsline {subsubsection}{\numberline {0.1.1}Daylength summaries across clusters}{6}{subsubsection.0.1.1}%
-\contentsline {subsubsection}{\numberline {0.1.2}Daylength summaries by cluster}{9}{subsubsection.0.1.2}%
-\contentsline {subsection}{\numberline {0.2}Max Temperature}{18}{subsection.0.2}%
-\contentsline {subsubsection}{\numberline {0.2.1}Max Temperature summaries across clusters}{19}{subsubsection.0.2.1}%
-\contentsline {subsubsection}{\numberline {0.2.2}Max Temperature summaries by cluster}{22}{subsubsection.0.2.2}%
-\contentsline {subsection}{\numberline {0.3}Temperature Range}{35}{subsection.0.3}%
-\contentsline {subsubsection}{\numberline {0.3.1}Max Temperature summaries across clusters}{36}{subsubsection.0.3.1}%
-\contentsline {subsubsection}{\numberline {0.3.2}Max Temperature summaries by cluster}{39}{subsubsection.0.3.2}%
-\contentsline {subsection}{\numberline {0.4}Total Precipitation}{51}{subsection.0.4}%
-\contentsline {subsubsection}{\numberline {0.4.1}Total Precipitation summaries across clusters}{52}{subsubsection.0.4.1}%
-\contentsline {subsubsection}{\numberline {0.4.2}Total Precipitation summaries by cluster}{55}{subsubsection.0.4.2}%
+\contentsline {section}{\numberline {1}Executive Summary}{2}{section.1}%
+\contentsline {section}{\numberline {2}Macrozones}{2}{section.2}%
+\contentsline {section}{\numberline {3}Results}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Average Values by Macrozone}{6}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Elevation}{6}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Maximum Temperature}{8}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Temperature Range}{10}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}Total Precipitation}{12}{subsubsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.2}Results by Macrozone}{13}{subsection.3.2}%
+\contentsline {subsection}{Macrozone 0}{13}{section*.8}%
+\contentsline {subsection}{Macrozone 1}{17}{section*.9}%
+\contentsline {subsection}{Macrozone 2}{20}{section*.10}%
+\contentsline {subsection}{Macrozone 3}{23}{section*.11}%
+\contentsline {subsection}{Macrozone 4}{26}{section*.12}%
+\contentsline {subsection}{Macrozone 5}{29}{section*.13}%
+\contentsline {subsection}{Macrozone 6}{32}{section*.14}%
+\contentsline {subsection}{Macrozone 7}{35}{section*.15}%
+\contentsline {subsection}{Macrozone 8}{38}{section*.16}%
+\contentsline {subsection}{Macrozone 9}{41}{section*.17}%
+\contentsline {subsection}{Macrozone 10}{44}{section*.18}%
+\contentsline {subsection}{Macrozone 11}{47}{section*.19}%
+\contentsline {subsection}{Macrozone 12}{50}{section*.20}%
+\contentsline {subsection}{Macrozone 13}{53}{section*.21}%
+\contentsline {subsection}{Macrozone 14}{56}{section*.22}%
+\contentsline {subsection}{Macrozone 15}{59}{section*.23}%
+\contentsline {subsection}{Macrozone 16}{62}{section*.24}%
+\contentsline {subsection}{Macrozone 17}{65}{section*.25}%
+\contentsline {subsection}{Macrozone 18}{68}{section*.26}%
+\contentsline {subsection}{Macrozone 19}{71}{section*.27}%
+\contentsline {subsection}{Macrozone 20}{74}{section*.28}%
+\contentsline {subsection}{Macrozone 21}{77}{section*.29}%
+\contentsline {subsection}{Macrozone 22}{80}{section*.30}%
+\contentsline {subsection}{Macrozone 23}{83}{section*.31}%
+\contentsline {subsection}{Macrozone 24}{86}{section*.32}%
+\contentsline {section}{\numberline {4}Materials and Methods for common trend lines}{89}{section.4}%
