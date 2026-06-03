@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  25 MAY 2026 11:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  3 JUN 2026 06:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -876,52 +876,68 @@ Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 \colbreak@box=\box137
 \mc@col@check@num=\count368
 )
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csvsimple/csvsimple.sty
+Package: csvsimple 2024/09/27 v2.7.0 LaTeX CSV file processing
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csvsimple/csvsimple-legacy.sty
+Package: csvsimple-legacy 2024/09/27 version 2.7.0 LaTeX2e CSV file processing
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+\csv@file=\read4
+\c@csvinputline=\count369
+\c@csvrow=\count370
+\c@csvcol=\count371
+\csv@out=\write4
+)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 67.
+h' as default language. on input line 68.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count369
+\l__color_backend_stack_int=\count372
 \l__pdf_internal_box=\box138
 )
 (./SSA_Interpretations.aux)
 \openout1 = `SSA_Interpretations.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-\c@lstlisting=\count370
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+\c@lstlisting=\count373
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count371
+\scratchcounter=\count374
 \scratchdimen=\dimen302
 \scratchbox=\box139
-\nofMPsegments=\count372
-\nofMParguments=\count373
+\nofMPsegments=\count375
+\nofMParguments=\count376
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count374
+\MPscratchCnt=\count377
 \MPscratchDim=\dimen303
-\MPnumerator=\count375
-\makeMPintoPDFobject=\count376
+\MPnumerator=\count378
+\makeMPintoPDFobject=\count379
 \everyMPtoPDFconversion=\toks48
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -935,11 +951,11 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 67.
+Package hyperref Info: Link coloring ON on input line 68.
 
 (./SSA_Interpretations.out) (./SSA_Interpretations.out)
-\@outlinefile=\write4
-\openout4 = `SSA_Interpretations.out'.
+\@outlinefile=\write5
+\openout5 = `SSA_Interpretations.out'.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-d
@@ -948,14 +964,14 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 67.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 76.
+or `english'. on input line 68.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 77.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 77.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -966,8 +982,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./SSA_Interpretations.toc)
-\tf@toc=\write5
-\openout5 = `SSA_Interpretations.toc'.
+\tf@toc=\write6
+\openout6 = `SSA_Interpretations.toc'.
 
 
 
@@ -976,2108 +992,2210 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.84 \newpage
+l.89 \newpage
               [1]
 
 [2]
-<../plots/Macrozones_25.pdf, id=205, 505.89pt x 505.89pt>
+<../plots/Macrozones_25.pdf, id=216, 505.89pt x 505.89pt>
 File: ../plots/Macrozones_25.pdf Graphic file (type pdf)
 <use ../plots/Macrozones_25.pdf>
-Package pdftex.def Info: ../plots/Macrozones_25.pdf  used on input line 154.
+Package pdftex.def Info: ../plots/Macrozones_25.pdf  used on input line 159.
 (pdftex.def)             Requested size: 455.29678pt x 455.29678pt.
 
 
 [3 <../plots/Macrozones_25.pdf>]
-File: ../plots/Macrozones_25.pdf Graphic file (type pdf)
-<use ../plots/Macrozones_25.pdf>
-Package pdftex.def Info: ../plots/Macrozones_25.pdf  used on input line 185.
-(pdftex.def)             Requested size: 375.80544pt x 375.81166pt.
-<../plots/summaries/barplots/elevation.pdf, id=219, 650.43pt x 361.35pt>
-File: ../plots/summaries/barplots/elevation.pdf Graphic file (type pdf)
-<use ../plots/summaries/barplots/elevation.pdf>
-Package pdftex.def Info: ../plots/summaries/barplots/elevation.pdf  used on inp
-ut line 192.
-(pdftex.def)             Requested size: 375.80544pt x 208.78365pt.
+<../plots/summaries/spreadsheets/averages.pdf, id=230, 794.97pt x 722.7pt>
+File: ../plots/summaries/spreadsheets/averages.pdf Graphic file (type pdf)
+<use ../plots/summaries/spreadsheets/averages.pdf>
+Package pdftex.def Info: ../plots/summaries/spreadsheets/averages.pdf  used on 
+input line 188.
+(pdftex.def)             Requested size: 556.4752pt x 505.88655pt.
+
+Overfull \hbox (86.72018pt too wide) in paragraph at lines 188--189
+ [][] 
+ []
+
 
 
 [4]
-
-[5]
-Overfull \vbox (102.96175pt too high) has occurred while \output is active []
-
-
-
-[6 <../plots/summaries/barplots/elevation.pdf>]
 File: ../plots/Macrozones_25.pdf Graphic file (type pdf)
 <use ../plots/Macrozones_25.pdf>
-Package pdftex.def Info: ../plots/Macrozones_25.pdf  used on input line 205.
-(pdftex.def)             Requested size: 375.80544pt x 375.81166pt.
-<../plots/summaries/barplots/max_temperature.pdf, id=243, 650.43pt x 361.35pt>
-File: ../plots/summaries/barplots/max_temperature.pdf Graphic file (type pdf)
-<use ../plots/summaries/barplots/max_temperature.pdf>
-Package pdftex.def Info: ../plots/summaries/barplots/max_temperature.pdf  used 
-on input line 212.
+Package pdftex.def Info: ../plots/Macrozones_25.pdf  used on input line 213.
+(pdftex.def)             Requested size: 281.85587pt x 281.86067pt.
+<../plots/summaries/barplots/elevation.pdf, id=235, 650.43pt x 361.35pt>
+File: ../plots/summaries/barplots/elevation.pdf Graphic file (type pdf)
+<use ../plots/summaries/barplots/elevation.pdf>
+Package pdftex.def Info: ../plots/summaries/barplots/elevation.pdf  used on inp
+ut line 220.
 (pdftex.def)             Requested size: 375.80544pt x 208.78365pt.
 
 
-[7]
-Overfull \vbox (84.41905pt too high) has occurred while \output is active []
+[5 <../plots/summaries/spreadsheets/averages.pdf>]
 
+[6]
+Overfull \vbox (9.01076pt too high) has occurred while \output is active []
+
+
+
+[7 <../plots/summaries/barplots/elevation.pdf>]
+File: ../plots/Macrozones_25.pdf Graphic file (type pdf)
+<use ../plots/Macrozones_25.pdf>
+Package pdftex.def Info: ../plots/Macrozones_25.pdf  used on input line 233.
+(pdftex.def)             Requested size: 281.85587pt x 281.86067pt.
+<../plots/summaries/barplots/max_temperature.pdf, id=268, 650.43pt x 361.35pt>
+File: ../plots/summaries/barplots/max_temperature.pdf Graphic file (type pdf)
+<use ../plots/summaries/barplots/max_temperature.pdf>
+Package pdftex.def Info: ../plots/summaries/barplots/max_temperature.pdf  used 
+on input line 240.
+(pdftex.def)             Requested size: 375.80544pt x 208.78365pt.
+<../plots/summaries/shin/max_temp_m_sd.png, id=269, 845.1575pt x 809.0225pt>
+File: ../plots/summaries/shin/max_temp_m_sd.png Graphic file (type png)
+<use ../plots/summaries/shin/max_temp_m_sd.png>
+Package pdftex.def Info: ../plots/summaries/shin/max_temp_m_sd.png  used on inp
+ut line 252.
+(pdftex.def)             Requested size: 469.75502pt x 449.67943pt.
 
 
 [8 <../plots/summaries/barplots/max_temperature.pdf>]
 File: ../plots/Macrozones_25.pdf Graphic file (type pdf)
 <use ../plots/Macrozones_25.pdf>
-Package pdftex.def Info: ../plots/Macrozones_25.pdf  used on input line 227.
-(pdftex.def)             Requested size: 375.80544pt x 375.81166pt.
-<../plots/summaries/barplots/temperature_range.pdf, id=262, 650.43pt x 361.35pt
+Package pdftex.def Info: ../plots/Macrozones_25.pdf  used on input line 269.
+(pdftex.def)             Requested size: 281.85587pt x 281.86067pt.
+<../plots/summaries/barplots/temperature_range.pdf, id=286, 650.43pt x 361.35pt
 >
 File: ../plots/summaries/barplots/temperature_range.pdf Graphic file (type pdf)
 
 <use ../plots/summaries/barplots/temperature_range.pdf>
 Package pdftex.def Info: ../plots/summaries/barplots/temperature_range.pdf  use
-d on input line 234.
+d on input line 276.
 (pdftex.def)             Requested size: 375.80544pt x 208.78365pt.
 
 
-[9]
-Overfull \vbox (84.41905pt too high) has occurred while \output is active []
-
-
-
-[10 <../plots/summaries/barplots/temperature_range.pdf>]
+[9 <../plots/summaries/shin/max_temp_m_sd.png>]
 File: ../plots/Macrozones_25.pdf Graphic file (type pdf)
 <use ../plots/Macrozones_25.pdf>
-Package pdftex.def Info: ../plots/Macrozones_25.pdf  used on input line 249.
-(pdftex.def)             Requested size: 375.80544pt x 375.81166pt.
+Package pdftex.def Info: ../plots/Macrozones_25.pdf  used on input line 291.
+(pdftex.def)             Requested size: 281.85587pt x 281.86067pt.
 File: ../plots/summaries/barplots/temperature_range.pdf Graphic file (type pdf)
 
 <use ../plots/summaries/barplots/temperature_range.pdf>
 Package pdftex.def Info: ../plots/summaries/barplots/temperature_range.pdf  use
-d on input line 256.
+d on input line 298.
 (pdftex.def)             Requested size: 375.80544pt x 208.78365pt.
 
 
+[10 <../plots/summaries/barplots/temperature_range.pdf>]
+<../plots/summaries/shin/total_precipitation_m_sd.png, id=308, 836.12375pt x 68
+8.5725pt>
+File: ../plots/summaries/shin/total_precipitation_m_sd.png Graphic file (type p
+ng)
+<use ../plots/summaries/shin/total_precipitation_m_sd.png>
+Package pdftex.def Info: ../plots/summaries/shin/total_precipitation_m_sd.png  
+used on input line 308.
+(pdftex.def)             Requested size: 469.75502pt x 386.86928pt.
+
+
 [11]
-Overfull \vbox (84.41905pt too high) has occurred while \output is active []
-
-
-
-[12]
-<../plots/summaries/Macrozone_0.pdf, id=291, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_0.pdf, id=315, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_0.pdf>
 Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf  used on input line
- 272.
+ 336.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_0.pdf, id=293, page=1, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_0.pdf, id=317, page=1, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_0.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page1 used on inp
-ut line 272.
+ut line 336.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_0.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page1 used on inp
-ut line 272.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+ut line 336.
+(pdftex.def)             Requested size: 480.59276pt x 480.59276pt.
 
 
-[13]
+[12 <../plots/summaries/shin/total_precipitation_m_sd.png>]
 File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_0.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page1 used on inp
-ut line 272.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+ut line 336.
+(pdftex.def)             Requested size: 480.59276pt x 480.59276pt.
 File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_0.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page1 used on inp
-ut line 272.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+ut line 336.
+(pdftex.def)             Requested size: 480.59276pt x 480.59276pt.
 
 
 File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_0.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page1 used on inp
-ut line 272.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+ut line 336.
+(pdftex.def)             Requested size: 480.59276pt x 480.59276pt.
+[13
+
+ <../plots/summaries/Macrozone_0.pdf>]
+<../plots/summaries/Macrozone_0.pdf, id=338, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_0.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page2 used on inp
+ut line 336.
+(pdftex.def)             Requested size: 480.59276pt x 480.59276pt.
+File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_0.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page2 used on inp
+ut line 336.
+(pdftex.def)             Requested size: 480.59276pt x 480.59276pt.
+
+
+File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_0.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page2 used on inp
+ut line 336.
+(pdftex.def)             Requested size: 480.59276pt x 480.59276pt.
 [14
 
  <../plots/summaries/Macrozone_0.pdf>]
-<../plots/summaries/Macrozone_0.pdf, id=312, page=2, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_0.pdf, id=343, page=3, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_0.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page2 used on inp
-ut line 272.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+<use ../plots/summaries/Macrozone_0.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page3 used on inp
+ut line 336.
+(pdftex.def)             Requested size: 480.59276pt x 480.59276pt.
 File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_0.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page2 used on inp
-ut line 272.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+<use ../plots/summaries/Macrozone_0.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page3 used on inp
+ut line 336.
+(pdftex.def)             Requested size: 480.59276pt x 480.59276pt.
 
 
 File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_0.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page2 used on inp
-ut line 272.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+<use ../plots/summaries/Macrozone_0.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page3 used on inp
+ut line 336.
+(pdftex.def)             Requested size: 480.59276pt x 480.59276pt.
 [15
 
  <../plots/summaries/Macrozone_0.pdf>]
-<../plots/summaries/Macrozone_0.pdf, id=317, page=3, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_0.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page3 used on inp
-ut line 272.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_0.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page3 used on inp
-ut line 272.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/summaries/Macrozone_0.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_0.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_0.pdf , page3 used on inp
-ut line 272.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[16
-
- <../plots/summaries/Macrozone_0.pdf>]
-<../plots/summaries/Macrozone_1.pdf, id=322, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_1.pdf, id=348, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_1.pdf>
 Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf  used on input line
- 276.
+ 340.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_1.pdf, id=324, page=1, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_1.pdf, id=350, page=1, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_1.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page1 used on inp
-ut line 276.
+ut line 340.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_1.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page1 used on inp
-ut line 276.
+ut line 340.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_1.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page1 used on inp
-ut line 276.
+ut line 340.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_1.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page1 used on inp
-ut line 276.
+ut line 340.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_1.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page1 used on inp
-ut line 276.
+ut line 340.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[16
+
+ <../plots/summaries/Macrozone_1.pdf>]
+<../plots/summaries/Macrozone_1.pdf, id=364, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_1.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page2 used on inp
+ut line 340.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_1.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page2 used on inp
+ut line 340.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_1.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page2 used on inp
+ut line 340.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [17
 
  <../plots/summaries/Macrozone_1.pdf>]
-<../plots/summaries/Macrozone_1.pdf, id=338, page=2, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_1.pdf, id=369, page=3, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_1.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page2 used on inp
-ut line 276.
+<use ../plots/summaries/Macrozone_1.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page3 used on inp
+ut line 340.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_1.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page2 used on inp
-ut line 276.
+<use ../plots/summaries/Macrozone_1.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page3 used on inp
+ut line 340.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_1.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page2 used on inp
-ut line 276.
+<use ../plots/summaries/Macrozone_1.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page3 used on inp
+ut line 340.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [18
 
  <../plots/summaries/Macrozone_1.pdf>]
-<../plots/summaries/Macrozone_1.pdf, id=344, page=3, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_1.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page3 used on inp
-ut line 276.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_1.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page3 used on inp
-ut line 276.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/summaries/Macrozone_1.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_1.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_1.pdf , page3 used on inp
-ut line 276.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[19
-
- <../plots/summaries/Macrozone_1.pdf>]
-<../plots/summaries/Macrozone_2.pdf, id=349, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_2.pdf, id=375, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_2.pdf>
 Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf  used on input line
- 280.
+ 344.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_2.pdf, id=351, page=1, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_2.pdf, id=377, page=1, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_2.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page1 used on inp
-ut line 280.
+ut line 344.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_2.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page1 used on inp
-ut line 280.
+ut line 344.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_2.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page1 used on inp
-ut line 280.
+ut line 344.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_2.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page1 used on inp
-ut line 280.
+ut line 344.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_2.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page1 used on inp
-ut line 280.
+ut line 344.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[19
+
+ <../plots/summaries/Macrozone_2.pdf>]
+<../plots/summaries/Macrozone_2.pdf, id=391, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_2.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page2 used on inp
+ut line 344.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_2.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page2 used on inp
+ut line 344.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_2.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page2 used on inp
+ut line 344.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [20
 
  <../plots/summaries/Macrozone_2.pdf>]
-<../plots/summaries/Macrozone_2.pdf, id=365, page=2, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_2.pdf, id=396, page=3, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_2.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page2 used on inp
-ut line 280.
+<use ../plots/summaries/Macrozone_2.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page3 used on inp
+ut line 344.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_2.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page2 used on inp
-ut line 280.
+<use ../plots/summaries/Macrozone_2.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page3 used on inp
+ut line 344.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_2.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page2 used on inp
-ut line 280.
+<use ../plots/summaries/Macrozone_2.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page3 used on inp
+ut line 344.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [21
 
  <../plots/summaries/Macrozone_2.pdf>]
-<../plots/summaries/Macrozone_2.pdf, id=370, page=3, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_2.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page3 used on inp
-ut line 280.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_2.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page3 used on inp
-ut line 280.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/summaries/Macrozone_2.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_2.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_2.pdf , page3 used on inp
-ut line 280.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[22
-
- <../plots/summaries/Macrozone_2.pdf>]
-<../plots/summaries/Macrozone_3.pdf, id=375, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_3.pdf, id=401, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_3.pdf>
 Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf  used on input line
- 284.
+ 348.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_3.pdf, id=377, page=1, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_3.pdf, id=403, page=1, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_3.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page1 used on inp
-ut line 284.
+ut line 348.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_3.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page1 used on inp
-ut line 284.
+ut line 348.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_3.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page1 used on inp
-ut line 284.
+ut line 348.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_3.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page1 used on inp
-ut line 284.
+ut line 348.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_3.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page1 used on inp
-ut line 284.
+ut line 348.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[22
+
+ <../plots/summaries/Macrozone_3.pdf>]
+<../plots/summaries/Macrozone_3.pdf, id=417, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_3.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page2 used on inp
+ut line 348.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_3.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page2 used on inp
+ut line 348.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_3.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page2 used on inp
+ut line 348.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [23
 
  <../plots/summaries/Macrozone_3.pdf>]
-<../plots/summaries/Macrozone_3.pdf, id=391, page=2, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_3.pdf, id=422, page=3, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_3.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page2 used on inp
-ut line 284.
+<use ../plots/summaries/Macrozone_3.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page3 used on inp
+ut line 348.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_3.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page2 used on inp
-ut line 284.
+<use ../plots/summaries/Macrozone_3.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page3 used on inp
+ut line 348.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_3.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page2 used on inp
-ut line 284.
+<use ../plots/summaries/Macrozone_3.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page3 used on inp
+ut line 348.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [24
 
  <../plots/summaries/Macrozone_3.pdf>]
-<../plots/summaries/Macrozone_3.pdf, id=397, page=3, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_3.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page3 used on inp
-ut line 284.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_3.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page3 used on inp
-ut line 284.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/summaries/Macrozone_3.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_3.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_3.pdf , page3 used on inp
-ut line 284.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[25
-
- <../plots/summaries/Macrozone_3.pdf>]
-<../plots/summaries/Macrozone_4.pdf, id=402, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_4.pdf, id=428, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_4.pdf>
 Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf  used on input line
- 288.
+ 352.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_4.pdf, id=404, page=1, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_4.pdf, id=430, page=1, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_4.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page1 used on inp
-ut line 288.
+ut line 352.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_4.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page1 used on inp
-ut line 288.
+ut line 352.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_4.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page1 used on inp
-ut line 288.
+ut line 352.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_4.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page1 used on inp
-ut line 288.
+ut line 352.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_4.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page1 used on inp
-ut line 288.
+ut line 352.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[25
+
+ <../plots/summaries/Macrozone_4.pdf>]
+<../plots/summaries/Macrozone_4.pdf, id=444, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_4.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page2 used on inp
+ut line 352.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_4.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page2 used on inp
+ut line 352.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_4.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page2 used on inp
+ut line 352.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [26
 
  <../plots/summaries/Macrozone_4.pdf>]
-<../plots/summaries/Macrozone_4.pdf, id=418, page=2, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_4.pdf, id=450, page=3, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_4.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page2 used on inp
-ut line 288.
+<use ../plots/summaries/Macrozone_4.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page3 used on inp
+ut line 352.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_4.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page2 used on inp
-ut line 288.
+<use ../plots/summaries/Macrozone_4.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page3 used on inp
+ut line 352.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_4.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page2 used on inp
-ut line 288.
+<use ../plots/summaries/Macrozone_4.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page3 used on inp
+ut line 352.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [27
 
  <../plots/summaries/Macrozone_4.pdf>]
-<../plots/summaries/Macrozone_4.pdf, id=423, page=3, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_4.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page3 used on inp
-ut line 288.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_4.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page3 used on inp
-ut line 288.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/summaries/Macrozone_4.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_4.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_4.pdf , page3 used on inp
-ut line 288.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[28
-
- <../plots/summaries/Macrozone_4.pdf>]
-<../plots/summaries/Macrozone_5.pdf, id=428, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_5.pdf, id=456, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_5.pdf>
 Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf  used on input line
- 292.
+ 358.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_5.pdf, id=430, page=1, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_5.pdf, id=458, page=1, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_5.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page1 used on inp
-ut line 292.
+ut line 358.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_5.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page1 used on inp
-ut line 292.
+ut line 358.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+[28]
+File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_5.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page1 used on inp
+ut line 358.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_5.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page1 used on inp
-ut line 292.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_5.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page1 used on inp
-ut line 292.
+ut line 358.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_5.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page1 used on inp
-ut line 292.
+ut line 358.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [29
 
  <../plots/summaries/Macrozone_5.pdf>]
-<../plots/summaries/Macrozone_5.pdf, id=444, page=2, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_5.pdf, id=476, page=2, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_5.pdf, page 2>
 Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page2 used on inp
-ut line 292.
+ut line 358.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_5.pdf, page 2>
 Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page2 used on inp
-ut line 292.
+ut line 358.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_5.pdf, page 2>
 Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page2 used on inp
-ut line 292.
+ut line 358.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [30
 
  <../plots/summaries/Macrozone_5.pdf>]
-<../plots/summaries/Macrozone_5.pdf, id=451, page=3, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_5.pdf, id=482, page=3, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_5.pdf, page 3>
 Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page3 used on inp
-ut line 292.
+ut line 358.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_5.pdf, page 3>
 Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page3 used on inp
-ut line 292.
+ut line 358.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_5.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_5.pdf, page 3>
 Package pdftex.def Info: ../plots/summaries/Macrozone_5.pdf , page3 used on inp
-ut line 292.
+ut line 358.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [31
 
  <../plots/summaries/Macrozone_5.pdf>]
-<../plots/summaries/Macrozone_6.pdf, id=456, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_6.pdf, id=487, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_6.pdf>
 Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf  used on input line
- 296.
+ 362.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_6.pdf, id=458, page=1, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_6.pdf, id=489, page=1, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_6.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page1 used on inp
-ut line 296.
+ut line 362.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_6.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page1 used on inp
-ut line 296.
+ut line 362.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_6.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page1 used on inp
-ut line 296.
+ut line 362.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_6.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page1 used on inp
-ut line 296.
+ut line 362.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_6.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page1 used on inp
-ut line 296.
+ut line 362.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [32
 
  <../plots/summaries/Macrozone_6.pdf>]
-<../plots/summaries/Macrozone_6.pdf, id=472, page=2, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_6.pdf, id=503, page=2, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_6.pdf, page 2>
 Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page2 used on inp
-ut line 296.
+ut line 362.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_6.pdf, page 2>
 Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page2 used on inp
-ut line 296.
+ut line 362.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_6.pdf, page 2>
 Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page2 used on inp
-ut line 296.
+ut line 362.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [33
 
  <../plots/summaries/Macrozone_6.pdf>]
-<../plots/summaries/Macrozone_6.pdf, id=477, page=3, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_6.pdf, id=508, page=3, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_6.pdf, page 3>
 Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page3 used on inp
-ut line 296.
+ut line 362.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_6.pdf, page 3>
 Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page3 used on inp
-ut line 296.
+ut line 362.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_6.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_6.pdf, page 3>
 Package pdftex.def Info: ../plots/summaries/Macrozone_6.pdf , page3 used on inp
-ut line 296.
+ut line 362.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [34
 
  <../plots/summaries/Macrozone_6.pdf>]
-<../plots/summaries/Macrozone_7.pdf, id=482, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_7.pdf, id=513, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_7.pdf>
 Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf  used on input line
- 300.
+ 366.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_7.pdf, id=484, page=1, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_7.pdf, id=515, page=1, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_7.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page1 used on inp
-ut line 300.
+ut line 366.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_7.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page1 used on inp
-ut line 300.
+ut line 366.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_7.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page1 used on inp
-ut line 300.
+ut line 366.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_7.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page1 used on inp
-ut line 300.
+ut line 366.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_7.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page1 used on inp
-ut line 300.
+ut line 366.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [35
 
  <../plots/summaries/Macrozone_7.pdf>]
-<../plots/summaries/Macrozone_7.pdf, id=498, page=2, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_7.pdf, id=529, page=2, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_7.pdf, page 2>
 Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page2 used on inp
-ut line 300.
+ut line 366.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_7.pdf, page 2>
 Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page2 used on inp
-ut line 300.
+ut line 366.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_7.pdf, page 2>
 Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page2 used on inp
-ut line 300.
+ut line 366.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [36
 
  <../plots/summaries/Macrozone_7.pdf>]
-<../plots/summaries/Macrozone_7.pdf, id=504, page=3, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_7.pdf, id=535, page=3, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_7.pdf, page 3>
 Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page3 used on inp
-ut line 300.
+ut line 366.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_7.pdf, page 3>
 Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page3 used on inp
-ut line 300.
+ut line 366.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_7.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_7.pdf, page 3>
 Package pdftex.def Info: ../plots/summaries/Macrozone_7.pdf , page3 used on inp
-ut line 300.
+ut line 366.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [37
 
  <../plots/summaries/Macrozone_7.pdf>]
-<../plots/summaries/Macrozone_8.pdf, id=509, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_8.pdf, id=540, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_8.pdf>
 Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf  used on input line
- 304.
+ 370.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_8.pdf, id=511, page=1, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_8.pdf, id=542, page=1, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_8.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page1 used on inp
-ut line 304.
+ut line 370.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_8.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page1 used on inp
-ut line 304.
+ut line 370.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_8.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page1 used on inp
-ut line 304.
+ut line 370.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_8.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page1 used on inp
-ut line 304.
+ut line 370.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_8.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page1 used on inp
-ut line 304.
+ut line 370.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [38
 
  <../plots/summaries/Macrozone_8.pdf>]
-<../plots/summaries/Macrozone_8.pdf, id=525, page=2, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_8.pdf, id=556, page=2, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_8.pdf, page 2>
 Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page2 used on inp
-ut line 304.
+ut line 370.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_8.pdf, page 2>
 Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page2 used on inp
-ut line 304.
+ut line 370.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_8.pdf, page 2>
 Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page2 used on inp
-ut line 304.
+ut line 370.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [39
 
  <../plots/summaries/Macrozone_8.pdf>]
-<../plots/summaries/Macrozone_8.pdf, id=530, page=3, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_8.pdf, id=561, page=3, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_8.pdf, page 3>
 Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page3 used on inp
-ut line 304.
+ut line 370.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_8.pdf, page 3>
 Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page3 used on inp
-ut line 304.
+ut line 370.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_8.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_8.pdf, page 3>
 Package pdftex.def Info: ../plots/summaries/Macrozone_8.pdf , page3 used on inp
-ut line 304.
+ut line 370.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [40
 
  <../plots/summaries/Macrozone_8.pdf>]
-<../plots/summaries/Macrozone_9.pdf, id=535, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_9.pdf, id=566, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_9.pdf>
 Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf  used on input line
- 308.
+ 374.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_9.pdf, id=537, page=1, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_9.pdf, id=568, page=1, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_9.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page1 used on inp
-ut line 308.
+ut line 374.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_9.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page1 used on inp
-ut line 308.
+ut line 374.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_9.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page1 used on inp
-ut line 308.
+ut line 374.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_9.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page1 used on inp
-ut line 308.
+ut line 374.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_9.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page1 used on inp
-ut line 308.
+ut line 374.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [41
 
  <../plots/summaries/Macrozone_9.pdf>]
-<../plots/summaries/Macrozone_9.pdf, id=551, page=2, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_9.pdf, id=582, page=2, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_9.pdf, page 2>
 Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page2 used on inp
-ut line 308.
+ut line 374.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_9.pdf, page 2>
 Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page2 used on inp
-ut line 308.
+ut line 374.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_9.pdf, page 2>
 Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page2 used on inp
-ut line 308.
+ut line 374.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [42
 
  <../plots/summaries/Macrozone_9.pdf>]
-<../plots/summaries/Macrozone_9.pdf, id=557, page=3, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_9.pdf, id=588, page=3, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_9.pdf, page 3>
 Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page3 used on inp
-ut line 308.
+ut line 374.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_9.pdf, page 3>
 Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page3 used on inp
-ut line 308.
+ut line 374.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_9.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_9.pdf, page 3>
 Package pdftex.def Info: ../plots/summaries/Macrozone_9.pdf , page3 used on inp
-ut line 308.
+ut line 374.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [43
 
  <../plots/summaries/Macrozone_9.pdf>]
-<../plots/summaries/Macrozone_10.pdf, id=562, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_10.pdf, id=594, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_10.pdf>
 Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf  used on input lin
-e 312.
+e 380.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_10.pdf, id=564, page=1, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_10.pdf, id=596, page=1, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_10.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page1 used on in
-put line 312.
+put line 380.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_10.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page1 used on in
-put line 312.
+put line 380.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+[44]
+File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_10.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page1 used on in
+put line 380.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_10.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page1 used on in
-put line 312.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_10.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page1 used on in
-put line 312.
+put line 380.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
 <use ../plots/summaries/Macrozone_10.pdf, page 1>
 Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page1 used on in
-put line 312.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[44
-
- <../plots/summaries/Macrozone_10.pdf>]
-<../plots/summaries/Macrozone_10.pdf, id=578, page=2, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_10.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page2 used on in
-put line 312.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_10.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page2 used on in
-put line 312.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_10.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page2 used on in
-put line 312.
+put line 380.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [45
 
  <../plots/summaries/Macrozone_10.pdf>]
-<../plots/summaries/Macrozone_10.pdf, id=583, page=3, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_10.pdf, id=615, page=2, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_10.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page3 used on in
-put line 312.
+<use ../plots/summaries/Macrozone_10.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page2 used on in
+put line 380.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_10.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page3 used on in
-put line 312.
+<use ../plots/summaries/Macrozone_10.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page2 used on in
+put line 380.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_10.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page3 used on in
-put line 312.
+<use ../plots/summaries/Macrozone_10.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page2 used on in
+put line 380.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [46
 
  <../plots/summaries/Macrozone_10.pdf>]
-<../plots/summaries/Macrozone_11.pdf, id=588, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_11.pdf>
-Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf  used on input lin
-e 316.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_11.pdf, id=590, page=1, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_11.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page1 used on in
-put line 316.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_11.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page1 used on in
-put line 316.
+<../plots/summaries/Macrozone_10.pdf, id=620, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_10.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page3 used on in
+put line 380.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_11.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page1 used on in
-put line 316.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_11.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page1 used on in
-put line 316.
+File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_10.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page3 used on in
+put line 380.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_11.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page1 used on in
-put line 316.
+File: ../plots/summaries/Macrozone_10.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_10.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_10.pdf , page3 used on in
+put line 380.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [47
 
- <../plots/summaries/Macrozone_11.pdf>]
-<../plots/summaries/Macrozone_11.pdf, id=605, page=2, 505.89pt x 505.89pt>
+ <../plots/summaries/Macrozone_10.pdf>]
+<../plots/summaries/Macrozone_11.pdf, id=625, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_11.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page2 used on in
-put line 316.
+<use ../plots/summaries/Macrozone_11.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf  used on input lin
+e 384.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_11.pdf, id=627, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_11.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page1 used on in
+put line 384.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_11.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page1 used on in
+put line 384.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_11.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page2 used on in
-put line 316.
+<use ../plots/summaries/Macrozone_11.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page1 used on in
+put line 384.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_11.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page1 used on in
+put line 384.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_11.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page2 used on in
-put line 316.
+<use ../plots/summaries/Macrozone_11.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page1 used on in
+put line 384.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [48
 
  <../plots/summaries/Macrozone_11.pdf>]
-<../plots/summaries/Macrozone_11.pdf, id=611, page=3, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_11.pdf, id=642, page=2, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_11.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page3 used on in
-put line 316.
+<use ../plots/summaries/Macrozone_11.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page2 used on in
+put line 384.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_11.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page3 used on in
-put line 316.
+<use ../plots/summaries/Macrozone_11.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page2 used on in
+put line 384.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_11.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page3 used on in
-put line 316.
+<use ../plots/summaries/Macrozone_11.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page2 used on in
+put line 384.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [49
 
  <../plots/summaries/Macrozone_11.pdf>]
-<../plots/summaries/Macrozone_12.pdf, id=616, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_12.pdf>
-Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf  used on input lin
-e 320.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_12.pdf, id=618, page=1, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_12.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page1 used on in
-put line 320.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_12.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page1 used on in
-put line 320.
+<../plots/summaries/Macrozone_11.pdf, id=647, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_11.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page3 used on in
+put line 384.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_12.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page1 used on in
-put line 320.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_12.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page1 used on in
-put line 320.
+File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_11.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page3 used on in
+put line 384.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_12.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page1 used on in
-put line 320.
+File: ../plots/summaries/Macrozone_11.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_11.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_11.pdf , page3 used on in
+put line 384.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [50
 
- <../plots/summaries/Macrozone_12.pdf>]
-<../plots/summaries/Macrozone_12.pdf, id=632, page=2, 505.89pt x 505.89pt>
+ <../plots/summaries/Macrozone_11.pdf>]
+<../plots/summaries/Macrozone_12.pdf, id=652, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_12.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page2 used on in
-put line 320.
+<use ../plots/summaries/Macrozone_12.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf  used on input lin
+e 388.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_12.pdf, id=654, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_12.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page1 used on in
+put line 388.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_12.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page1 used on in
+put line 388.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_12.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page2 used on in
-put line 320.
+<use ../plots/summaries/Macrozone_12.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page1 used on in
+put line 388.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_12.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page1 used on in
+put line 388.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_12.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page2 used on in
-put line 320.
+<use ../plots/summaries/Macrozone_12.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page1 used on in
+put line 388.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [51
 
  <../plots/summaries/Macrozone_12.pdf>]
-<../plots/summaries/Macrozone_12.pdf, id=637, page=3, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_12.pdf, id=668, page=2, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_12.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page3 used on in
-put line 320.
+<use ../plots/summaries/Macrozone_12.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page2 used on in
+put line 388.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_12.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page3 used on in
-put line 320.
+<use ../plots/summaries/Macrozone_12.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page2 used on in
+put line 388.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_12.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page3 used on in
-put line 320.
+<use ../plots/summaries/Macrozone_12.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page2 used on in
+put line 388.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [52
 
  <../plots/summaries/Macrozone_12.pdf>]
-<../plots/summaries/Macrozone_13.pdf, id=642, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_13.pdf>
-Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf  used on input lin
-e 324.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_13.pdf, id=644, page=1, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_13.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page1 used on in
-put line 324.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_13.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page1 used on in
-put line 324.
+<../plots/summaries/Macrozone_12.pdf, id=673, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_12.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page3 used on in
+put line 388.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_13.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page1 used on in
-put line 324.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_13.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page1 used on in
-put line 324.
+File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_12.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page3 used on in
+put line 388.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_13.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page1 used on in
-put line 324.
+File: ../plots/summaries/Macrozone_12.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_12.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_12.pdf , page3 used on in
+put line 388.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [53
 
- <../plots/summaries/Macrozone_13.pdf>]
-<../plots/summaries/Macrozone_13.pdf, id=658, page=2, 505.89pt x 505.89pt>
+ <../plots/summaries/Macrozone_12.pdf>]
+<../plots/summaries/Macrozone_13.pdf, id=678, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_13.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page2 used on in
-put line 324.
+<use ../plots/summaries/Macrozone_13.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf  used on input lin
+e 392.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_13.pdf, id=680, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_13.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page1 used on in
+put line 392.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_13.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page1 used on in
+put line 392.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_13.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page2 used on in
-put line 324.
+<use ../plots/summaries/Macrozone_13.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page1 used on in
+put line 392.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_13.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page1 used on in
+put line 392.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_13.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page2 used on in
-put line 324.
+<use ../plots/summaries/Macrozone_13.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page1 used on in
+put line 392.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [54
 
  <../plots/summaries/Macrozone_13.pdf>]
-<../plots/summaries/Macrozone_13.pdf, id=664, page=3, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_13.pdf, id=695, page=2, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_13.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page3 used on in
-put line 324.
+<use ../plots/summaries/Macrozone_13.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page2 used on in
+put line 392.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_13.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page3 used on in
-put line 324.
+<use ../plots/summaries/Macrozone_13.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page2 used on in
+put line 392.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_13.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page3 used on in
-put line 324.
+<use ../plots/summaries/Macrozone_13.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page2 used on in
+put line 392.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [55
 
  <../plots/summaries/Macrozone_13.pdf>]
-<../plots/summaries/Macrozone_14.pdf, id=669, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_14.pdf>
-Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf  used on input lin
-e 328.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_14.pdf, id=671, page=1, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_14.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page1 used on in
-put line 328.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_14.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page1 used on in
-put line 328.
+<../plots/summaries/Macrozone_13.pdf, id=700, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_13.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page3 used on in
+put line 392.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_14.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page1 used on in
-put line 328.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_14.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page1 used on in
-put line 328.
+File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_13.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page3 used on in
+put line 392.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_14.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page1 used on in
-put line 328.
+File: ../plots/summaries/Macrozone_13.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_13.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_13.pdf , page3 used on in
+put line 392.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [56
 
- <../plots/summaries/Macrozone_14.pdf>]
-<../plots/summaries/Macrozone_14.pdf, id=685, page=2, 505.89pt x 505.89pt>
+ <../plots/summaries/Macrozone_13.pdf>]
+<../plots/summaries/Macrozone_14.pdf, id=705, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_14.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page2 used on in
-put line 328.
+<use ../plots/summaries/Macrozone_14.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf  used on input lin
+e 396.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_14.pdf, id=707, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_14.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page1 used on in
+put line 396.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_14.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page1 used on in
+put line 396.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_14.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page2 used on in
-put line 328.
+<use ../plots/summaries/Macrozone_14.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page1 used on in
+put line 396.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_14.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page1 used on in
+put line 396.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_14.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page2 used on in
-put line 328.
+<use ../plots/summaries/Macrozone_14.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page1 used on in
+put line 396.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [57
 
  <../plots/summaries/Macrozone_14.pdf>]
-<../plots/summaries/Macrozone_14.pdf, id=690, page=3, 505.89pt x 505.89pt>
+<../plots/summaries/Macrozone_14.pdf, id=721, page=2, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_14.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page3 used on in
-put line 328.
+<use ../plots/summaries/Macrozone_14.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page2 used on in
+put line 396.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_14.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page3 used on in
-put line 328.
+<use ../plots/summaries/Macrozone_14.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page2 used on in
+put line 396.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_14.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page3 used on in
-put line 328.
+<use ../plots/summaries/Macrozone_14.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page2 used on in
+put line 396.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [58
 
  <../plots/summaries/Macrozone_14.pdf>]
-<../plots/summaries/Macrozone_15.pdf, id=695, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_15.pdf>
-Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf  used on input lin
-e 332.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_15.pdf, id=697, page=1, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_15.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page1 used on in
-put line 332.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_15.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page1 used on in
-put line 332.
+<../plots/summaries/Macrozone_14.pdf, id=726, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_14.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page3 used on in
+put line 396.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_15.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page1 used on in
-put line 332.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_15.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page1 used on in
-put line 332.
+File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_14.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page3 used on in
+put line 396.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_15.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page1 used on in
-put line 332.
+File: ../plots/summaries/Macrozone_14.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_14.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_14.pdf , page3 used on in
+put line 396.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [59
 
- <../plots/summaries/Macrozone_15.pdf>]
-<../plots/summaries/Macrozone_15.pdf, id=711, page=2, 505.89pt x 505.89pt>
+ <../plots/summaries/Macrozone_14.pdf>]
+<../plots/summaries/Macrozone_15.pdf, id=732, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_15.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page2 used on in
-put line 332.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+<use ../plots/summaries/Macrozone_15.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf  used on input lin
+e 402.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_15.pdf, id=734, page=1, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_15.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page2 used on in
-put line 332.
+<use ../plots/summaries/Macrozone_15.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page1 used on in
+put line 402.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_15.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page1 used on in
+put line 402.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
+[60]
 File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_15.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page2 used on in
-put line 332.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[60
-
- <../plots/summaries/Macrozone_15.pdf>]
-<../plots/summaries/Macrozone_15.pdf, id=717, page=3, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_15.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page3 used on in
-put line 332.
+<use ../plots/summaries/Macrozone_15.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page1 used on in
+put line 402.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_15.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page3 used on in
-put line 332.
+<use ../plots/summaries/Macrozone_15.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page1 used on in
+put line 402.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_15.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page3 used on in
-put line 332.
+<use ../plots/summaries/Macrozone_15.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page1 used on in
+put line 402.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [61
 
  <../plots/summaries/Macrozone_15.pdf>]
-<../plots/summaries/Macrozone_16.pdf, id=722, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_16.pdf>
-Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf  used on input lin
-e 336.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_16.pdf, id=724, page=1, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_16.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page1 used on in
-put line 336.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_16.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page1 used on in
-put line 336.
+<../plots/summaries/Macrozone_15.pdf, id=754, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_15.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page2 used on in
+put line 402.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_16.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page1 used on in
-put line 336.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_16.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page1 used on in
-put line 336.
+File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_15.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page2 used on in
+put line 402.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_16.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page1 used on in
-put line 336.
+File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_15.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page2 used on in
+put line 402.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [62
 
- <../plots/summaries/Macrozone_16.pdf>]
-<../plots/summaries/Macrozone_16.pdf, id=738, page=2, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_16.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page2 used on in
-put line 336.
+ <../plots/summaries/Macrozone_15.pdf>]
+<../plots/summaries/Macrozone_15.pdf, id=759, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_15.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page3 used on in
+put line 402.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_16.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page2 used on in
-put line 336.
+File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_15.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page3 used on in
+put line 402.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_16.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page2 used on in
-put line 336.
+File: ../plots/summaries/Macrozone_15.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_15.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_15.pdf , page3 used on in
+put line 402.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [63
 
- <../plots/summaries/Macrozone_16.pdf>]
-<../plots/summaries/Macrozone_16.pdf, id=744, page=3, 505.89pt x 505.89pt>
+ <../plots/summaries/Macrozone_15.pdf>]
+<../plots/summaries/Macrozone_16.pdf, id=764, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_16.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page3 used on in
-put line 336.
+<use ../plots/summaries/Macrozone_16.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf  used on input lin
+e 406.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_16.pdf, id=766, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_16.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page1 used on in
+put line 406.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_16.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page1 used on in
+put line 406.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_16.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page3 used on in
-put line 336.
+<use ../plots/summaries/Macrozone_16.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page1 used on in
+put line 406.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_16.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page1 used on in
+put line 406.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_16.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page3 used on in
-put line 336.
+<use ../plots/summaries/Macrozone_16.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page1 used on in
+put line 406.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [64
 
  <../plots/summaries/Macrozone_16.pdf>]
-<../plots/summaries/Macrozone_17.pdf, id=749, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_17.pdf>
-Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf  used on input lin
-e 340.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_17.pdf, id=751, page=1, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_17.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page1 used on in
-put line 340.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_17.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page1 used on in
-put line 340.
+<../plots/summaries/Macrozone_16.pdf, id=780, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_16.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page2 used on in
+put line 406.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_17.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page1 used on in
-put line 340.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_17.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page1 used on in
-put line 340.
+File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_16.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page2 used on in
+put line 406.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_17.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page1 used on in
-put line 340.
+File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_16.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page2 used on in
+put line 406.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [65
 
- <../plots/summaries/Macrozone_17.pdf>]
-<../plots/summaries/Macrozone_17.pdf, id=765, page=2, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_17.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page2 used on in
-put line 340.
+ <../plots/summaries/Macrozone_16.pdf>]
+<../plots/summaries/Macrozone_16.pdf, id=785, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_16.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page3 used on in
+put line 406.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_17.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page2 used on in
-put line 340.
+File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_16.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page3 used on in
+put line 406.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_17.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page2 used on in
-put line 340.
+File: ../plots/summaries/Macrozone_16.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_16.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_16.pdf , page3 used on in
+put line 406.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [66
 
- <../plots/summaries/Macrozone_17.pdf>]
-<../plots/summaries/Macrozone_17.pdf, id=771, page=3, 505.89pt x 505.89pt>
+ <../plots/summaries/Macrozone_16.pdf>]
+<../plots/summaries/Macrozone_17.pdf, id=791, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_17.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page3 used on in
-put line 340.
+<use ../plots/summaries/Macrozone_17.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf  used on input lin
+e 410.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_17.pdf, id=793, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_17.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page1 used on in
+put line 410.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_17.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page1 used on in
+put line 410.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_17.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page3 used on in
-put line 340.
+<use ../plots/summaries/Macrozone_17.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page1 used on in
+put line 410.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_17.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page1 used on in
+put line 410.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_17.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page3 used on in
-put line 340.
+<use ../plots/summaries/Macrozone_17.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page1 used on in
+put line 410.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [67
 
  <../plots/summaries/Macrozone_17.pdf>]
-<../plots/summaries/Macrozone_18.pdf, id=776, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_18.pdf>
-Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf  used on input lin
-e 344.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_18.pdf, id=778, page=1, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_18.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page1 used on in
-put line 344.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_18.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page1 used on in
-put line 344.
+<../plots/summaries/Macrozone_17.pdf, id=807, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_17.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page2 used on in
+put line 410.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_18.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page1 used on in
-put line 344.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_18.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page1 used on in
-put line 344.
+File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_17.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page2 used on in
+put line 410.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_18.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page1 used on in
-put line 344.
+File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_17.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page2 used on in
+put line 410.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [68
 
- <../plots/summaries/Macrozone_18.pdf>]
-<../plots/summaries/Macrozone_18.pdf, id=792, page=2, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_18.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page2 used on in
-put line 344.
+ <../plots/summaries/Macrozone_17.pdf>]
+<../plots/summaries/Macrozone_17.pdf, id=812, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_17.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page3 used on in
+put line 410.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_18.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page2 used on in
-put line 344.
+File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_17.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page3 used on in
+put line 410.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_18.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page2 used on in
-put line 344.
+File: ../plots/summaries/Macrozone_17.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_17.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_17.pdf , page3 used on in
+put line 410.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [69
 
- <../plots/summaries/Macrozone_18.pdf>]
-<../plots/summaries/Macrozone_18.pdf, id=797, page=3, 505.89pt x 505.89pt>
+ <../plots/summaries/Macrozone_17.pdf>]
+<../plots/summaries/Macrozone_18.pdf, id=817, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_18.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page3 used on in
-put line 344.
+<use ../plots/summaries/Macrozone_18.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf  used on input lin
+e 414.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_18.pdf, id=819, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_18.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page1 used on in
+put line 414.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_18.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page1 used on in
+put line 414.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_18.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page3 used on in
-put line 344.
+<use ../plots/summaries/Macrozone_18.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page1 used on in
+put line 414.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_18.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page1 used on in
+put line 414.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_18.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page3 used on in
-put line 344.
+<use ../plots/summaries/Macrozone_18.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page1 used on in
+put line 414.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [70
 
  <../plots/summaries/Macrozone_18.pdf>]
-<../plots/summaries/Macrozone_19.pdf, id=802, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_19.pdf>
-Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf  used on input lin
-e 348.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_19.pdf, id=804, page=1, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_19.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page1 used on in
-put line 348.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_19.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page1 used on in
-put line 348.
+<../plots/summaries/Macrozone_18.pdf, id=833, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_18.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page2 used on in
+put line 414.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_19.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page1 used on in
-put line 348.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_19.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page1 used on in
-put line 348.
+File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_18.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page2 used on in
+put line 414.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_19.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page1 used on in
-put line 348.
+File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_18.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page2 used on in
+put line 414.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [71
 
- <../plots/summaries/Macrozone_19.pdf>]
-<../plots/summaries/Macrozone_19.pdf, id=818, page=2, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_19.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page2 used on in
-put line 348.
+ <../plots/summaries/Macrozone_18.pdf>]
+<../plots/summaries/Macrozone_18.pdf, id=838, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_18.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page3 used on in
+put line 414.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_19.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page2 used on in
-put line 348.
+File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_18.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page3 used on in
+put line 414.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_19.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page2 used on in
-put line 348.
+File: ../plots/summaries/Macrozone_18.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_18.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_18.pdf , page3 used on in
+put line 414.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [72
 
- <../plots/summaries/Macrozone_19.pdf>]
-<../plots/summaries/Macrozone_19.pdf, id=824, page=3, 505.89pt x 505.89pt>
+ <../plots/summaries/Macrozone_18.pdf>]
+<../plots/summaries/Macrozone_19.pdf, id=844, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_19.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page3 used on in
-put line 348.
+<use ../plots/summaries/Macrozone_19.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf  used on input lin
+e 418.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_19.pdf, id=846, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_19.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page1 used on in
+put line 418.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_19.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page1 used on in
+put line 418.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_19.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page3 used on in
-put line 348.
+<use ../plots/summaries/Macrozone_19.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page1 used on in
+put line 418.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_19.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page1 used on in
+put line 418.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
 File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_19.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page3 used on in
-put line 348.
+<use ../plots/summaries/Macrozone_19.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page1 used on in
+put line 418.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [73
 
  <../plots/summaries/Macrozone_19.pdf>]
-<../plots/summaries/Macrozone_20.pdf, id=829, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_20.pdf>
-Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf  used on input lin
-e 352.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_20.pdf, id=831, page=1, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_20.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page1 used on in
-put line 352.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_20.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page1 used on in
-put line 352.
+<../plots/summaries/Macrozone_19.pdf, id=860, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_19.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page2 used on in
+put line 418.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_20.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page1 used on in
-put line 352.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_20.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page1 used on in
-put line 352.
+File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_19.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page2 used on in
+put line 418.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_20.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page1 used on in
-put line 352.
+File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_19.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page2 used on in
+put line 418.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [74
 
- <../plots/summaries/Macrozone_20.pdf>]
-<../plots/summaries/Macrozone_20.pdf, id=845, page=2, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_20.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page2 used on in
-put line 352.
+ <../plots/summaries/Macrozone_19.pdf>]
+<../plots/summaries/Macrozone_19.pdf, id=865, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_19.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page3 used on in
+put line 418.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_20.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page2 used on in
-put line 352.
+File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_19.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page3 used on in
+put line 418.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_20.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page2 used on in
-put line 352.
+File: ../plots/summaries/Macrozone_19.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_19.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_19.pdf , page3 used on in
+put line 418.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [75
 
- <../plots/summaries/Macrozone_20.pdf>]
-<../plots/summaries/Macrozone_20.pdf, id=850, page=3, 505.89pt x 505.89pt>
+ <../plots/summaries/Macrozone_19.pdf>]
+<../plots/summaries/Macrozone_20.pdf, id=871, 505.89pt x 505.89pt>
 File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_20.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page3 used on in
-put line 352.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_20.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page3 used on in
-put line 352.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-
-
-File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_20.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page3 used on in
-put line 352.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-[76
-
- <../plots/summaries/Macrozone_20.pdf>]
-<../plots/summaries/Macrozone_21.pdf, id=855, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_21.pdf>
-Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf  used on input lin
-e 356.
+<use ../plots/summaries/Macrozone_20.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf  used on input lin
+e 424.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_21.pdf, id=857, page=1, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_21.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page1 used on in
-put line 356.
+<../plots/summaries/Macrozone_20.pdf, id=873, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page1 used on in
+put line 424.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_21.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page1 used on in
-put line 356.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_21.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page1 used on in
-put line 356.
-(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_21.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page1 used on in
-put line 356.
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page1 used on in
+put line 424.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_21.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page1 used on in
-put line 356.
+[76]
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page1 used on in
+put line 424.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page1 used on in
+put line 424.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page1 used on in
+put line 424.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [77
 
- <../plots/summaries/Macrozone_21.pdf>]
-<../plots/summaries/Macrozone_21.pdf, id=871, page=2, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_21.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page2 used on in
-put line 356.
+ <../plots/summaries/Macrozone_20.pdf>]
+<../plots/summaries/Macrozone_20.pdf, id=892, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page2 used on in
+put line 424.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_21.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page2 used on in
-put line 356.
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page2 used on in
+put line 424.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_21.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page2 used on in
-put line 356.
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page2 used on in
+put line 424.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [78
 
- <../plots/summaries/Macrozone_21.pdf>]
-<../plots/summaries/Macrozone_21.pdf, id=877, page=3, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_21.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page3 used on in
-put line 356.
+ <../plots/summaries/Macrozone_20.pdf>]
+<../plots/summaries/Macrozone_20.pdf, id=898, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page3 used on in
+put line 424.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_21.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page3 used on in
-put line 356.
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page3 used on in
+put line 424.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_21.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page3 used on in
-put line 356.
+File: ../plots/summaries/Macrozone_20.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_20.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_20.pdf , page3 used on in
+put line 424.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [79
 
- <../plots/summaries/Macrozone_21.pdf>]
-<../plots/summaries/Macrozone_22.pdf, id=882, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_22.pdf>
-Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf  used on input lin
-e 360.
+ <../plots/summaries/Macrozone_20.pdf>]
+<../plots/summaries/Macrozone_21.pdf, id=903, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf  used on input lin
+e 428.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_22.pdf, id=884, page=1, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_22.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page1 used on in
-put line 360.
+<../plots/summaries/Macrozone_21.pdf, id=905, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page1 used on in
+put line 428.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_22.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page1 used on in
-put line 360.
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page1 used on in
+put line 428.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_22.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page1 used on in
-put line 360.
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page1 used on in
+put line 428.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_22.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page1 used on in
-put line 360.
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page1 used on in
+put line 428.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_22.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page1 used on in
-put line 360.
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page1 used on in
+put line 428.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [80
 
- <../plots/summaries/Macrozone_22.pdf>]
-<../plots/summaries/Macrozone_22.pdf, id=899, page=2, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_22.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page2 used on in
-put line 360.
+ <../plots/summaries/Macrozone_21.pdf>]
+<../plots/summaries/Macrozone_21.pdf, id=919, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page2 used on in
+put line 428.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_22.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page2 used on in
-put line 360.
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page2 used on in
+put line 428.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_22.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page2 used on in
-put line 360.
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page2 used on in
+put line 428.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [81
 
- <../plots/summaries/Macrozone_22.pdf>]
-<../plots/summaries/Macrozone_22.pdf, id=904, page=3, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_22.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page3 used on in
-put line 360.
+ <../plots/summaries/Macrozone_21.pdf>]
+<../plots/summaries/Macrozone_21.pdf, id=924, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page3 used on in
+put line 428.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_22.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page3 used on in
-put line 360.
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page3 used on in
+put line 428.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_22.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page3 used on in
-put line 360.
+File: ../plots/summaries/Macrozone_21.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_21.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_21.pdf , page3 used on in
+put line 428.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [82
 
- <../plots/summaries/Macrozone_22.pdf>]
-<../plots/summaries/Macrozone_23.pdf, id=909, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_23.pdf>
-Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf  used on input lin
-e 364.
+ <../plots/summaries/Macrozone_21.pdf>]
+<../plots/summaries/Macrozone_22.pdf, id=929, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf  used on input lin
+e 432.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_23.pdf, id=911, page=1, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_23.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page1 used on in
-put line 364.
+<../plots/summaries/Macrozone_22.pdf, id=931, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page1 used on in
+put line 432.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_23.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page1 used on in
-put line 364.
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page1 used on in
+put line 432.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_23.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page1 used on in
-put line 364.
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page1 used on in
+put line 432.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_23.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page1 used on in
-put line 364.
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page1 used on in
+put line 432.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_23.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page1 used on in
-put line 364.
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page1 used on in
+put line 432.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [83
 
- <../plots/summaries/Macrozone_23.pdf>]
-<../plots/summaries/Macrozone_23.pdf, id=925, page=2, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_23.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page2 used on in
-put line 364.
+ <../plots/summaries/Macrozone_22.pdf>]
+<../plots/summaries/Macrozone_22.pdf, id=945, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page2 used on in
+put line 432.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_23.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page2 used on in
-put line 364.
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page2 used on in
+put line 432.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_23.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page2 used on in
-put line 364.
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page2 used on in
+put line 432.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [84
 
- <../plots/summaries/Macrozone_23.pdf>]
-<../plots/summaries/Macrozone_23.pdf, id=931, page=3, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_23.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page3 used on in
-put line 364.
+ <../plots/summaries/Macrozone_22.pdf>]
+<../plots/summaries/Macrozone_22.pdf, id=951, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page3 used on in
+put line 432.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_23.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page3 used on in
-put line 364.
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page3 used on in
+put line 432.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_23.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page3 used on in
-put line 364.
+File: ../plots/summaries/Macrozone_22.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_22.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_22.pdf , page3 used on in
+put line 432.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [85
 
- <../plots/summaries/Macrozone_23.pdf>]
-<../plots/summaries/Macrozone_24.pdf, id=936, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_24.pdf>
-Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf  used on input lin
-e 368.
+ <../plots/summaries/Macrozone_22.pdf>]
+<../plots/summaries/Macrozone_23.pdf, id=956, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf  used on input lin
+e 436.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<../plots/summaries/Macrozone_24.pdf, id=938, page=1, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_24.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page1 used on in
-put line 368.
+<../plots/summaries/Macrozone_23.pdf, id=958, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page1 used on in
+put line 436.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_24.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page1 used on in
-put line 368.
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page1 used on in
+put line 436.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_24.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page1 used on in
-put line 368.
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page1 used on in
+put line 436.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_24.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page1 used on in
-put line 368.
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page1 used on in
+put line 436.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_24.pdf, page 1>
-Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page1 used on in
-put line 368.
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page1 used on in
+put line 436.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [86
 
- <../plots/summaries/Macrozone_24.pdf>]
-<../plots/summaries/Macrozone_24.pdf, id=952, page=2, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_24.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page2 used on in
-put line 368.
+ <../plots/summaries/Macrozone_23.pdf>]
+<../plots/summaries/Macrozone_23.pdf, id=972, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page2 used on in
+put line 436.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_24.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page2 used on in
-put line 368.
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page2 used on in
+put line 436.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_24.pdf, page 2>
-Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page2 used on in
-put line 368.
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page2 used on in
+put line 436.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [87
 
- <../plots/summaries/Macrozone_24.pdf>]
-<../plots/summaries/Macrozone_24.pdf, id=957, page=3, 505.89pt x 505.89pt>
-File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_24.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page3 used on in
-put line 368.
+ <../plots/summaries/Macrozone_23.pdf>]
+<../plots/summaries/Macrozone_23.pdf, id=977, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page3 used on in
+put line 436.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
-File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_24.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page3 used on in
-put line 368.
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page3 used on in
+put line 436.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 
 
-File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
-<use ../plots/summaries/Macrozone_24.pdf, page 3>
-Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page3 used on in
-put line 368.
+File: ../plots/summaries/Macrozone_23.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_23.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_23.pdf , page3 used on in
+put line 436.
 (pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
 [88
 
+ <../plots/summaries/Macrozone_23.pdf>]
+<../plots/summaries/Macrozone_24.pdf, id=982, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf  used on input lin
+e 440.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<../plots/summaries/Macrozone_24.pdf, id=984, page=1, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page1 used on in
+put line 440.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page1 used on in
+put line 440.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page1 used on in
+put line 440.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page1 used on in
+put line 440.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 1>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page1 used on in
+put line 440.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[89
+
  <../plots/summaries/Macrozone_24.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 378--379
+<../plots/summaries/Macrozone_24.pdf, id=998, page=2, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page2 used on in
+put line 440.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page2 used on in
+put line 440.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 2>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page2 used on in
+put line 440.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[90
+
+ <../plots/summaries/Macrozone_24.pdf>]
+<../plots/summaries/Macrozone_24.pdf, id=1004, page=3, 505.89pt x 505.89pt>
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page3 used on in
+put line 440.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page3 used on in
+put line 440.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+
+
+File: ../plots/summaries/Macrozone_24.pdf Graphic file (type pdf)
+<use ../plots/summaries/Macrozone_24.pdf, page 3>
+Package pdftex.def Info: ../plots/summaries/Macrozone_24.pdf , page3 used on in
+put line 440.
+(pdftex.def)             Requested size: 615.37086pt x 615.37086pt.
+[91
+
+ <../plots/summaries/Macrozone_24.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--383
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
 
  []
 
+<../plots/summaries/shin/max_temp_01.png, id=1010, 845.1575pt x 798.985pt>
+File: ../plots/summaries/shin/max_temp_01.png Graphic file (type png)
+<use ../plots/summaries/shin/max_temp_01.png>
+Package pdftex.def Info: ../plots/summaries/shin/max_temp_01.png  used on input
+ line 469.
+(pdftex.def)             Requested size: 469.75502pt x 444.10027pt.
 
 
-[89] (./SSA_Interpretations.aux)
+[92]
+<../plots/summaries/shin/max_temp_02.png, id=1015, 840.13875pt x 801.99625pt>
+File: ../plots/summaries/shin/max_temp_02.png Graphic file (type png)
+<use ../plots/summaries/shin/max_temp_02.png>
+Package pdftex.def Info: ../plots/summaries/shin/max_temp_02.png  used on input
+ line 479.
+(pdftex.def)             Requested size: 469.75502pt x 448.42953pt.
+
+
+[93 <../plots/summaries/shin/max_temp_01.png>]
+<../plots/summaries/shin/max_temp_03.png, id=1022, 835.12pt x 806.01125pt>
+File: ../plots/summaries/shin/max_temp_03.png Graphic file (type png)
+<use ../plots/summaries/shin/max_temp_03.png>
+Package pdftex.def Info: ../plots/summaries/shin/max_temp_03.png  used on input
+ line 489.
+(pdftex.def)             Requested size: 469.75502pt x 453.39252pt.
+
+
+[94 <../plots/summaries/shin/max_temp_02.png>]
+<../plots/summaries/shin/total_precip_1.png, id=1030, 840.13875pt x 685.56125pt
+>
+File: ../plots/summaries/shin/total_precip_1.png Graphic file (type png)
+<use ../plots/summaries/shin/total_precip_1.png>
+Package pdftex.def Info: ../plots/summaries/shin/total_precip_1.png  used on in
+put line 508.
+(pdftex.def)             Requested size: 469.75502pt x 383.32587pt.
+
+
+[95 <../plots/summaries/shin/max_temp_03.png>]
+<../plots/summaries/shin/total_precip_2.png, id=1037, 847.165pt x 701.62125pt>
+File: ../plots/summaries/shin/total_precip_2.png Graphic file (type png)
+<use ../plots/summaries/shin/total_precip_2.png>
+Package pdftex.def Info: ../plots/summaries/shin/total_precip_2.png  used on in
+put line 516.
+(pdftex.def)             Requested size: 469.75502pt x 389.0511pt.
+
+
+[96 <../plots/summaries/shin/total_precip_1.png>]
+<../plots/summaries/shin/total_precip_3.png, id=1046, 839.135pt x 696.6025pt>
+File: ../plots/summaries/shin/total_precip_3.png Graphic file (type png)
+<use ../plots/summaries/shin/total_precip_3.png>
+Package pdftex.def Info: ../plots/summaries/shin/total_precip_3.png  used on in
+put line 524.
+(pdftex.def)             Requested size: 469.75502pt x 389.9672pt.
+
+
+[97 <../plots/summaries/shin/total_precip_2.png>]
+<../plots/summaries/shin/total_precip_4.png, id=1053, 836.12375pt x 683.55376pt
+>
+File: ../plots/summaries/shin/total_precip_4.png Graphic file (type png)
+<use ../plots/summaries/shin/total_precip_4.png>
+Package pdftex.def Info: ../plots/summaries/shin/total_precip_4.png  used on in
+put line 532.
+(pdftex.def)             Requested size: 469.75502pt x 384.04955pt.
+
+
+[98 <../plots/summaries/shin/total_precip_3.png>]
+<../plots/summaries/shin/total_precip_5.png, id=1060, 427.5975pt x 237.88875pt>
+
+File: ../plots/summaries/shin/total_precip_5.png Graphic file (type png)
+<use ../plots/summaries/shin/total_precip_5.png>
+Package pdftex.def Info: ../plots/summaries/shin/total_precip_5.png  used on in
+put line 540.
+(pdftex.def)             Requested size: 469.75502pt x 261.34084pt.
+
+
+[99 <../plots/summaries/shin/total_precip_4.png>]
+
+[100 <../plots/summaries/shin/total_precip_5.png>] (./SSA_Interpretations.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `SSA_Interpretations.out' has not changed.
-(rerunfilecheck)             Checksum: D34A3B639D6CEA926CEFBD2F6B775C71;4443.
+(rerunfilecheck)             Checksum: 3DEDB24DF26C1707451F87EF6F0A6693;4937.
  ) 
 Here is how much of TeX's memory you used:
- 31615 strings out of 473190
- 656415 string characters out of 5715801
- 973445 words of memory out of 5000000
- 54296 multiletter control sequences out of 15000+600000
+ 32257 strings out of 473190
+ 674746 string characters out of 5715801
+ 985674 words of memory out of 5000000
+ 54902 multiletter control sequences out of 15000+600000
  566549 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,17n,101p,951b,1164s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,18n,101p,951b,1183s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on SSA_Interpretations.pdf (90 pages, 39178311 bytes).
+Output written on SSA_Interpretations.pdf (101 pages, 40513904 bytes).
 PDF statistics:
- 1022 PDF objects out of 1200 (max. 8388607)
- 754 compressed objects within 8 object streams
- 132 named destinations out of 1000 (max. 500000)
- 938 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1136 PDF objects out of 1200 (max. 8388607)
+ 834 compressed objects within 9 object streams
+ 158 named destinations out of 1000 (max. 500000)
+ 1009 words of extra memory for PDF output out of 10000 (max. 10000000)
 

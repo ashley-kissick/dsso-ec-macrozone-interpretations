@@ -51,6 +51,7 @@
 \usepackage{titling}
 
 \usepackage{multicol}
+\usepackage{csvsimple}
 
 \usepackage[dvipsnames]{xcolor}
 
@@ -75,8 +76,12 @@
 
 \maketitle
 
+
+\hypertarget{toc}{} % This creates the 'toc' anchor
 \tableofcontents
 \setcounter{tocdepth}{4}
+
+
 
 
 
@@ -172,6 +177,29 @@
 	
 	\noindent Then, we show summaries of each macrozone (Macrozones 0 - 24), where each section is devoted to an individual macrozone.  Average elevation and monthly average trends are shown for each temporal feature.  Then, we show, by feature, the macrozones that have similar temporal monthly trends for each feature. 
 	
+	
+	
+	
+		\begin{center}
+		\begin{figure}[H]
+			
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=0.70]{../plots/summaries/spreadsheets/averages.pdf}
+				\caption{Feature averages by macrozone.    \label{figure:Feature_Averages} }
+			\end{figure}
+			
+			
+		\end{figure}
+	\end{center}
+	
+
+	
+	
+	
+	
+	
+	
 
 	\begin{singlespace}
 		
@@ -181,7 +209,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\begin{subfigure}{0.8\textwidth}
+		\begin{subfigure}{0.6\textwidth}
 			\includegraphics[width=\linewidth]{../plots/Macrozones_25.pdf}
 			\caption{Macrozones}
 		\end{subfigure}
@@ -201,7 +229,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\begin{subfigure}{0.8\textwidth}
+		\begin{subfigure}{0.6\textwidth}
 			\includegraphics[width=\linewidth]{../plots/Macrozones_25.pdf}
 			\caption{Macrozones}
 		\end{subfigure}
@@ -218,12 +246,26 @@
 	
 	
 	
+	\begin{center}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{../plots/summaries/shin/max_temp_m_sd.png}
+		\caption{Within zone mean maximum temperature (Mean), with standard deviation (SD), and minimum (Low) and maximum (Max) values. \label{figure:max_temp}}
+	\end{figure}
+\end{center}
+	
+	Click \hyperref[label:max_temp]{here} to go to the trends.
+	
+	
+	
+	
+	
 	
 	\subsubsection{Temperature Range}
 	
 	\begin{figure}[H]
 		\centering
-		\begin{subfigure}{0.8\textwidth}
+		\begin{subfigure}{0.6\textwidth}
 			\includegraphics[width=\linewidth]{../plots/Macrozones_25.pdf}
 			\caption{Macrozones}
 		\end{subfigure}
@@ -245,7 +287,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\begin{subfigure}{0.8\textwidth}
+		\begin{subfigure}{0.6\textwidth}
 			\includegraphics[width=\linewidth]{../plots/Macrozones_25.pdf}
 			\caption{Macrozones}
 		\end{subfigure}
@@ -260,7 +302,29 @@
 	\end{figure}
 	
 	
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\linewidth]{../plots/summaries/shin/total_precipitation_m_sd.png}
+			\caption{Within zone mean total precipitation (Mean), with standard deviation (SD), and minimum (Low) and maximum (Max)values. \label{figure:total_precip}}
+		\end{figure}
+	\end{center}
+	
+	Click \hyperref[label:total_precip]{here} to go to the trends.
+	
+	
+	
 		\end{singlespace}
+		
+		
+		
+		
+		
+	
+	
+		
+		
+		
 		
 		
 		
@@ -269,7 +333,7 @@
 	
 	\phantomsection
 	\addcontentsline{toc}{subsection}{Macrozone 0}
-		\includepdf[pages=-]{../plots/summaries/Macrozone_0.pdf}
+		\includepdf[pages=-, scale = 0.95]{../plots/summaries/Macrozone_0.pdf}
 		
 	\phantomsection
 	\addcontentsline{toc}{subsection}{Macrozone 1}
@@ -286,6 +350,8 @@
 	\phantomsection
 	\addcontentsline{toc}{subsection}{Macrozone 4}
 		\includepdf[pages=-]{../plots/summaries/Macrozone_4.pdf}
+		
+		Click \hyperlink{toc}{here} to go back to the Table of Contents.
 	
 	\phantomsection
 	\addcontentsline{toc}{subsection}{Macrozone 5}
@@ -306,6 +372,8 @@
 	\phantomsection
 	\addcontentsline{toc}{subsection}{Macrozone 9}
 		\includepdf[pages=-]{../plots/summaries/Macrozone_9.pdf}
+		
+		Click \hyperlink{toc}{here} to go back to the Table of Contents.
 	
 	\phantomsection
 	\addcontentsline{toc}{subsection}{Macrozone 10}
@@ -326,6 +394,8 @@
 	\phantomsection
 	\addcontentsline{toc}{subsection}{Macrozone 14}
 		\includepdf[pages=-]{../plots/summaries/Macrozone_14.pdf}
+		
+		Click \hyperlink{toc}{here} to go back to the Table of Contents.
 	
 	\phantomsection
 	\addcontentsline{toc}{subsection}{Macrozone 15}
@@ -346,6 +416,8 @@
 	\phantomsection
 	\addcontentsline{toc}{subsection}{Macrozone 19}
 		\includepdf[pages=-]{../plots/summaries/Macrozone_19.pdf}
+		
+		Click \hyperlink{toc}{here} to go back to the Table of Contents.
 	
 	\phantomsection
 	\addcontentsline{toc}{subsection}{Macrozone 20}
@@ -366,6 +438,8 @@
 	\phantomsection
 	\addcontentsline{toc}{subsection}{Macrozone 24}
 		\includepdf[pages=-]{../plots/summaries/Macrozone_24.pdf}		
+		
+		Click \hyperlink{toc}{here} to go back to the Table of Contents.
 	
 	
 	
@@ -386,6 +460,90 @@
 	
 	
 	
+	
+	\section{Appendix 1:  Maximum Temperature Trends} \label{label:max_temp}
+	
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\linewidth]{../plots/summaries/shin/max_temp_01.png}
+			\caption{Within zone maximum temperature trends (Mean), with standard deviation (SD), and minimum (Low) and maximum (Max)values.  The shaded area is the mean +/- 1 SD, and the two dashed lines ae the monthly low and monthly maximums.}
+		\end{figure}
+	\end{center}
+	
+	
+	
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\linewidth]{../plots/summaries/shin/max_temp_02.png}
+			\caption{Within zone maximum temperature trends (Mean), with standard deviation (SD), and minimum (Low) and maximum (Max)values.  The shaded area is the mean +/- 1 SD, and the two dashed lines ae the monthly low and monthly maximums.}
+		\end{figure}
+	\end{center}
+	
+	
+	
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\linewidth]{../plots/summaries/shin/max_temp_03.png}
+			\caption{Within zone maximum temperature trends (Mean), with standard deviation (SD), and minimum (Low) and maximum (Max)values.  The shaded area is the mean +/- 1 SD, and the two dashed lines ae the monthly low and monthly maximums.}
+		\end{figure}
+	\end{center}
+	
+	Click \hyperref[figure:max_temp]{here} to go back to the table.
+	
+	
+	
+	
+	
+	
+	
+	\section{Appendix 2:  Total Precipitation Trends} \label{label:total_precip}
+	
+	
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\linewidth]{../plots/summaries/shin/total_precip_1.png}
+			\caption{Within zone total precipitation trends (Mean), with standard deviation (SD), and minimum (Low) and maximum (Max)values.  The shaded area is the mean +/- 1 SD, and the two dashed lines ae the monthly low and monthly maximums.}
+		\end{figure}
+	\end{center}
+	
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\linewidth]{../plots/summaries/shin/total_precip_2.png}
+			\caption{Within zone total precipitation trends (Mean), with standard deviation (SD), and minimum (Low) and maximum (Max)values.  The shaded area is the mean +/- 1 SD, and the two dashed lines ae the monthly low and monthly maximums.}
+		\end{figure}
+	\end{center}
+	
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\linewidth]{../plots/summaries/shin/total_precip_3.png}
+			\caption{Within zone total precipitation trends (Mean), with standard deviation (SD), and minimum (Low) and maximum (Max)values.  The shaded area is the mean +/- 1 SD, and the two dashed lines ae the monthly low and monthly maximums.}
+		\end{figure}
+	\end{center}
+	
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\linewidth]{../plots/summaries/shin/total_precip_4.png}
+			\caption{Within zone total precipitation trends (Mean), with standard deviation (SD), and minimum (Low) and maximum (Max)values.  The shaded area is the mean +/- 1 SD, and the two dashed lines ae the monthly low and monthly maximums.}
+		\end{figure}
+	\end{center}
+	
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\linewidth]{../plots/summaries/shin/total_precip_5.png}
+			\caption{Within zone total precipitation trends (Mean), with standard deviation (SD), and minimum (Low) and maximum (Max)values.  The shaded area is the mean +/- 1 SD, and the two dashed lines ae the monthly low and monthly maximums.}
+		\end{figure}
+	\end{center}
+	
+	
+		Click \hyperref[figure:total_precip]{here} to go back to the table.
 	
 	
 	
