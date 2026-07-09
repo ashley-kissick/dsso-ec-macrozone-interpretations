@@ -135,6 +135,9 @@ barplot(height = elevation_bar$value,
         cex.names = 0.75)
 dev.off()
 
+names(elevation_bar)[which(names(elevation_bar) == "value")] <- "elevation"
+elevation_bar <- elevation_bar[,c("zone", "elevation")]
+
 
 #2.  Max Temperature
 
@@ -160,6 +163,9 @@ barplot(height = m_temp$mean_value,
         ylim = c(20, (max(m_temp$mean_value + 3))), xpd = FALSE,
         cex.names = 0.75)
 dev.off()
+
+names(m_temp)[which(names(m_temp) == "mean_value")] <- "max_temperature"
+m_temp <- m_temp[,c("zone", "max_temperature")]
 
 
 
@@ -188,6 +194,10 @@ barplot(height = temp_r$mean_value,
         ylim = c(4, (max(temp_r$mean_value + 1))), xpd = FALSE,
         cex.names = 0.75)
 dev.off()
+
+names(temp_r)[which(names(temp_r) == "mean_value")] <- "temp_range"
+temp_r <- temp_r[,c("zone", "temp_range")]
+
 
 
 
@@ -219,6 +229,10 @@ barplot(height = precip$mean_value,
         cex.names = 0.75)
 dev.off()
 
+names(precip)[which(names(precip) == "mean_value")] <- "total_precipitation"
+precip <- precip[,c("zone", "total_precipitation")]
+
+
 
 
 #5. Daylength
@@ -244,8 +258,32 @@ barplot(height = daylen$mean_value,
         ylim = c(0, (max(daylen$mean_value))),
         cex.names = 0.75)
 
+names(daylen)[which(names(daylen) == "mean_value")] <- "daylength"
+daylen <- daylen[,c("zone", "daylength")]
 
 
+
+
+
+#Get the average values for each feature/zone
+all_averages <- merge(elevation_bar, m_temp, by = "zone")
+all_averages <- merge(all_averages, temp_r, by = "zone")
+all_averages <- merge(all_averages, precip, by = "zone")
+all_averages <- merge(all_averages, daylen, by = "zone")
+all_averages_round <- data.frame(lapply(all_averages[,2:ncol(all_averages)], round))
+all_averages_final <- cbind(all_averages$zone, all_averages_round)
+names(all_averages_final) <- c("Macrozone", "Elevation, m", "Max Temperature, (\u00B0C)", 
+                         "Temperature Range, (\u00B0C)", "Total Precipitation, mm",
+                         "Daylength")
+all_averages_final <- all_averages_final[,c(1:5)]
+
+pdf(file = paste0(trend_directory, "summaries/spreadsheets/averages.pdf"), 
+    height = 10, width = 11)
+gridExtra::grid.table(all_averages_final)
+dev.off()
+
+#write.csv(all_averages_final, file = paste0(trend_directory, "summaries/spreadsheets/averages.csv"),
+#          row.names = TRUE)
 
 
 
