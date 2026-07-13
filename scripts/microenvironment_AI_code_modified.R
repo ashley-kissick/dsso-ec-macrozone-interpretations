@@ -83,7 +83,7 @@ ggplot() +
 # 4. ISOLATE A SINGLE TARGET GROUP
 # ==========================================
 # Change "Group 03" to whichever of your 14 groups you want to inspect
-target_group_name <- "cluster_14"
+target_group_name <- "cluster_6"
 
 ordination_df <- as.data.frame(pca_result$x) %>%
   bind_cols(all_observations %>% select(Data_Type, Group_ID, Subject_ID))

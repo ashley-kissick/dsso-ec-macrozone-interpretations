@@ -349,18 +349,51 @@ for (i in 1:length(folders)) {
   
 
   #Coallesce any repetitive zones
-  #142 and 136 (cluster 9)
-  #090, 095, 096 (cluster 12)
-  #146, 148 (cluster 14)
+  #141, 142, 136 (cluster 6)
   
+  #090, 095, 096 (cluster 8)
+  
+  #cluster 9
+  #146, 148 
+  #209 and 216 
+  #126 and 103
+  #101 and 102
+  #140, 134, 128
+  #127 and 135
+  
+  c_141 <- which(polygons$hac2_0250_label == "us-141")
   c_142 <- which(polygons$hac2_0250_label == "us-142")
   c_136 <- which(polygons$hac2_0250_label == "us-136")
 
+  if(length(c_141) > 0 && length(c_142) > 0 && length(c_136) > 0) { 
+    polygons$hac2_0250_label[c_141] <- "new_c"
+    polygons$hac2_0250_label[c_142] <- "new_c"
+    polygons$hac2_0250_label[c_136] <- "new_c"
+  }
+  
+  if(length(c_141) > 0 && length(c_142) > 0) { 
+    polygons$hac2_0250_label[c_141] <- "new_c"
+    polygons$hac2_0250_label[c_142] <- "new_c"
+  }
+  
+  if(length(c_141) > 0 && length(c_136) > 0) { 
+    polygons$hac2_0250_label[c_141] <- "new_c"
+    polygons$hac2_0250_label[c_096] <- "new_c"
+  }
+  
   if(length(c_142) > 0 && length(c_136) > 0) { 
-    polygons$hac2_0250_label[c_142] <- "us-136_142" 
-    polygons$hac2_0250_label[c_136] <- "us-136_142" 
+    polygons$hac2_0250_label[c_142] <- "new_c"
+    polygons$hac2_0250_label[c_136] <- "new_c"
+  }
+  
+  check_cover <- which(polygons$hac2_0250_label == "new_c")
+  if(length(check_cover) > 1) {
+    polygons$hac2_0250_label[check_cover] <- "us-141_142_146"
     polygons <- aggregate(polygons, by = "hac2_0250_label")
-  } 
+  }
+  
+  
+  
   
   c_090 <- which(polygons$hac2_0250_label == "us-090")
   c_095 <- which(polygons$hac2_0250_label == "us-095")
@@ -393,12 +426,89 @@ for (i in 1:length(folders)) {
     polygons <- aggregate(polygons, by = "hac2_0250_label")
   }
   
+  
   c_146 <- which(polygons$hac2_0250_label == "us-146")
   c_148 <- which(polygons$hac2_0250_label == "us-148")
   
   if(length(c_146) > 0 && length(c_148) > 0) { 
     polygons$hac2_0250_label[c_146] <- "us-146_148" 
     polygons$hac2_0250_label[c_148] <- "us-146_148" 
+    polygons <- aggregate(polygons, by = "hac2_0250_label")
+  }
+  
+  c_209 <- which(polygons$hac2_0250_label == "us-209")
+  c_216 <- which(polygons$hac2_0250_label == "us-216")
+  
+  if(length(c_209) > 0 && length(c_216) > 0) { 
+    polygons$hac2_0250_label[c_209] <- "us-209_216" 
+    polygons$hac2_0250_label[c_216] <- "us-209_216" 
+    polygons <- aggregate(polygons, by = "hac2_0250_label")
+  }
+  
+
+  
+  c_126 <- which(polygons$hac2_0250_label == "us-126")
+  c_103 <- which(polygons$hac2_0250_label == "us-103")
+  
+  if(length(c_126) > 0 && length(c_103) > 0) { 
+    polygons$hac2_0250_label[c_126] <- "us-126_103" 
+    polygons$hac2_0250_label[c_103] <- "us-126_103" 
+    polygons <- aggregate(polygons, by = "hac2_0250_label")
+  }
+  
+  
+  c_101 <- which(polygons$hac2_0250_label == "us-101")
+  c_102 <- which(polygons$hac2_0250_label == "us-102")
+  
+  if(length(c_101) > 0 && length(c_102) > 0) { 
+    polygons$hac2_0250_label[c_101] <- "us-101_102" 
+    polygons$hac2_0250_label[c_102] <- "us-101_102" 
+    polygons <- aggregate(polygons, by = "hac2_0250_label")
+  }
+  
+  
+  c_127 <- which(polygons$hac2_0250_label == "us-127")
+  c_135 <- which(polygons$hac2_0250_label == "us-135")
+  
+  if(length(c_127) > 0 && length(c_135) > 0) { 
+    polygons$hac2_0250_label[c_127] <- "us-127_135" 
+    polygons$hac2_0250_label[c_135] <- "us-127_135" 
+    polygons <- aggregate(polygons, by = "hac2_0250_label")
+  }
+  
+  
+  #cluster 9
+  #140, 134, 128
+  
+  c_140 <- which(polygons$hac2_0250_label == "us-140")
+  c_134 <- which(polygons$hac2_0250_label == "us-134")
+  c_128 <- which(polygons$hac2_0250_label == "us-128")
+  
+  if(length(c_140) > 0 && length(c_134) > 0 && length(c_128) > 0) { 
+    polygons$hac2_0250_label[c_140] <- "new_c"
+    polygons$hac2_0250_label[c_134] <- "new_c"
+    polygons$hac2_0250_label[c_128] <- "new_c"
+  }
+  
+  if(length(c_140) > 0 && length(c_134) > 0) { 
+    polygons$hac2_0250_label[c_140] <- "new_c"
+    polygons$hac2_0250_label[c_134] <- "new_c"
+  }
+  
+  if(length(c_140) > 0 && length(c_128) > 0) { 
+    polygons$hac2_0250_label[c_140] <- "new_c"
+    polygons$hac2_0250_label[c_128] <- "new_c"
+  }
+  
+  if(length(c_134) > 0 && length(c_128) > 0) { 
+    polygons$hac2_0250_label[c_134] <- "new_c"
+    polygons$hac2_0250_label[c_128] <- "new_c"
+  }
+  
+  #140, 134, 128
+  check_cover <- which(polygons$hac2_0250_label == "new_c")
+  if(length(check_cover) > 1) {
+    polygons$hac2_0250_label[check_cover] <- "us-140_134_128"
     polygons <- aggregate(polygons, by = "hac2_0250_label")
   }
   
@@ -414,9 +524,12 @@ for (i in 1:length(folders)) {
     if(length(to_remove) > 0) {
       
       small_labels <- paste0("us-", fl$label[to_remove])
-      remove_poly <- which(polygons$hac2_0250_label %in% small_labels == TRUE)
+      small_poly <- which(polygons$hac2_0250_label %in% small_labels == TRUE)
+      
       if(length(remove_poly) > 0) {
-        polygons$hac2_0250_label[remove_poly] <- "small_area"
+        #polygons$hac2_0250_label[small_poly] <- paste0(polygons$hac2_0250_label[small_poly], "_small")
+        polygons$hac2_0250_label[small_poly] <- "small"
+        polygons <- terra::aggregate(polygons, "hac2_0250_label")
       }
       
       #terra::plot(polygons, "hac2_0250_label")
@@ -453,20 +566,29 @@ for(i in 1:length(folders)) {
     
   original <- terra::vect(o)
   simplify <- terra::vect(s)
-    
-  pdf(file = paste0(save_dir, folder, ".pdf"), width = 8, height = 8)
-  par(mfrow = c(1,2))
   
+  field_name <- unique(all_fields$field[which(all_fields$folder == folder)])
+    
+  pdf(file = paste0(save_dir, folder, ".pdf"), width = 12, height = 8)
+  par(mfrow = c(1,2), mar = c(2, 2, 8, 2), oma = c(2, 2, 4, 2))
+ 
   cat_count <- length(unique(original$hac2_0250_label))
   col_palette <- viridis::viridis(cat_count)
-  terra::plot(original, "hac2_0250_label", col = col_palette)
+  terra::plot(original, "hac2_0250_label", col = col_palette, main = field_name)
   
   cat_count <- length(unique(simplify$hac2_0250_label))
   col_palette <- viridis::viridis(cat_count)
-  terra::plot(simplify, "hac2_0250_label", col = col_palette)
+  terra::plot(simplify, "hac2_0250_label", col = col_palette, main = field_name)
   dev.off()  
   
 }
+
+
+
+
+
+
+
 
 
 
