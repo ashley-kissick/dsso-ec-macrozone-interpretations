@@ -1,4 +1,3 @@
-
 library(terra)
 library(dplyr)
 library(readxl)
@@ -8,10 +7,24 @@ library(spatstat)
 #function
 get_utm_zone <- function(lon, lat) { zone_num <- floor((lon + 180) / 6) + 1 }
 
-#data directories:
+
 data_dir <- "../data/microenvironments/"
+
 file_dir <- paste0(data_dir, "/EC_shp/")
-vis_dir <- paste0(data_dir, "/sample_visuals/")
+vis_dir <- paste0(data_dir, "/updated_sample_visuals2/")
+
+fields <- readxl::read_excel(paste0(data_dir, 
+                                    "shortstature_hybrids_fields_26_fertilewkt_updated.xlsx"))
+
+feature_ids <- gsub("\\{", "", fields$feature_id)
+feature_ids <- gsub("\\}", "", feature_ids)
+
+fields_list <- lapply(fields$fertile_wkt, vect, crs = "EPSG:4326")
+fields_vect <- do.call(rbind, fields_list)
+fields_vect$feature_id <- feature_ids
+fields_vect$group_id <- fields$group_id
+fields_vect$fieldNumber <- fields$fieldNumber
+
 
 #Let's get the fields and inbreds planted within them
 #Get the microenvironments of interest in the fields
@@ -53,16 +66,6 @@ inbred_samples <- inbred_samples[order(inbred_samples$field_number), ]
 
 
 
-
-
-
-# Let's break each field apart by microenvironment and apply the rules:
-#1. For each EC, calculate the area of the polygons composing it
-#2. Remove any polygon areas < 2%
-#3. Rank polygons by size and EC assignment.
-#4. Calculate the centroid of the largest polygon (main sampling point)
-#5. Get the number of unique sampling locations considering this rule.
-
 folders <- list.files(file_dir)
 folders <- gsub("_simp.geojson", "", folders)
 folders <- gsub("_original.geojson", "", folders)
@@ -77,6 +80,9 @@ for (i in 1:length(full_names_simp)) {
   folder <- folders[i]
   field_name <- inbreds$field[which(inbreds$folder == folder)]
   inbred <- inbreds$female[which(inbreds$folder == folder)]
+  
+  #new field
+  updated_field <- fields_vect[which(fields_vect$feature_id == folder),]
 
   #Inbred logic
   nsamples <- inbred_samples$n_sample[which(inbred_samples$female == inbred)]
@@ -85,9 +91,13 @@ for (i in 1:length(full_names_simp)) {
   #Load the field
   field_original <- terra::vect(full_names_orig[i])
 
-  field <- terra::vect(full_names_simp[i])
-  original_proj <- crs(field)
-
+  field_simplified <- terra::vect(full_names_simp[i])
+  original_proj <- crs(field_simplified)
+  
+  #Crop the simplified field to the new field boundary
+  field <- terra::crop(field_simplified, updated_field)
+  
+  
   #Aggregate for a single boundary
   field$field <- 1
   field_agg <- terra::aggregate(field, by = "field")
@@ -150,20 +160,22 @@ for (i in 1:length(full_names_simp)) {
   #Generate the points in each polygon, within a negative buffer
 
   # Note: Use a negative value to buffer inward
-  shrunken_pols <- buffer(new_field, width = -20)
-
+  shrunken_pols <- buffer(new_field, width = -5)
+  
+  if(dim(shrunken_pols)[1] == 0) { field_sample <- new_field }
+  if(dim(shrunken_pols)[1] > 0) { field_sample <- shrunken_pols }
 
   # method="random" can be replaced with "regular" depending on your needs
   all_points <- NULL
 
   for (j in 1:npoly) {
 
-    sub_poly <- shrunken_pols[j,]
+    sub_poly <- field_sample[j,]
     n_pts <- v_df$nsamples[j]
 
     # Skip if the polygon was completely erased by a buffer too large for its size
     if (nrow(sub_poly) == 0 || is.empty(sub_poly)) {
-      warning(paste("Polygon ID", pols$id[i], "is too small for the buffer distance."))
+      warning(paste("Polygon ID", field_sample$id[i], "is too small for the buffer distance."))
       next
     }
 
@@ -190,98 +202,58 @@ for (i in 1:length(full_names_simp)) {
       all_points <- rbind(all_points, pts)
     }
   }
-
   
   #Extract the EC layer
   extracted <- terra::extract(new_field, all_points)
-  extracted$point_number <- paste0("sample_", 1:dim(extracted)[1])
-  extracted$field_name <- field_name
-  extracted$female <- inbred
-  extracted$recommended_nsample <- nsamples
-  extracted$final_sample <- dim(all_points)[1]
-  extracted$field_id <- folders[i]
-  all_points <- extracted[,c("field_id", "field_name", "mean_agg_n", "agg_n",  
-                            "point_number", "hac2_0250_label", "percentage")]
+  
+  all_points$point_number <- paste0("sample_", 1:dim(all_points)[1])
+  all_points$field_name <- field_name
+  all_points$female <- inbred
+  all_points$recommended_nsample <- nsamples
+  all_points$final_sample <- dim(all_points)[1]
+  all_points$field_id <- folders[i]
+  all_points$hac2_0250_label <- extracted$hac2_0250_label
+  all_points$percentage <- extracted$percentage
+  all_points <- all_points[,c("field_id", "field_name", "recommended_nsample",
+                              "final_sample", "point_number", "hac2_0250_label", "percentage")]
+  
+  #Convert the points back to original lat lon
+  all_points <- terra::project(all_points, original_proj)
   
   #Simplified field:  field
   #save the visualizations:
   
-  pdf(file = paste0(vis_dir, folder, ".pdf"), width = 12, height = 8)
-  par(mfrow = c(1,2), mar = c(2, 2, 8, 2), oma = c(2, 2, 4, 2))
-
-  terra::plot(field_original, "hac2_0250_label", main = field_name)
-  terra::plot(new_field, "hac2_0250_label", main = field_name)
-  terra::plot(all_points, add = TRUE, col = "yellow")
-  text(all_points, labels = "point_number", pos = 3)
-
-  dev.off()
-
-  #Convert the points back to original lat lon
-  all_points <- terra::project(all_points, original_proj)
+  #Create a buffer
+  buf_field <- terra::buffer(field, width = 50)
   
-
+  my_cols <- adjustcolor(terrain.colors(10), alpha.f = 0.6)
+  pdf(file = paste0(vis_dir, folder, ".pdf"), width = 12, height = 8)
+  #par(mfrow = c(1,2), mar = c(2, 2, 8, 2), oma = c(2, 2, 4, 2))
+  
+  par(mfrow = c(1,1), mar = c(2, 2, 8, 2), oma = c(2, 2, 4, 2))
+  #terra::plot(field_original, "hac2_0250_label", main = field_name)
+  plot(buf_field, border = NA)
+  terra::plot(field, "hac2_0250_label", main = field_name, col = my_cols,
+              border = NA, add = TRUE)
+  terra::plot(all_points, add = TRUE, col = "black")
+  text(all_points, labels = "point_number", pos = 3, col = "black")
+  mtext(paste0("Recommended samples:  ", nsamples), side = 3, line = 1, outer = TRUE)
+  
+  dev.off()
+  
   points_list[[i]] <- all_points
-
+  
+  #Save the field shapefile
+  shp_dir <- paste0(data_dir, "updated_field_shapefiles2/")
+  writeVector(field, file = paste0(shp_dir, folder, ".shp"), overwrite = TRUE)
+    
 }
 
 
 all_points <- do.call(rbind, points_list)
 all_points <- as.data.frame(all_points, geom = "XY")
 
-write.csv(all_points, file = paste0("../data/microenvironments/sampling_design.csv"))
+write.csv(all_points, file = paste0("../data/microenvironments/updated_sampling_design.csv"))
 
 
 
-
-
-
-#deprecated...  Maybe revisit for some future point to refine rules
-
-#Remove points for each polygon class until we get our original sample number
-#Start with the polygon with the least area.
-#If another polygon has the same EC class and is larger, remove the smaller one.
-
-#if(dim(all_points)[1]  > nsamples) {
-
-#  point_df <- terra::extract(new_field, all_points)
-
-#  point_df <- point_df %>%
-#    group_by(hac2_0250_label) %>%
-#    mutate(
-#      flag = if_else(n() > 1 & areas == max(areas), FALSE, TRUE))
-
-#  point_df <- data.frame(point_df)
-#  new_df <- point_df[!point_df$flag | (1:nrow(point_df) == nsamples), ]
-
-#  all_points <- all_points[new_df$id.y,]
-
-#}
-
-#If we are still over, remove redundant EC polygons by smallest area
-#if(dim(all_points)[1]  > nsamples) {
-
-#  freq <- table(all_points$hac2_0250_label)
-#  threshold <- sum(freq) - nsamples
-
-#  to_remove_vector <- vector()
-#  new_points <- all_points
-
-#  for (j in 1:threshold) {
-
-#    freq2 <- table(new_points$hac2_0250_label)
-#    maj_class <- names(which.max(freq2))
-
-#Remove the point representing the smaller area polygon
-#    maj_class_df <- new_points[which(all_points$hac2_0250_label == maj_class),]
-#    low_area <- which.min(maj_class_df$areas)
-
-#    to_remove_df <- maj_class_df[low_area,]
-#    row_remove <- which(new_points$percentage %in% to_remove_df$percentage == TRUE)
-#    if(length(row_remove) > 1) { row_remove <- row_remove[1] }
-#    new_points <- new_points[-row_remove]
-
-#  }
-
-#  all_points <- new_points
-
-#}
