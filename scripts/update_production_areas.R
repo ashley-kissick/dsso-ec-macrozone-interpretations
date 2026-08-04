@@ -4,14 +4,26 @@ library(readxl)
 library(sf)
 library(spatstat)
 
-#function
+#functions
 get_utm_zone <- function(lon, lat) { zone_num <- floor((lon + 180) / 6) + 1 }
+
+new_funct <- function(x) {
+  
+  if(dim(x)[1] == 1) {return(x)}
+  
+  if(dim(x)[2] > 1) {
+    x_new <- x[order(-x$areas), ]
+    x_sub <- x_new[1:2,]
+    return(x_sub)
+  }
+  
+}
 
 
 data_dir <- "../data/microenvironments/"
 
 file_dir <- paste0(data_dir, "/EC_shp/")
-vis_dir <- paste0(data_dir, "/updated_sample_visuals2/")
+vis_dir <- paste0(data_dir, "/updated_sample_visuals3/")
 
 fields <- readxl::read_excel(paste0(data_dir, 
                                     "shortstature_hybrids_fields_26_fertilewkt_updated.xlsx"))
@@ -75,7 +87,7 @@ full_names_simp <- list.files(file_dir, pattern = "_simp.geojson", full.names = 
 full_names_orig <- list.files(file_dir, pattern = "_original.geojson", full.names = TRUE)
 
 points_list <- list()
-for (i in 1:length(full_names_simp)) {
+for (i in 3:length(full_names_simp)) {
 
   folder <- folders[i]
   field_name <- inbreds$field[which(inbreds$folder == folder)]
@@ -127,56 +139,79 @@ for (i in 1:length(full_names_simp)) {
   #v_list <- lapply(v_list, terra::fillHoles)
 
   #Calculate area of each polygon
-  areas <- lapply(v_list, terra::expanse)
+  areas <- lapply(v_list, terra::expanse, unit = "ha")
 
   #Put areas in a data frame and calculate percentage
   v_df <- data.frame(v_single)
   v_df$areas <- do.call(c, areas)
+  
+  v_df$areas <- v_df$areas/2.47105
 
   #Calculate the area of each polyon
   v_df$percentage <- (v_df$areas / sum(v_df$areas)*100)
 
 
   #Retain polygons > 2% area
-  large <- which(round(v_df$percentage, digits = 2) > 2)
+  #large <- which(round(v_df$percentage, digits = 2) > 2)
+  
+  large <- which(round(v_df$areas, digits = 2) > 0.1)
   if(length(large) > 0) {
     v_df <- v_df[large,]
     v_list <- v_list[c(large)]
   }
+  
 
-  #New_field
+  #New_field, considering the larger areas
   new_field <- terra::vect(terra::svc(v_list))
   new_field$areas <- v_df$areas
   new_field$percentage <- v_df$percentage
   new_field$nsamples <- v_df$nsamples
   new_field$point_number <- paste0("sample_", 1:dim(new_field)[1])
 
-  npoly <- dim(new_field)[1]
-  nlabels <- length(new_field$hac2_0250_label)
+  #If the number of samples are larger than required, let's eliminate some redundant EC's by area
+  if(dim(new_field)[1] <= nsamples) { nf <- new_field }
+  
+  if(dim(new_field)[1] > nsamples) {
+    nf <- lapply(split(new_field, new_field$hac2_0250_label), 
+                 function(sub) sub[which.max(sub$areas), ])
+    nf <- terra::vect(nf)
+    
+    #If it is reduced below what is recommended for the number of samples, let's keep the top two polygons by area
+    if(dim(nf)[1] < nsamples) {
+      nf <- lapply(split(new_field, new_field$hac2_0250_label), new_funct)
+      nf <- terra::vect(nf)
+    }
+  
+  }
+  
+  
+  
+  npoly <- dim(nf)[1]
+  nlabels <- length(nf$hac2_0250_label)
 
-  v_df$nsamples <- round((v_df$areas / sum(v_df$areas)) * nsamples)
-  v_df$nsamples <- pmax(v_df$nsamples, 1)
+  nf$nsamples <- round((nf$areas / sum(nf$areas)) * nsamples)
+  nf$nsamples <- pmax(nf$nsamples, 1)
 
   #Generate the points in each polygon, within a negative buffer
 
   # Note: Use a negative value to buffer inward
-  shrunken_pols <- buffer(new_field, width = -5)
+  shrunken_pols <- buffer(nf, width = -30)
   
-  if(dim(shrunken_pols)[1] == 0) { field_sample <- new_field }
-  if(dim(shrunken_pols)[1] > 0) { field_sample <- shrunken_pols }
+  #if(dim(shrunken_pols)[1] == 0) { field_sample <- nf }
+  #if(dim(shrunken_pols)[1] > 0) { field_sample <- shrunken_pols }
 
   # method="random" can be replaced with "regular" depending on your needs
   all_points <- NULL
 
   for (j in 1:npoly) {
 
-    sub_poly <- field_sample[j,]
-    n_pts <- v_df$nsamples[j]
+    sub_poly <- shrunken_pols[j,]
+    n_pts <- nf$nsamples[j]
 
     # Skip if the polygon was completely erased by a buffer too large for its size
-    if (nrow(sub_poly) == 0 || is.empty(sub_poly)) {
-      warning(paste("Polygon ID", field_sample$id[i], "is too small for the buffer distance."))
-      next
+    if (nrow(sub_poly) == 0 || is.empty(sub_poly) || !is.valid(sub_poly) || is.na(sub_poly))  {
+      warning(paste("Polygon ID", nf$id[i], "is too small for the buffer distance."))
+      sub_poly <- nf[j,]
     }
 
     # Sample the individual polygon
@@ -204,7 +239,7 @@ for (i in 1:length(full_names_simp)) {
   }
   
   #Extract the EC layer
-  extracted <- terra::extract(new_field, all_points)
+  extracted <- terra::extract(nf, all_points)
   
   all_points$point_number <- paste0("sample_", 1:dim(all_points)[1])
   all_points$field_name <- field_name
@@ -214,7 +249,9 @@ for (i in 1:length(full_names_simp)) {
   all_points$field_id <- folders[i]
   all_points$hac2_0250_label <- extracted$hac2_0250_label
   all_points$percentage <- extracted$percentage
-  all_points <- all_points[,c("field_id", "field_name", "recommended_nsample",
+  
+  all_points$field_number <- unique(fields_vect$fieldNumber[which(fields_vect$feature_id == folders[i])])
+  all_points <- all_points[,c("field_id", "field_number", "field_name", "recommended_nsample",
                               "final_sample", "point_number", "hac2_0250_label", "percentage")]
   
   #Convert the points back to original lat lon
@@ -244,7 +281,7 @@ for (i in 1:length(full_names_simp)) {
   points_list[[i]] <- all_points
   
   #Save the field shapefile
-  shp_dir <- paste0(data_dir, "updated_field_shapefiles2/")
+  shp_dir <- paste0(data_dir, "updated_field_shapefiles3/")
   writeVector(field, file = paste0(shp_dir, folder, ".shp"), overwrite = TRUE)
     
 }
@@ -253,7 +290,10 @@ for (i in 1:length(full_names_simp)) {
 all_points <- do.call(rbind, points_list)
 all_points <- as.data.frame(all_points, geom = "XY")
 
-write.csv(all_points, file = paste0("../data/microenvironments/updated_sampling_design.csv"))
+write.csv(all_points, file = paste0("../data/microenvironments/updated_sampling_design3.csv"))
+
+
+
 
 
 
